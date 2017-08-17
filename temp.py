@@ -9,19 +9,28 @@ def outputError(errorString, artifact, groupID, version, filename):
 	errorsFile.write(errorString + '. groupID: ' + groupID + ', artifact: ' + artifact + ', version: ' + version + ' in file ' + filename + os.linesep)
 	print("Error with " + artifact + ": " + errorString)
 
-errorsFile = open('errors2.out', 'w')
-successFile = open('sources.out', 'a')
+errorsFile = open('errors.out', 'w')
+successFile = open('sources2.out', 'a')
 
-errorFiles = []
-oldErrorsFile = open('errors.out', 'r')
+successFiles = []
+oldErrorsFile = open('sources.out', 'r')
 for line in oldErrorsFile:
-	filename = line.split("in file ")[1].strip()
-	errorFiles.append(filename)
+	try:
+		tempSplit = line.split(" (")
+		artifact = tempSplit[0].strip()
+		tempSplit = tempSplit[1].split(") ")
+		groupID = tempSplit[0].strip()
+		tempSplit = tempSplit[1].split(" ")
+		version = tempSplit[0].strip()
+		successFiles.append((artifact, version))
+	except:
+		continue
 
 for rootdir,dirs,files in os.walk(MAVEN_DIR):
 	for filename in files:
 		try:
-			if filename.endswith(".pom") and filename in errorFiles:
+			if filename.endswith(".pom"):
+				useParentVersion = False
 				fullPath = os.path.join(rootdir,filename)
 				tree = ET.parse(fullPath)
 				root = tree.getroot()
@@ -29,11 +38,11 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 				artifact = ""
 				version = ""
 				for child in root:
-					if  "groupId" in child.tag and not groupID:
+					if  "groupId" in child.tag:
 						groupID = child.text.strip()
 					elif "artifactId" in child.tag:
 						artifact = child.text.strip()
-					elif "version" in child.tag and not version:
+					elif "version" in child.tag and not useParentVersion and not "parent.version" in child.text:
 						version = child.text.strip()
 					elif "parent" in child.tag:
 						for child2 in child:
@@ -43,6 +52,10 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 								artifact = child2.text.strip()
 							elif "version" in child2.tag and (not version or "parent.version" in version):
 								version = child2.text.strip()
+								if "parent.version" in version:
+									useParentVersion = True
+				if (artifact, version) in successFiles:
+					continue
 				mavenAPIQuery = "https://search.maven.org/solrsearch/select?q=g:\"" + groupID + "\"+AND+a:\"" + artifact + "\"+AND+v:\"" + version + "\""
 				response = requests.get(mavenAPIQuery)
 				if not response.ok:
