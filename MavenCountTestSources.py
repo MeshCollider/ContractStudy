@@ -29,7 +29,7 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 						artifact = child.text.strip()
 					elif "version" in child.tag:
 						version = child.text.strip()
-					elif child.tag == "parent":
+					elif "parent" in child.tag:
 						for child2 in child:
 							if  "groupId" in child2.tag and not groupID:
 								groupID = child2.text.strip()
@@ -45,6 +45,7 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 					try:
 						jsonData = json.loads(response.content.decode("utf-8"))
 					except: 
+						outputError("Error loading JSON data", artifact, groupID, version, filename)
 						print("Error loading JSON data from " + filename)
 						continue
 					numFound = jsonData["response"]["numFound"]
@@ -57,6 +58,7 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 					outputError("Response not ok", artifact, groupID, version, filename)
 		except Exception as e:
 			print("ERROR with file: " + filename + ", " +str(e))
+			outputError("ERROR with file, " + str(e), artifact, groupID, version, filename)
 			continue
 
 errorsFile.close()
