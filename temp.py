@@ -29,11 +29,11 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 				artifact = ""
 				version = ""
 				for child in root:
-					if  "groupId" in child.tag:
+					if  "groupId" in child.tag and not groupID:
 						groupID = child.text.strip()
 					elif "artifactId" in child.tag:
 						artifact = child.text.strip()
-					elif "version" in child.tag:
+					elif "version" in child.tag and not version:
 						version = child.text.strip()
 					elif "parent" in child.tag:
 						for child2 in child:
@@ -41,7 +41,7 @@ for rootdir,dirs,files in os.walk(MAVEN_DIR):
 								groupID = child2.text.strip()
 							elif "artifactId" in child2.tag and not artifact:
 								artifact = child2.text.strip()
-							elif "version" in child2.tag and not version:
+							elif "version" in child2.tag and (not version or "parent.version" in version):
 								version = child2.text.strip()
 				mavenAPIQuery = "https://search.maven.org/solrsearch/select?q=g:\"" + groupID + "\"+AND+a:\"" + artifact + "\"+AND+v:\"" + version + "\""
 				response = requests.get(mavenAPIQuery)
