@@ -23,7 +23,7 @@ public class Runner {
 										"@RunWith(Suite.class)",
 										"@Suite.SuiteClasses({" ));
 			
-			JarFile jar = new JarFile("../hadoop-common-3.0.0-alpha4-tests.jar");
+			JarFile jar = new JarFile("../test-files/hadoop-common-2.7.2-tests.jar");
 			ArrayList<String> testClasses = getTestClasses(jar);
 			for (String className : testClasses) {
 				lines.add("  " + className);
@@ -32,7 +32,7 @@ public class Runner {
 			lines.add("})");
 			lines.add("public class AllTests { /* empty */}");	
 			
-			Path file = Paths.get("AllTests.java");
+			Path file = Paths.get("../AllTests.java");
 			Files.write(file, lines, Charset.forName("UTF-8"));
 		} catch (Exception e) {
 			e.printStackTrace();
