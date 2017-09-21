@@ -60,5 +60,6 @@ for line in sourcesFile.readlines():
                 errorFile = open('mvntest.err', 'w')
                 errorFile.write(err.decode("utf-8"))
                 errorFile.close()
+            os.system("rm -r src/ target/")
             os.chdir("../../")
         print("Finished Processing " + artifact + "-" + version)
