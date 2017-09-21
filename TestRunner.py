@@ -57,3 +57,4 @@ for line in sourcesFile.readlines():
             outputFile.close()
             errorFile.close()
             os.chdir("../../")
+        print("Finished Processing " + artifact + "-" + version)
