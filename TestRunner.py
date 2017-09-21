@@ -1,10 +1,12 @@
 import zipfile
 import os
 import shutil
+import subprocess
 
 
 MAVEN_TEST_DIR = "Maven Test Sources/"
 MAVEN_SOURCE_DIR = "../mvn-data/"
+RUN_TESTS = True
 
 sourcesFile = open('sourcelist.in', 'r')
 for line in sourcesFile.readlines():
@@ -43,5 +45,15 @@ for line in sourcesFile.readlines():
         if not os.path.exists(outputDir + "/pom.xml"):
             pomFileLocation = MAVEN_SOURCE_DIR + artifact + "/" + artifact + "-" + version + ".pom"
             os.system("cp \"" + pomFileLocation + "\" \"" + outputDir + "\"/pom.xml")
-            
-                
+
+        if RUN_TESTS:
+            os.chdir(outputDir)
+            proc = subprocess.Popen(["mvn test"], stdout=subprocess.PIPE, shell=True)
+            (out, err) = proc.communicate()
+            outputFile = open('mvntest.out', 'w')
+            outputFile.write(out)
+            errorFile = open('mvntest.err', 'w')
+            errorFile.write(err)
+            outputFile.close()
+            errorFile.close()
+            os.chdir("../../")
