@@ -33,7 +33,7 @@ for line in sourcesFile.readlines():
             os.system("mv \"" + outputDir + "\"/* \"" + outputDir + "\"/src/test/")
 
         outputDirSrcMain = outputDir + "/src/main/"
-        zipFilePath = MAVEN_SOURCE_DIR + "/" + artifact + "/" + fileName.replace("-test-sources.jar", ".zip")
+        zipFilePath = MAVEN_SOURCE_DIR + artifact + "/" + fileName.replace("-test-sources.jar", ".zip")
         if not os.path.exists(outputDirSrcMain):
             os.makedirs(outputDirSrcMain)
             zip_ref = zipfile.ZipFile(zipFilePath, 'r')
@@ -41,7 +41,7 @@ for line in sourcesFile.readlines():
             zip_ref.close()
 
         if not os.path.exists(outputDir + "/pom.xml"):
-            pomFileLocation = MAVEN_SOURCE_DIR + "/" + artifact + "/" + fileName.replace("-test-sources.jar", ".pom")
+            pomFileLocation = MAVEN_SOURCE_DIR + artifact + "/" + fileName.replace("-test-sources.jar", ".pom")
             os.system("cp \"" + pomFileLocation + "\" \"" + outputDir + "\"/pom.xml")
             
                 
