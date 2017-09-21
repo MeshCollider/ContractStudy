@@ -32,9 +32,10 @@ for line in sourcesFile.readlines():
             # move the sources into the correct directory structure
             os.system("mkdir \"" + outputDir + "\"/src")
             os.system("mkdir \"" + outputDir + "\"/src/test")
-            os.system("mv \"" + outputDir + "\"/* \"" + outputDir + "\"/src/test/")
+            os.system("mkdir \"" + outputDir + "\"/src/test/java")
+            os.system("mv \"" + outputDir + "\"/* \"" + outputDir + "\"/src/test/java/")
 
-        outputDirSrcMain = outputDir + "/src/main/"
+        outputDirSrcMain = outputDir + "/src/main/java/"
         zipFilePath = MAVEN_SOURCE_DIR + artifact + "/" + artifact + "-" + version + ".zip"
         if not os.path.exists(outputDirSrcMain):
             os.makedirs(outputDirSrcMain)
