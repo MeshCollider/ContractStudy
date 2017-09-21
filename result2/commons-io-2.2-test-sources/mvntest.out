@@ -1,0 +1,336 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons IO 2.2
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-io ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-io ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-io ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505988941922
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-io ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-io ---
+[INFO] Compiling 102 source files to /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-io ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ commons-io ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ commons-io ---
+[INFO] Compiling 94 source files to /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ commons-io ---
+[INFO] Surefire report directory: /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.io.FilenameUtilsTestCase
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 sec
+Running org.apache.commons.io.FileDeleteStrategyTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.apache.commons.io.input.TeeInputStreamTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.apache.commons.io.input.CharSequenceInputStreamTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+Running org.apache.commons.io.input.ClosedInputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.apache.commons.io.input.ReversedLinesFileReaderTestSimple
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.057 sec <<< FAILURE!
+Running org.apache.commons.io.input.BOMInputStreamTest
+Tests run: 29, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec <<< FAILURE!
+Running org.apache.commons.io.input.XmlStreamReaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec
+Running org.apache.commons.io.input.CloseShieldInputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.input.TailerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.856 sec
+Running org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 0.091 sec <<< FAILURE!
+Running org.apache.commons.io.input.CountingInputStreamTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec
+Running org.apache.commons.io.input.compatibility.XmlStreamReaderUtilitiesCompatibilityTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.apache.commons.io.input.TaggedInputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running org.apache.commons.io.input.SwappedDataInputStreamTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.apache.commons.io.input.ClassLoaderObjectInputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+Running org.apache.commons.io.input.BrokenInputStreamTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize
+Tests run: 65, Failures: 0, Errors: 65, Skipped: 0, Time elapsed: 0.187 sec <<< FAILURE!
+Running org.apache.commons.io.input.AutoCloseInputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running org.apache.commons.io.input.NullInputStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.input.NullReaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.input.ProxyReaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.input.CharSequenceReaderTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.apache.commons.io.input.ReaderInputStreamTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running org.apache.commons.io.input.XmlStreamReaderUtilitiesTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.apache.commons.io.input.BoundedInputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.apache.commons.io.FileCleaningTrackerTestCase
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.136 sec
+Running org.apache.commons.io.filefilter.OrFileFilterTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running org.apache.commons.io.filefilter.RegexFileFilterTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.apache.commons.io.filefilter.FileFilterTestCase
+Tests run: 47, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.116 sec <<< FAILURE!
+Running org.apache.commons.io.filefilter.AndFileFilterTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running org.apache.commons.io.ByteOrderMarkTestCase
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.apache.commons.io.FileUtilsCleanDirectoryTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+Running org.apache.commons.io.HexDumpTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.apache.commons.io.FileUtilsTestCase
+Tests run: 121, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.352 sec <<< FAILURE!
+Running org.apache.commons.io.IOUtilsCopyTestCase
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+Running org.apache.commons.io.TaggedIOExceptionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running org.apache.commons.io.FilenameUtilsWildcardTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec
+Running org.apache.commons.io.DirectoryWalkerTestCaseJava4
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec <<< FAILURE!
+Running org.apache.commons.io.CopyUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running org.apache.commons.io.FileUtilsListFilesTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.apache.commons.io.DemuxTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.212 sec
+Running org.apache.commons.io.output.XmlStreamWriterTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+Running org.apache.commons.io.output.TeeOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.apache.commons.io.output.BrokenOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.output.FileWriterWithEncodingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running org.apache.commons.io.output.DeferredFileOutputStreamTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+Running org.apache.commons.io.output.ProxyOutputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.output.CountingOutputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.io.output.StringBuilderWriterTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.apache.commons.io.output.ClosedOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.apache.commons.io.output.TaggedOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.apache.commons.io.output.NullWriterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.apache.commons.io.output.LockableFileWriterTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.apache.commons.io.output.ByteArrayOutputStreamTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.apache.commons.io.output.WriterOutputStreamTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+Running org.apache.commons.io.output.NullOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.apache.commons.io.output.ProxyWriterTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.apache.commons.io.output.CloseShieldOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.io.LineIteratorTestCase
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running org.apache.commons.io.DirectoryWalkerTestCase
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec <<< FAILURE!
+Running org.apache.commons.io.IOUtilsTestCase
+Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec
+Running org.apache.commons.io.FileUtilsCleanSymlinksTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+Running org.apache.commons.io.ThreadMonitorTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.44 sec
+Running org.apache.commons.io.IOUtilsWriteTestCase
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+Running org.apache.commons.io.FileUtilsWaitForTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.368 sec
+Running org.apache.commons.io.FileUtilsDirectoryContainsTestCase
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running org.apache.commons.io.IOExceptionWithCauseTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.apache.commons.io.EndianUtilsTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.apache.commons.io.FileCleanerTestCase
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.194 sec
+Running org.apache.commons.io.comparator.LastModifiedFileComparatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.893 sec
+Running org.apache.commons.io.comparator.ExtensionFileComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running org.apache.commons.io.comparator.NameFileComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running org.apache.commons.io.comparator.SizeFileComparatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.apache.commons.io.comparator.DirectoryFileComparatorTest
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec <<< FAILURE!
+Running org.apache.commons.io.comparator.DefaultFileComparatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.apache.commons.io.comparator.PathFileComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running org.apache.commons.io.comparator.CompositeFileComparatorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running org.apache.commons.io.IOCaseTestCase
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 sec
+Running org.apache.commons.io.monitor.FileAlterationObserverTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.233 sec
+Running org.apache.commons.io.monitor.FileAlterationMonitorTestCase
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.056 sec
+Running org.apache.commons.io.FileSystemUtilsTestCase
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 sec
+Running org.apache.commons.io.FileUtilsFileNewerTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+
+Results :
+
+Failed tests:   testReadTwiceWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest)
+  testReadTwiceWithBOM(org.apache.commons.io.input.BOMInputStreamTest)
+  testFiles(org.apache.commons.io.filefilter.FileFilterTestCase): Filter(File) org.apache.commons.io.filefilter.FileFileFilter not true for LICENSE.txt expected:<true> but was:<false>
+  testContentEqualsIgnoreEOL(org.apache.commons.io.FileUtilsTestCase)
+  testFilterAndLimitB(org.apache.commons.io.DirectoryWalkerTestCaseJava4): [B] Result Size expected:<2> but was:<3>
+  testFilterAndLimitC(org.apache.commons.io.DirectoryWalkerTestCaseJava4): [C] Result Size expected:<4> but was:<8>
+  testFilterAndLimitB(org.apache.commons.io.DirectoryWalkerTestCase): [B] Result Size expected:<2> but was:<3>
+  testFilterAndLimitC(org.apache.commons.io.DirectoryWalkerTestCase): [C] Result Size expected:<4> but was:<8>
+  testComparator(org.apache.commons.io.comparator.DirectoryFileComparatorTest): equal expected:<0> but was:<-1>
+  testReverseComparator(org.apache.commons.io.comparator.DirectoryFileComparatorTest): equal expected:<0> but was:<1>
+
+Tests in error: 
+  testUnsupportedEncodingUTF16(org.apache.commons.io.input.ReversedLinesFileReaderTestSimple): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testUnsupportedEncodingBig5(org.apache.commons.io.input.ReversedLinesFileReaderTestSimple): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testFileSizeIsExactMultipleOfBlockSize(org.apache.commons.io.input.ReversedLinesFileReaderTestSimple)
+  testDataIntegrityWithBufferedReader[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[5](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[6](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[7](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[9](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[10](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[11](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testDataIntegrityWithBufferedReader[12](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)
+  testShiftJISFile[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testFileSizeIsExactMultipleOfBlockSize[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUnsupportedEncodingUTF16[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testUnsupportedEncodingBig5[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testIsoFileDefaults[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaks[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileCRBreaks[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8File[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testEmptyFile[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16BEFile[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16LEFile[0](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testShiftJISFile[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testFileSizeIsExactMultipleOfBlockSize[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUnsupportedEncodingUTF16[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testUnsupportedEncodingBig5[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testIsoFileDefaults[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaks[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileCRBreaks[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8File[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testEmptyFile[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16BEFile[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16LEFile[1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testShiftJISFile[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testFileSizeIsExactMultipleOfBlockSize[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUnsupportedEncodingUTF16[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testUnsupportedEncodingBig5[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testIsoFileDefaults[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaks[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileCRBreaks[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8File[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testEmptyFile[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16BEFile[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16LEFile[2](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testShiftJISFile[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testFileSizeIsExactMultipleOfBlockSize[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUnsupportedEncodingUTF16[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testUnsupportedEncodingBig5[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testIsoFileDefaults[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaks[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileCRBreaks[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8File[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testEmptyFile[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16BEFile[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16LEFile[3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testShiftJISFile[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testFileSizeIsExactMultipleOfBlockSize[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUnsupportedEncodingUTF16[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testUnsupportedEncodingBig5[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize): Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+  testIsoFileDefaults[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileWindowsBreaks[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8FileCRBreaks[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF8File[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testEmptyFile[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16BEFile[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+  testUTF16LEFile[4](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)
+
+Tests run: 931, Failures: 10, Errors: 81, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:17 min
+[INFO] Finished at: 2017-09-21T12:16:57+02:00
+[INFO] Final Memory: 25M/350M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12:test (default-test) on project commons-io: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/artefact/tests/Maven Test Sources/commons-io-2.2-test-sources/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

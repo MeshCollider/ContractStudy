@@ -1,0 +1,828 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Configuration 1.9
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-configuration ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (javacc) @ commons-configuration ---
+[INFO] Skipping non-existing source directory: /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/src/main/javacc
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-configuration ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-configuration ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505989210788
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-configuration ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-configuration ---
+[INFO] Compiling 115 source files to /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-configuration ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ commons-configuration ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/src/test/resources
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ commons-configuration ---
+[INFO] Compiling 111 source files to /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ commons-configuration ---
+[INFO] Surefire report directory: /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.configuration.TestSubnodeConfiguration
+log4j:WARN No appenders could be found for logger (org.apache.commons.configuration.ConfigurationUtils).
+log4j:WARN Please initialize the log4j system properly.
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.743 sec
+Running org.apache.commons.configuration.TestNullJNDIEnvironmentValues
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running org.apache.commons.configuration.TestSubsetConfiguration
+Tests run: 20, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestEqualsProperty
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestJNDIEnvironmentValues
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.apache.commons.configuration.TestINIConfiguration
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.apache.commons.configuration.TestPropertyConverter
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.apache.commons.configuration.TestEqualBehaviour
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestSystemConfiguration
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.configuration.TestHierarchicalXMLConfiguration
+Tests run: 10, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.046 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestConfigurationKey
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties
+Tests run: 23, Failures: 0, Errors: 23, Skipped: 0, Time elapsed: 0.072 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestXMLConfiguration
+Tests run: 94, Failures: 0, Errors: 94, Skipped: 0, Time elapsed: 0.143 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestConfigurationConverter
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.configuration.TestDefaultConfigurationBuilder
+Tests run: 50, Failures: 0, Errors: 31, Skipped: 0, Time elapsed: 0.192 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestEnvironmentConfiguration
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.configuration.TestHierarchicalConfigurationXMLReader
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestPatternSubtreeConfiguration
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestConfigurationFactory
+Tests run: 16, Failures: 1, Errors: 12, Skipped: 0, Time elapsed: 0.058 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestHierarchicalINIConfiguration
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.apache.commons.configuration.TestBaseNullConfiguration
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.apache.commons.configuration.TestConfigurationUtils
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.apache.commons.configuration.TestConfigurationMap
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.configuration.TestBaseConfiguration
+Tests run: 54, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec
+Running org.apache.commons.configuration.interpol.TestConstantLookup
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.configuration.interpol.TestExprLookup
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.074 sec <<< FAILURE!
+Running org.apache.commons.configuration.interpol.TestEnvironmentLookup
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.configuration.interpol.TestConfigurationInterpolator
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.configuration.beanutils.TestDefaultBeanFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.apache.commons.configuration.beanutils.TestConfigurationDynaBeanXMLConfig
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running org.apache.commons.configuration.beanutils.TestBeanHelper
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.apache.commons.configuration.beanutils.TestXMLBeanDeclaration
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.configuration.beanutils.TestConfigurationDynaBean
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.apache.commons.configuration.TestMapConfiguration
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.configuration.event.TestMapConfigurationEvents
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.apache.commons.configuration.event.TestDatabaseConfigurationEvents
+Tests run: 16, Failures: 0, Errors: 16, Skipped: 0, Time elapsed: 0.118 sec <<< FAILURE!
+Running org.apache.commons.configuration.event.TestHierarchicalConfigurationEvents
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.configuration.event.TestXMLConfigurationEvents
+Tests run: 11, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+Running org.apache.commons.configuration.event.TestEventSource
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.configuration.event.TestSubsetConfigurationEvents
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.configuration.event.TestPropertiesConfigurationEvents
+Tests run: 11, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestJNDIConfiguration
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running org.apache.commons.configuration.TestDatabaseConfiguration
+Tests run: 72, Failures: 0, Errors: 72, Skipped: 0, Time elapsed: 0.054 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestXMLPropertiesConfiguration
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestBaseConfigurationXMLReader
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestDynamicCombinedConfiguration
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
+Running org.apache.commons.configuration.reloading.TestFileChangedReloadingStrategy
+Tests run: 7, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.02 sec <<< FAILURE!
+Running org.apache.commons.configuration.reloading.TestVFSFileChangedReloadingStrategy
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.087 sec <<< FAILURE!
+Running org.apache.commons.configuration.reloading.TestManagedReloadingStrategy
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.configuration.TestPropertiesConfigurationLayout
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.apache.commons.configuration.TestStrictConfigurationComparator
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.configuration.tree.TestViewNode
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.configuration.tree.TestMergeCombiner
+Tests run: 8, Failures: 6, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+Running org.apache.commons.configuration.tree.TestUnionCombiner
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+Running org.apache.commons.configuration.tree.xpath.TestXPathExpressionEngine
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.configuration.tree.xpath.TestConfigurationNodePointer
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.apache.commons.configuration.tree.xpath.TestXPathExpressionEngineInConfig
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.apache.commons.configuration.tree.xpath.TestConfigurationIteratorAttributes
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.configuration.tree.xpath.TestConfigurationNodeIteratorChildren
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.configuration.tree.xpath.TestConfigurationNodePointerFactory
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.apache.commons.configuration.tree.TestOverrideCombiner
+Tests run: 8, Failures: 6, Errors: 1, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+Running org.apache.commons.configuration.tree.TestDefaultConfigurationNode
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.configuration.tree.TestNodeAddData
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.configuration.tree.TestDefaultExpressionEngine
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.configuration.tree.TestDefaultConfigurationKey
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.apache.commons.configuration.TestPropertiesSequence
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestHierarchicalConfiguration
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running org.apache.commons.configuration.TestThreesomeConfiguration
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestFileConfiguration
+Tests run: 31, Failures: 1, Errors: 10, Skipped: 0, Time elapsed: 1.921 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestCombinedConfiguration
+Tests run: 41, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.061 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestVFSConfigurationBuilder
+Tests run: 49, Failures: 0, Errors: 31, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestAbstractConfigurationBasicFeatures
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.configuration.TestPropertiesConfiguration
+Tests run: 65, Failures: 0, Errors: 65, Skipped: 0, Time elapsed: 0.03 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestNullCompositeConfiguration
+Tests run: 23, Failures: 0, Errors: 23, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestDataConfiguration
+Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.873 sec
+Running org.apache.commons.configuration.TestConfigurationSet
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.configuration.TestCatalogResolver
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+Running org.apache.commons.configuration.TestNonStringProperties
+Tests run: 23, Failures: 0, Errors: 23, Skipped: 0, Time elapsed: 0.061 sec <<< FAILURE!
+Running org.apache.commons.configuration.plist.TestPropertyListParser
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.configuration.plist.TestPropertyListConfiguration
+Tests run: 23, Failures: 0, Errors: 23, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+Running org.apache.commons.configuration.plist.TestPropertyListConfigurationEvents
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration
+Tests run: 19, Failures: 0, Errors: 19, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+Running org.apache.commons.configuration.plist.TestXMLPropertyListConfigurationEvents
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.configuration.TestCompositeConfiguration
+Tests run: 48, Failures: 0, Errors: 48, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE!
+Running org.apache.commons.configuration.web.TestServletContextConfiguration
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running org.apache.commons.configuration.web.TestAppletConfiguration
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.apache.commons.configuration.web.TestServletConfiguration
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.configuration.web.TestServletFilterConfiguration
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.apache.commons.configuration.web.TestServletRequestConfiguration
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+
+Results :
+
+Failed tests:   testThrowingConfigurationInitializationException(org.apache.commons.configuration.TestConfigurationFactory): Unexpected cause: java.lang.NullPointerException
+  testLookup(org.apache.commons.configuration.interpol.TestExprLookup): Incorrect value: $[element] $[space.description]
+  testMerge(org.apache.commons.configuration.tree.TestMergeCombiner): Wrong number of Channels expected:<3> but was:<-1>
+  testOverrideValues(org.apache.commons.configuration.tree.TestMergeCombiner): Wrong user expected:<Admin> but was:<null>
+  testListFromFirstStructure(org.apache.commons.configuration.tree.TestMergeCombiner): Wrong number of services expected:<0> but was:<-1>
+  testListFromSecondStructure(org.apache.commons.configuration.tree.TestMergeCombiner): Wrong number of servers expected:<3> but was:<-1>
+  testCombinedTable(org.apache.commons.configuration.tree.TestMergeCombiner): Wrong number of tables expected:<1> but was:<-1>
+  testSimpleValues(org.apache.commons.configuration.tree.TestMergeCombiner): Wrong number of bgcolors expected:<0> but was:<-1>
+  testSimpleValuesWithAttributes(org.apache.commons.configuration.tree.TestUnionCombiner): Too few level elements expected:<1> but was:<-1>
+  testTableList(org.apache.commons.configuration.tree.TestUnionCombiner): Wrong name of first table expected:<documents> but was:<null>
+  testAttributes(org.apache.commons.configuration.tree.TestUnionCombiner): Too few attributes expected:<1> but was:<-1>
+  testSimpleValues(org.apache.commons.configuration.tree.TestUnionCombiner): Too few bgcolors expected:<1> but was:<-1>
+  testLists(org.apache.commons.configuration.tree.TestUnionCombiner): Too few list elements expected:<2> but was:<-1>
+  testOverrideValues(org.apache.commons.configuration.tree.TestOverrideCombiner): Wrong user expected:<Admin> but was:<null>
+  testListFromFirstStructure(org.apache.commons.configuration.tree.TestOverrideCombiner): Wrong number of services expected:<0> but was:<-1>
+  testListFromSecondStructure(org.apache.commons.configuration.tree.TestOverrideCombiner): Wrong number of servers expected:<3> but was:<-1>
+  testSimpleValues(org.apache.commons.configuration.tree.TestOverrideCombiner): Wrong number of bgcolors expected:<0> but was:<-1>
+  testCombinedTableNoList(org.apache.commons.configuration.tree.TestOverrideCombiner): Wrong number of tables expected:<0> but was:<-1>
+  testCombinedTableList(org.apache.commons.configuration.tree.TestOverrideCombiner): Wrong number of tables expected:<0> but was:<-1>
+  testLocations(org.apache.commons.configuration.TestFileConfiguration): expected:<file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties> but was:<null>
+
+Tests in error: 
+  testNested(org.apache.commons.configuration.TestSubsetConfiguration): Exception caught opening stream to URL
+  testEquals(org.apache.commons.configuration.TestEqualsProperty): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoading(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testDeletingExisting(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testDeletingNonExisting(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testSettingNonExisting(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testSettingExisting(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testAddingUnset(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testAddingSet(org.apache.commons.configuration.TestEqualBehaviour): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testEqual.properties
+  testGetProperty(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testHierarchicalXMLConfiguration.xml
+  testLoadURL(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/testHierarchicalXMLConfiguration.xml
+  testLoadBasePath1(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Cannot locate configuration source testHierarchicalXMLConfiguration.xml
+  testLoadBasePath2(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Cannot locate configuration source testHierarchicalXMLConfiguration.xml
+  testXmlNodeTypes(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/testHierarchicalXMLConfiguration2.xml
+  testSave(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.xml
+  testSaveModified(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Cannot locate configuration source test.xml
+  testSetRootElementNameWhenLoadedFromFile(org.apache.commons.configuration.TestHierarchicalXMLConfiguration): Unexpected exception, expected<java.lang.UnsupportedOperationException> but was<org.apache.commons.configuration.ConfigurationException>
+  testIsEmpty(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSubset(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testShortArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testListMissing(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBoolean(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBooleanDefaultValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBooleanArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testByte(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testByteArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDouble(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDoubleDefaultValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDoubleArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFloat(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFloatDefaultValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFloatArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInteger(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testIntegerDefaultValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testIntegerArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLong(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLongDefaultValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLongArrayValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testShort(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testShortDefaultValue(org.apache.commons.configuration.TestCompositeConfigurationNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testClearProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSave(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoad(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAppend(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetCommentedProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetPropertyWithXMLEntity(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testgetProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testClearAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSetAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddObjectAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSetRootAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetRootReference(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddList(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetComplexProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSettingFileNames(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoadWithBasePath(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoadAndSaveFromFile(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoadFromURL(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoadFromStream(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoadInvalidXML(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddObjectProperty(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveToURL(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveToStream(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAutoSave(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveAttributes(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testReloading(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testReloadingOOM(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testRefresh(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testRefreshNoFile(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testComplexNames(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testCustomDocBuilder(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testClone(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testCustomDocBuilderValidationError(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testCustomDocBuilderValidationSuccess(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testCloneWithSave(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSplitLists(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testDelimiterParsingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithDelimiterParsingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testDtd(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testValidating(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testEmptyElements(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testEmptyReload(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testLoadWithEncoding(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithEncoding(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithNullEncoding(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithDoctype(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithDoctypeIDs(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithInvalidTransformerFactory(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSubsetWithReload(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testConfigurationAtWithReload(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testConfigurationsAtWithReload(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testGetKeysWithReload(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testXPathExpressionEngine(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testInitCopy(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSetTextRootElement(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testClearTextRootElement(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testListWithAttributes(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testListWithAttributesMultiValue(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testListWithMultiAttributesMultiValue(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAutoSaveWithSubnodeConfig(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAutoSaveWithSubSubnodeConfig(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveDelimiterParsingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveDelimiterParsingDisabledAttrs(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testDelimiterParsingDisabledMultiAttrValues(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testMultipleAttrValuesEscaped(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAutoSaveWithReloadingStrategy(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddNodesCopy(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAutoSaveAddNodes(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddNodesAndSave(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testRegisterEntityId(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testRegisterEntityIdNull(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveAfterCreateWithCopyConstructor(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testCopyRootName(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testCopyRootNameNoDocument(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddNodesAttributeNode(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testPreserveSpace(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testPreserveSpaceOverride(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testPreserveSpaceInvalid(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAttributeSplittingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSubset(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAttributeSplittingAndDelimiterParsingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithValidation(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWithValidationFailure(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testConcurrentGetAndReload(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSaveWindowsPath(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testEmptyAttribute(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddNodesToSubnodeConfiguration(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testSetPropertyListWithDelimiterParsingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testAddPropertyListWithDelimiterParsingDisabled(org.apache.commons.configuration.TestXMLConfiguration): Cannot locate configuration source test.xml
+  testDelimiterParsingDisabled(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testLoadConfiguration(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration.xml
+  testLoadConfigurationFromFile(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration.xml
+  testLoadConfigurationFromFileName(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterConfiguration.xml
+  testLoadConfigurationFromURL(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterConfiguration.xml
+  testLoadAdditional(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration2.xml
+  testLoadOptional(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterOptionalConfiguration.xml
+  testLoadOptionalChildBuilderSuppressErrorLog(org.apache.commons.configuration.TestDefaultConfigurationBuilder): org.apache.commons.configuration.ConfigurationRuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterOptionalConfiguration.xml
+  testLoadDifferentSources(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration3.xml
+  testSetConfigurationBasePath(org.apache.commons.configuration.TestDefaultConfigurationBuilder): org.apache.commons.configuration.ConfigurationRuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source test.properties
+  testComplexInitialization(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testCombinedConfigurationStructure(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testCombinedConfigurationAttributes(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testCombinedConfigurationNoAdditional(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration.xml
+  testCombinedConfigurationListNodes(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testConfigurationBuilderProvider(org.apache.commons.configuration.TestDefaultConfigurationBuilder): org.apache.commons.configuration.ConfigurationRuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterConfiguration.xml
+  testLoadXMLWithSettings(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testDtd.xml
+  testExtendedClass(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testExtendedClass.xml
+  testConfigurationProvider(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testConfigurationProvider.xml
+  testExtendedXMLConfigurationProvider(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testExtendedXMLConfigurationProvider.xml
+  testGlobalLookup(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testGlobalLookup.xml
+  testSystemProperties(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testSystemProperties.xml
+  testValidation(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testValidation.xml
+  testValidation3(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testValidation3.xml
+  testMultiTenentConfiguration(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testMultiTenentConfiguration2(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testMultiTenentConfiguration3(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testMultiTenantConfigurationAt(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testMerge(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testExpression(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testExpression.xml
+  testInterpolationOverMultipleSources(org.apache.commons.configuration.TestDefaultConfigurationBuilder): Cannot locate configuration source testInterpolationBuilder.xml
+  testParse(org.apache.commons.configuration.TestHierarchicalConfigurationXMLReader): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testHierarchicalXMLConfiguration.xml
+  testMultiConfiguration(org.apache.commons.configuration.TestPatternSubtreeConfiguration): Cannot locate configuration source testPatternSubtreeConfig.xml
+  testLoadingConfiguration(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadingConfigurationWithRulesXML(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadingConfigurationReverseOrder(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadingConfigurationNamespaceAware(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadingConfigurationBasePath(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadingAdditional(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadingURL(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testAllConfiguration(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testOptionalConfigurations(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadAbsolutePath(org.apache.commons.configuration.TestConfigurationFactory): SAX Exception caught
+  testLoadingWithSystemProperties(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testLoadInitProperties(org.apache.commons.configuration.TestConfigurationFactory): Exception caught opening stream to URL
+  testAddPropertyEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddPropertyEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testClearEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testSetPropertyEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testSetPropertyEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testClearEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testAddPropertyEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddPropertyEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testClearPropertyEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertyEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testClearPropertyEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertyEventWithDetails(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testSetPropertyEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testSetPropertyEvent(org.apache.commons.configuration.event.TestDatabaseConfigurationEvents)
+  testReloadEvent(org.apache.commons.configuration.event.TestXMLConfigurationEvents): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.xml
+  testReloadEventWithDetails(org.apache.commons.configuration.event.TestXMLConfigurationEvents): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.xml
+  testAccessPropertiesOnReload(org.apache.commons.configuration.event.TestXMLConfigurationEvents): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.xml
+  testReloadEvent(org.apache.commons.configuration.event.TestPropertiesConfigurationEvents): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testReloadEventWithDetails(org.apache.commons.configuration.event.TestPropertiesConfigurationEvents): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAccessPropertiesOnReload(org.apache.commons.configuration.event.TestPropertiesConfigurationEvents): Unable to load the configuration from the URL file:/home/artefact/tests/Maven%20Test%20Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetList(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetList(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetKeys(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetKeys(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testLogErrorListener(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testLogErrorListener(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetKeysError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetKeysError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testIsEmptyError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testIsEmptyError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testContainsKeyError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testContainsKeyError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetPropertyError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetPropertyError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearPropertyMultipleOtherConfig(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertyMultipleOtherConfig(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearSingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearSingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearCommit(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearCommit(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetKeysSingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetKeysSingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetKeysMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetKeysMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testContainsKeySingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testContainsKeySingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testContainsKeyMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testContainsKeyMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testIsEmptySingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testIsEmptySingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testIsEmptyMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testIsEmptyMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearSubset(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearSubset(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testAddPropertyError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddPropertyError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testDoCommitsDefault(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testDoCommitsDefault(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testDoCommitsDefaultMulti(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testDoCommitsDefaultMulti(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testAddPropertyDirectSingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddPropertyDirectSingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testAddPropertyDirectMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddPropertyDirectMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testAddNonStringProperty(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddNonStringProperty(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetPropertyDirectSingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetPropertyDirectSingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetPropertyDirectMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetPropertyDirectMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearPropertySingle(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertySingle(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearPropertyMultiple(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertyMultiple(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearPropertyCommit(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertyCommit(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testAddPropertyDirectCommit(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddPropertyDirectCommit(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearPropertyError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearPropertyError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testClearError(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testClearError(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetListWithDelimiter(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetListWithDelimiter(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testGetListWithDelimiterParsingDisabled(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testGetListWithDelimiterParsingDisabled(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testAddWithDelimiter(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testAddWithDelimiter(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testSetPropertyWithDelimiter(org.apache.commons.configuration.TestDatabaseConfiguration): /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testdb.script (No such file or directory)
+  testSetPropertyWithDelimiter(org.apache.commons.configuration.TestDatabaseConfiguration)
+  testSave(org.apache.commons.configuration.TestXMLPropertiesConfiguration): Cannot locate configuration source test.properties.xml
+  testLoad(org.apache.commons.configuration.TestXMLPropertiesConfiguration): Cannot locate configuration source test.properties.xml
+  testMultiConfiguration(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): 'rowsPerPage' doesn't map to an existing object
+  testSchemaValidationError(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder2.xml
+  testSchemaValidation(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder2.xml
+  testMissingFile(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder2.xml
+  testFileReload1(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder3.xml
+  testFileReload2(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder3.xml
+  testFileReload3(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder3.xml
+  testReloadDefault(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder2.xml
+  testFileReloadSchemaValidationError(org.apache.commons.configuration.TestMultiFileHierarchicalConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder3.xml
+  testConcurrentGetAndReload(org.apache.commons.configuration.TestDynamicCombinedConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder4.xml
+  testConfiguration(org.apache.commons.configuration.TestDynamicCombinedConfiguration): Cannot locate configuration source testMultiConfiguration_default.xml
+  testConcurrentGetAndReload2(org.apache.commons.configuration.TestDynamicCombinedConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder4.xml
+  testConcurrentGetAndReloadMultipleClients(org.apache.commons.configuration.TestDynamicCombinedConfiguration): Cannot locate configuration source testMultiTenentConfigurationBuilder4.xml
+  testConcurrentGetAndReloadFile(org.apache.commons.configuration.TestDynamicCombinedConfiguration): target/test-classes/testMultiDynamic_default.xml (No such file or directory)
+  testFromClassPath(org.apache.commons.configuration.reloading.TestFileChangedReloadingStrategy): Cannot locate configuration source test.properties
+  testReloadingRequiredMultipleTimes(org.apache.commons.configuration.reloading.TestFileChangedReloadingStrategy): Cannot locate configuration source test.properties
+  testReloadingRequiredMultipleTimes(org.apache.commons.configuration.reloading.TestVFSFileChangedReloadingStrategy): Cannot locate configuration source test.properties
+  testAttributes(org.apache.commons.configuration.tree.TestMergeCombiner): 'gui.level[@min]' doesn't map to an existing object
+  testAttributes(org.apache.commons.configuration.tree.TestOverrideCombiner): 'gui.level[@min]' doesn't map to an existing object
+  testConfigurationValuesInSameOrderFromFile(org.apache.commons.configuration.TestPropertiesSequence): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testSequence.properties
+  testConfigurationValuesInSameOrderWithManualAdd(org.apache.commons.configuration.TestPropertiesSequence): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testSequence.properties
+  testMappingInSameOrder(org.apache.commons.configuration.TestPropertiesSequence): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testSequence.properties
+  testList1(org.apache.commons.configuration.TestThreesomeConfiguration): Cannot locate configuration source threesome.properties
+  testList2(org.apache.commons.configuration.TestThreesomeConfiguration): Cannot locate configuration source threesome.properties
+  testList3(org.apache.commons.configuration.TestThreesomeConfiguration): Cannot locate configuration source threesome.properties
+  testRefresh(org.apache.commons.configuration.TestFileConfiguration): 'test.integer' doesn't map to an existing object
+  testClone(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source config/deep/deeptest.properties
+  testGetFile(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source test.properties
+  testWithConfigurationFactory(org.apache.commons.configuration.TestFileConfiguration): Exception caught opening stream to URL
+  testGetFileAfterLoad(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadMultiple(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInitFromClassPath(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source config/deep/deeptest.properties
+  testLoadFromClassPath(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source config/deep/testFileFromClasspath.xml
+  testReloadError(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source config/deep/deeptest.properties
+  testIterationWithReloadHierarchical(org.apache.commons.configuration.TestFileConfiguration): Cannot locate configuration source test.xml
+  testConcurrentGetAndReload(org.apache.commons.configuration.TestCombinedConfiguration): Cannot locate configuration source configA.xml
+  testDeadlockWithReload(org.apache.commons.configuration.TestCombinedConfiguration): Cannot locate configuration source test.properties
+  testLoadConfiguration(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration.xml
+  testLoadConfigurationFromFile(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration.xml
+  testLoadConfigurationFromFileName(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterConfiguration.xml
+  testLoadConfigurationFromURL(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot load a configuration from a directory
+  testLoadAdditional(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration2.xml
+  testLoadOptional(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot load a configuration from a directory
+  testLoadDifferentSources(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration3.xml
+  testSetConfigurationBasePath(org.apache.commons.configuration.TestVFSConfigurationBuilder): org.apache.commons.configuration.ConfigurationRuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source test.properties
+  testComplexInitialization(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testCombinedConfigurationNoAdditional(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testDigesterConfiguration.xml
+  testCombinedConfigurationListNodes(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testConfigurationBuilderProvider(org.apache.commons.configuration.TestVFSConfigurationBuilder): org.apache.commons.configuration.ConfigurationRuntimeException: org.apache.commons.configuration.ConfigurationException: Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/testDigesterConfiguration.xml
+  testLoadXMLWithSettings(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testDtd.xml
+  testExtendedClass(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testExtendedClass.xml
+  testConfigurationProvider(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testConfigurationProvider.xml
+  testExtendedXMLConfigurationProvider(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testExtendedXMLConfigurationProvider.xml
+  testGlobalLookup(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testGlobalLookup.xml
+  testSystemProperties(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testSystemProperties.xml
+  testValidation(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testValidation.xml
+  testMultiTenentConfiguration(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testMultiTenentConfiguration2(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testMultiTenentConfiguration3(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testMultiTenentConfigurationBuilder.xml
+  testFileReload1(org.apache.commons.configuration.TestVFSConfigurationBuilder): target/test-classes/testMultiConfiguration_1001.xml (No such file or directory)
+  testFileReload2(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testFileReloadConfigurationBuilder.xml
+  testFileReload3(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testFileReloadConfigurationBuilder.xml
+  testReloadDefault(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testVFSMultiTenentConfigurationBuilder1.xml
+  testFileReloadSchemaValidationError(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testVFSMultiTenentConfigurationBuilder2.xml
+  testCombinedConfiguration(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testComplexInitialization.xml
+  testValidation2(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testValidation2.xml
+  testSetFileSystem(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testConfigurationProvider.xml
+  testConfiguredFileSystem(org.apache.commons.configuration.TestVFSConfigurationBuilder): Cannot locate configuration source testFileSystem.xml
+  testSave(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoad(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testIsCommentLine(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAppend(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testClone(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveWithDelimiterParsingDisabled(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetPropertyListWithDelimiterParsingDisabled(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testList(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetIOFactoryWriter(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadWithDefaultEncoding(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetIOFactoryReader(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testReentrantReload(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadWithAutoSaveAndClear(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetStringWithEscapedChars(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetStringWithEscapedComma(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testEscapedKey(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testMixedArray(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testMultilines(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testChangingDefaultListDelimiter(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testChangingListDelimiter(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDisableListDelimiter(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testNewLineEscaping(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadIncludeFromClassPath(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testComment(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testEscapedKeyValueSeparator(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testKeyValueSeparators(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testIncludeInSubDir(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLineSeparator(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetLayout(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testPropertyLoaded(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testPropertyLoadedInclude(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testPropertyLoadedIncludeNotAllowed(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCloneNullLayout(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveToHTTPServerSuccess(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveToHTTPServerFail(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFileWithSharpSymbol(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInitFromNonExistingFile(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCopyAndSave(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAppendAndSave(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveWithDataConfig(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetIOFactoryDefault(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetIOFactoryNull(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testKeepSeparators(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSlashEscaping(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBackslashEscapingInLists(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testEmpty(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testReference(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadInclude(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadIncludeInterpol(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetInclude(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveToCustomURL(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInMemoryCreatedSave(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveMissingFilename(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveWithBasePath(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSaveEscapedEscapingCharacter(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadViaProperty(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadViaPropertyWithBasePath(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadViaPropertyWithBasePath2(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadFromFile(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadUnexistingFile(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadWithAutoSave(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadWithAutoSaveAndSetExisting(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadWithAutoSaveAndSetNew(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLoadWithAutoSaveAndAdd(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testUnescapeJava(org.apache.commons.configuration.TestPropertiesConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetList(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testThrowExceptionOnMissing(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetProperty(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testList(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSubsetCanResolve(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testStringArray(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetVector(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetKeysPreservesOrder(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetKeys2PreservesOrder(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetStringWithDefaults(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCheckingInMemoryConfiguration(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAddRemoveConfigurations(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetPropertyWIncludes(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCantRemoveMemoryConfig(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetPropertyMissing(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testMultipleTypesOfConfigs(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testPropertyExistsInOnlyOneConfig(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDefaultValueWhenKeyMissing(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGettingConfiguration(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testClearingProperty(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAddingProperty(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSettingMissingProperty(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGettingSubset(org.apache.commons.configuration.TestNullCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSchemaResolver(org.apache.commons.configuration.TestCatalogResolver): Cannot locate configuration source sample.xml
+  testRewriteSystem(org.apache.commons.configuration.TestCatalogResolver): Cannot locate configuration source test.properties.xml
+  testPublic(org.apache.commons.configuration.TestCatalogResolver): Cannot locate configuration source testResolver.xml
+  testIsEmpty(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSubset(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testShortArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testListMissing(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBoolean(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBooleanDefaultValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testBooleanArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testByte(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testByteArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDouble(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDoubleDefaultValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDoubleArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFloat(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFloatDefaultValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testFloatArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInteger(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testIntegerDefaultValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testIntegerArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLong(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLongDefaultValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testLongArrayValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testShort(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testShortDefaultValue(org.apache.commons.configuration.TestNonStringProperties): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSave(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testLoad(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testInitCopy(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testString(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testLoadWithError(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testEmptyArray(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testArray(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testNestedArrays(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testDictionary(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testDictionaryArray(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testNestedDictionaries(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testData(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testDate(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testSaveEmptyDictionary(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testQuotedString(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testQuoteString(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testSetDataProperty(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testAddDataProperty(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testParseDateNoNumber(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testParseDateTooShort(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testParseDateInvalidChar(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testParseDateNull(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testFormatDate(org.apache.commons.configuration.plist.TestPropertyListConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.plist
+  testNested(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testSave(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testInitCopy(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testSubset(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testBoolean(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testInteger(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testString(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testArray(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testDictionary(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testDictionaryArray(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testDate(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testSaveEmptyDictionary(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testSetDataProperty(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testAddDataProperty(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testNestedArray(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testLoadNoDict(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testLoadNoDictConstr(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testSetDatePropertyInvalid(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testReal(org.apache.commons.configuration.plist.TestXMLPropertyListConfiguration): Cannot locate configuration source test.plist.xml
+  testGetList(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetDelimiterParsingDisabled(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetListDelimiter(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testThrowExceptionOnMissing(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testClone(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testList(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetSourceUnknown(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetSourceNull(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSubsetCanResolve(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testStringArray(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetKeysPreservesOrder(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetKeys2PreservesOrder(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetStringWithDefaults(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCheckingInMemoryConfiguration(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAddRemoveConfigurations(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetPropertyWIncludes(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCantRemoveMemoryConfig(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetPropertyMissing(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testMultipleTypesOfConfigs(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testPropertyExistsInOnlyOneConfig(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testDefaultValueWhenKeyMissing(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGettingConfiguration(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testClearingProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testAddingProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSettingMissingProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGettingSubset(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetListWithInterpolation(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetStringArrayWithInterpolation(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInterpolationInMultipleConfigs(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetListDelimiterInMemoryConfigNonBaseConfig(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetDelimiterParsingDisabledInMemoryConfigNonBaseConfig(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testUseChildConfigAsInMemoryConfig(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testReplaceInMemoryConfig(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testStringArrayInterpolation(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testListInterpolation(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInterpolationWithReload(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testInstanciateWithCollection(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCloneNotSupported(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testCloneEventListener(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testEventAddProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testEventSetProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testEventClearProperty(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetListDelimiterAfterClear(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testSetDelimiterParsingDisabledAfterClear(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetSourceSingle(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetSourceInMemory(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+  testGetSourceMultiple(org.apache.commons.configuration.TestCompositeConfiguration): Cannot locate configuration source /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/test-classes/test.properties
+
+Tests run: 1643, Failures: 20, Errors: 547, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 26.612 s
+[INFO] Finished at: 2017-09-21T12:20:35+02:00
+[INFO] Final Memory: 31M/369M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12:test (default-test) on project commons-configuration: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/artefact/tests/Maven Test Sources/commons-configuration-1.9-test-sources/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

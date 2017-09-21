@@ -1,0 +1,966 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons IO 2.5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-io ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.9.1:parse-version (parse-version) @ commons-io ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-io ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-io ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-io ---
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505989097759
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-io ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ commons-io ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 115 source files to /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-io ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (checkAPIcompatibility) @ commons-io ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-io ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ commons-io ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 112 source files to /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14.1:test (default-test) @ commons-io ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] Surefire report directory: /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources/target/surefire-reports
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.14.1/surefire-junit4-2.14.1.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.14.1/surefire-junit4-2.14.1.pom (3 KB at 2.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.14.1/surefire-providers-2.14.1.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-providers/2.14.1/surefire-providers-2.14.1.pom (3 KB at 7.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.14.1/surefire-junit4-2.14.1.jar
+3/78 KB   5/78 KB   8/78 KB   11/78 KB   13/78 KB   16/78 KB   19/78 KB   21/78 KB   24/78 KB   27/78 KB   29/78 KB   32/78 KB   36/78 KB   40/78 KB   44/78 KB   48/78 KB   52/78 KB   56/78 KB   60/78 KB   64/78 KB   68/78 KB   72/78 KB   76/78 KB   78/78 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit4/2.14.1/surefire-junit4-2.14.1.jar (78 KB at 118.5 KB/sec)
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.io.FilenameUtilsTestCase
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.402 sec
+Running org.apache.commons.io.FileDeleteStrategyTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running org.apache.commons.io.input.TeeInputStreamTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.apache.commons.io.input.CharSequenceInputStreamTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.598 sec
+Running org.apache.commons.io.input.ClosedInputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running org.apache.commons.io.input.ReversedLinesFileReaderTestSimple
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.081 sec <<< FAILURE!
+testUnsupportedEncodingUTF16(org.apache.commons.io.input.ReversedLinesFileReaderTestSimple)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestSimple.testUnsupportedEncodingUTF16(ReversedLinesFileReaderTestSimple.java:55)
+
+testFileSizeIsExactMultipleOfBlockSize(org.apache.commons.io.input.ReversedLinesFileReaderTestSimple)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestSimple.testFileSizeIsExactMultipleOfBlockSize(ReversedLinesFileReaderTestSimple.java:46)
+
+testUnsupportedEncodingBig5(org.apache.commons.io.input.ReversedLinesFileReaderTestSimple)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestSimple.testUnsupportedEncodingBig5(ReversedLinesFileReaderTestSimple.java:61)
+
+Running org.apache.commons.io.input.BOMInputStreamTest
+Tests run: 44, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.243 sec <<< FAILURE!
+testReadTwiceWithoutBOM(org.apache.commons.io.input.BOMInputStreamTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:712)
+	at org.junit.Assert.assertNotNull(Assert.java:722)
+	at org.apache.commons.io.input.BOMInputStreamTest.readBOMInputStreamTwice(BOMInputStreamTest.java:174)
+	at org.apache.commons.io.input.BOMInputStreamTest.testReadTwiceWithoutBOM(BOMInputStreamTest.java:421)
+
+testReadTwiceWithBOM(org.apache.commons.io.input.BOMInputStreamTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:712)
+	at org.junit.Assert.assertNotNull(Assert.java:722)
+	at org.apache.commons.io.input.BOMInputStreamTest.readBOMInputStreamTwice(BOMInputStreamTest.java:174)
+	at org.apache.commons.io.input.BOMInputStreamTest.testReadTwiceWithBOM(BOMInputStreamTest.java:416)
+
+Running org.apache.commons.io.input.XmlStreamReaderTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.425 sec
+Running org.apache.commons.io.input.CloseShieldInputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running org.apache.commons.io.input.TailerTest
+Elapsed: 460
+testMultiByteBreak() Default charset: UTF-8
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 23.421 sec <<< FAILURE!
+testMultiByteBreak(org.apache.commons.io.input.TailerTest)  Time elapsed: 1.012 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.TailerTest.testMultiByteBreak(TailerTest.java:118)
+
+Running org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile
+Tests run: 17, Failures: 0, Errors: 17, Skipped: 0, Time elapsed: 0.1 sec <<< FAILURE!
+testDataIntegrityWithBufferedReader[test-file-20byteslength.bin, charset=ISO_8859_1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-iso8859-1-shortlines-win-linebr.bin, charset=ISO_8859_1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-iso8859-1.bin, charset=ISO_8859_1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-shiftjis.bin, charset=Shift_JIS](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf16be.bin, charset=UTF-16BE](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf16le.bin, charset=UTF-16LE](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8-cr-only.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8-win-linebr.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8-win-linebr.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8-win-linebr.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8-win-linebr.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8-win-linebr.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-utf8.bin, charset=UTF-8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-windows-31j.bin, charset=windows-31j](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-gbk.bin, charset=gbk](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-x-windows-949.bin, charset=x-windows-949](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+testDataIntegrityWithBufferedReader[test-file-x-windows-950.bin, charset=x-windows-950](org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader(ReversedLinesFileReaderTestParamFile.java:82)
+
+Running org.apache.commons.io.input.CountingInputStreamTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.apache.commons.io.input.compatibility.XmlStreamReaderUtilitiesCompatibilityTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Running org.apache.commons.io.input.TaggedInputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Running org.apache.commons.io.input.SwappedDataInputStreamTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.apache.commons.io.input.ClassLoaderObjectInputStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+Running org.apache.commons.io.input.BrokenInputStreamTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec
+Running org.apache.commons.io.input.UnixLineEndingInputStreamTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize
+Tests run: 85, Failures: 0, Errors: 85, Skipped: 0, Time elapsed: 0.163 sec <<< FAILURE!
+testIsoFileDefaults[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults(ReversedLinesFileReaderTestParamBlockSize.java:87)
+
+testUTF8FileCRBreaks[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks(ReversedLinesFileReaderTestParamBlockSize.java:101)
+
+testUnsupportedEncodingUTF16[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingUTF16(ReversedLinesFileReaderTestParamBlockSize.java:206)
+
+testGBK[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testGBK(ReversedLinesFileReaderTestParamBlockSize.java:152)
+
+testEmptyFile[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testEmptyFile(ReversedLinesFileReaderTestParamBlockSize.java:115)
+
+testFileSizeIsExactMultipleOfBlockSize[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize(ReversedLinesFileReaderTestParamBlockSize.java:177)
+
+testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:186)
+
+testxWindows949File[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows949File(ReversedLinesFileReaderTestParamBlockSize.java:160)
+
+testxWindows950File[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows950File(ReversedLinesFileReaderTestParamBlockSize.java:168)
+
+testUTF8FileWindowsBreaks[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks(ReversedLinesFileReaderTestParamBlockSize.java:94)
+
+testUTF16BEFile[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile(ReversedLinesFileReaderTestParamBlockSize.java:122)
+
+testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:193)
+
+testUTF16LEFile[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile(ReversedLinesFileReaderTestParamBlockSize.java:129)
+
+testShiftJISFile[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile(ReversedLinesFileReaderTestParamBlockSize.java:136)
+
+testWindows31jFile[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile(ReversedLinesFileReaderTestParamBlockSize.java:144)
+
+testUnsupportedEncodingBig5[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingBig5(ReversedLinesFileReaderTestParamBlockSize.java:212)
+
+testUTF8File[BlockSize=1](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8File(ReversedLinesFileReaderTestParamBlockSize.java:108)
+
+testIsoFileDefaults[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults(ReversedLinesFileReaderTestParamBlockSize.java:87)
+
+testUTF8FileCRBreaks[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks(ReversedLinesFileReaderTestParamBlockSize.java:101)
+
+testUnsupportedEncodingUTF16[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingUTF16(ReversedLinesFileReaderTestParamBlockSize.java:206)
+
+testGBK[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testGBK(ReversedLinesFileReaderTestParamBlockSize.java:152)
+
+testEmptyFile[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testEmptyFile(ReversedLinesFileReaderTestParamBlockSize.java:115)
+
+testFileSizeIsExactMultipleOfBlockSize[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize(ReversedLinesFileReaderTestParamBlockSize.java:177)
+
+testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:186)
+
+testxWindows949File[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows949File(ReversedLinesFileReaderTestParamBlockSize.java:160)
+
+testxWindows950File[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows950File(ReversedLinesFileReaderTestParamBlockSize.java:168)
+
+testUTF8FileWindowsBreaks[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks(ReversedLinesFileReaderTestParamBlockSize.java:94)
+
+testUTF16BEFile[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile(ReversedLinesFileReaderTestParamBlockSize.java:122)
+
+testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:193)
+
+testUTF16LEFile[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile(ReversedLinesFileReaderTestParamBlockSize.java:129)
+
+testShiftJISFile[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile(ReversedLinesFileReaderTestParamBlockSize.java:136)
+
+testWindows31jFile[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile(ReversedLinesFileReaderTestParamBlockSize.java:144)
+
+testUnsupportedEncodingBig5[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingBig5(ReversedLinesFileReaderTestParamBlockSize.java:212)
+
+testUTF8File[BlockSize=3](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8File(ReversedLinesFileReaderTestParamBlockSize.java:108)
+
+testIsoFileDefaults[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults(ReversedLinesFileReaderTestParamBlockSize.java:87)
+
+testUTF8FileCRBreaks[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks(ReversedLinesFileReaderTestParamBlockSize.java:101)
+
+testUnsupportedEncodingUTF16[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingUTF16(ReversedLinesFileReaderTestParamBlockSize.java:206)
+
+testGBK[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testGBK(ReversedLinesFileReaderTestParamBlockSize.java:152)
+
+testEmptyFile[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testEmptyFile(ReversedLinesFileReaderTestParamBlockSize.java:115)
+
+testFileSizeIsExactMultipleOfBlockSize[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize(ReversedLinesFileReaderTestParamBlockSize.java:177)
+
+testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:186)
+
+testxWindows949File[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows949File(ReversedLinesFileReaderTestParamBlockSize.java:160)
+
+testxWindows950File[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows950File(ReversedLinesFileReaderTestParamBlockSize.java:168)
+
+testUTF8FileWindowsBreaks[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks(ReversedLinesFileReaderTestParamBlockSize.java:94)
+
+testUTF16BEFile[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile(ReversedLinesFileReaderTestParamBlockSize.java:122)
+
+testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:193)
+
+testUTF16LEFile[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile(ReversedLinesFileReaderTestParamBlockSize.java:129)
+
+testShiftJISFile[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile(ReversedLinesFileReaderTestParamBlockSize.java:136)
+
+testWindows31jFile[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile(ReversedLinesFileReaderTestParamBlockSize.java:144)
+
+testUnsupportedEncodingBig5[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingBig5(ReversedLinesFileReaderTestParamBlockSize.java:212)
+
+testUTF8File[BlockSize=8](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8File(ReversedLinesFileReaderTestParamBlockSize.java:108)
+
+testIsoFileDefaults[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults(ReversedLinesFileReaderTestParamBlockSize.java:87)
+
+testUTF8FileCRBreaks[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks(ReversedLinesFileReaderTestParamBlockSize.java:101)
+
+testUnsupportedEncodingUTF16[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingUTF16(ReversedLinesFileReaderTestParamBlockSize.java:206)
+
+testGBK[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testGBK(ReversedLinesFileReaderTestParamBlockSize.java:152)
+
+testEmptyFile[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testEmptyFile(ReversedLinesFileReaderTestParamBlockSize.java:115)
+
+testFileSizeIsExactMultipleOfBlockSize[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize(ReversedLinesFileReaderTestParamBlockSize.java:177)
+
+testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:186)
+
+testxWindows949File[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows949File(ReversedLinesFileReaderTestParamBlockSize.java:160)
+
+testxWindows950File[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows950File(ReversedLinesFileReaderTestParamBlockSize.java:168)
+
+testUTF8FileWindowsBreaks[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks(ReversedLinesFileReaderTestParamBlockSize.java:94)
+
+testUTF16BEFile[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile(ReversedLinesFileReaderTestParamBlockSize.java:122)
+
+testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:193)
+
+testUTF16LEFile[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile(ReversedLinesFileReaderTestParamBlockSize.java:129)
+
+testShiftJISFile[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile(ReversedLinesFileReaderTestParamBlockSize.java:136)
+
+testWindows31jFile[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile(ReversedLinesFileReaderTestParamBlockSize.java:144)
+
+testUnsupportedEncodingBig5[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingBig5(ReversedLinesFileReaderTestParamBlockSize.java:212)
+
+testUTF8File[BlockSize=256](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8File(ReversedLinesFileReaderTestParamBlockSize.java:108)
+
+testIsoFileDefaults[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults(ReversedLinesFileReaderTestParamBlockSize.java:87)
+
+testUTF8FileCRBreaks[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks(ReversedLinesFileReaderTestParamBlockSize.java:101)
+
+testUnsupportedEncodingUTF16[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingUTF16(ReversedLinesFileReaderTestParamBlockSize.java:206)
+
+testGBK[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testGBK(ReversedLinesFileReaderTestParamBlockSize.java:152)
+
+testEmptyFile[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testEmptyFile(ReversedLinesFileReaderTestParamBlockSize.java:115)
+
+testFileSizeIsExactMultipleOfBlockSize[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize(ReversedLinesFileReaderTestParamBlockSize.java:177)
+
+testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:186)
+
+testxWindows949File[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows949File(ReversedLinesFileReaderTestParamBlockSize.java:160)
+
+testxWindows950File[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testxWindows950File(ReversedLinesFileReaderTestParamBlockSize.java:168)
+
+testUTF8FileWindowsBreaks[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks(ReversedLinesFileReaderTestParamBlockSize.java:94)
+
+testUTF16BEFile[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile(ReversedLinesFileReaderTestParamBlockSize.java:122)
+
+testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines(ReversedLinesFileReaderTestParamBlockSize.java:193)
+
+testUTF16LEFile[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile(ReversedLinesFileReaderTestParamBlockSize.java:129)
+
+testShiftJISFile[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile(ReversedLinesFileReaderTestParamBlockSize.java:136)
+
+testWindows31jFile[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile(ReversedLinesFileReaderTestParamBlockSize.java:144)
+
+testUnsupportedEncodingBig5[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Exception: Unexpected exception, expected<java.io.UnsupportedEncodingException> but was<java.lang.NullPointerException>
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUnsupportedEncodingBig5(ReversedLinesFileReaderTestParamBlockSize.java:212)
+
+testUTF8File[BlockSize=4,096](org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at org.apache.commons.io.input.ReversedLinesFileReaderTestParamBlockSize.testUTF8File(ReversedLinesFileReaderTestParamBlockSize.java:108)
+
+Running org.apache.commons.io.input.AutoCloseInputStreamTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running org.apache.commons.io.input.NullInputStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running org.apache.commons.io.input.WindowsLineEndingInputStreamTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+Running org.apache.commons.io.input.BoundedReaderTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+Running org.apache.commons.io.input.NullReaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running org.apache.commons.io.input.ProxyReaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.apache.commons.io.input.CharSequenceReaderTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running org.apache.commons.io.input.ReaderInputStreamTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running org.apache.commons.io.input.XmlStreamReaderUtilitiesTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
+Running org.apache.commons.io.input.BoundedInputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.apache.commons.io.FileCleaningTrackerTestCase
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.185 sec
+Running org.apache.commons.io.filefilter.OrFileFilterTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.io.filefilter.RegexFileFilterTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Running org.apache.commons.io.filefilter.FileFilterTestCase
+Tests run: 47, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.163 sec <<< FAILURE!
+testFiles(org.apache.commons.io.filefilter.FileFilterTestCase)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Filter(File) org.apache.commons.io.filefilter.FileFileFilter not true for LICENSE.txt expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.apache.commons.io.filefilter.FileFilterTestCase.assertFiltering(FileFilterTestCase.java:64)
+	at org.apache.commons.io.filefilter.FileFilterTestCase.testFiles(FileFilterTestCase.java:214)
+
+Running org.apache.commons.io.filefilter.AndFileFilterTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.io.ByteOrderMarkTestCase
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running org.apache.commons.io.FileUtilsCleanDirectoryTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 sec
+Running org.apache.commons.io.HexDumpTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.io.FileUtilsTestCase
+Tests run: 135, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 2.469 sec <<< FAILURE!
+testContentEqualsIgnoreEOL(org.apache.commons.io.FileUtilsTestCase)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertNotNull(Assert.java:712)
+	at org.junit.Assert.assertNotNull(Assert.java:722)
+	at org.apache.commons.io.FileUtilsTestCase.testContentEqualsIgnoreEOL(FileUtilsTestCase.java:698)
+
+Running org.apache.commons.io.serialization.ValidatingObjectInputStreamTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+Running org.apache.commons.io.serialization.FullClassNameMatcherTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.apache.commons.io.serialization.MoreComplexObjectTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+Running org.apache.commons.io.serialization.RegexpClassNameMatcherTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running org.apache.commons.io.serialization.WildcardClassNameMatcherTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running org.apache.commons.io.Java7SupportTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running org.apache.commons.io.IOUtilsCopyTestCase
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec
+Running org.apache.commons.io.TaggedIOExceptionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running org.apache.commons.io.FilenameUtilsWildcardTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+Running org.apache.commons.io.DirectoryWalkerTestCaseJava4
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec <<< FAILURE!
+testFilterAndLimitB(org.apache.commons.io.DirectoryWalkerTestCaseJava4)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: [B] Result Size expected:<2> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.apache.commons.io.DirectoryWalkerTestCaseJava4.testFilterAndLimitB(DirectoryWalkerTestCaseJava4.java:105)
+
+testFilterAndLimitC(org.apache.commons.io.DirectoryWalkerTestCaseJava4)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: [C] Result Size expected:<4> but was:<8>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.apache.commons.io.DirectoryWalkerTestCaseJava4.testFilterAndLimitC(DirectoryWalkerTestCaseJava4.java:116)
+
+Running org.apache.commons.io.CopyUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running org.apache.commons.io.FileUtilsListFilesTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 sec
+Running org.apache.commons.io.DemuxTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.258 sec
+Running org.apache.commons.io.output.XmlStreamWriterTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec
+Running org.apache.commons.io.output.TeeOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.apache.commons.io.output.BrokenOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.apache.commons.io.output.ChunkedWriterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.apache.commons.io.output.FileWriterWithEncodingTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec
+Running org.apache.commons.io.output.DeferredFileOutputStreamTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.093 sec
+Running org.apache.commons.io.output.ThresholdingOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+Running org.apache.commons.io.output.ProxyOutputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running org.apache.commons.io.output.CountingOutputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+Running org.apache.commons.io.output.StringBuilderWriterTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.apache.commons.io.output.ClosedOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running org.apache.commons.io.output.TaggedOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.io.output.NullWriterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running org.apache.commons.io.output.LockableFileWriterTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 sec
+Running org.apache.commons.io.output.ChunkedOutputStreamTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running org.apache.commons.io.output.AppendableOutputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running org.apache.commons.io.output.ByteArrayOutputStreamTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.apache.commons.io.output.WriterOutputStreamTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running org.apache.commons.io.output.NullOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running org.apache.commons.io.output.ProxyWriterTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running org.apache.commons.io.output.CloseShieldOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.apache.commons.io.LineIteratorTestCase
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec
+Running org.apache.commons.io.DirectoryWalkerTestCase
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec <<< FAILURE!
+testFilterAndLimitB(org.apache.commons.io.DirectoryWalkerTestCase)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: [B] Result Size expected:<2> but was:<3>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.apache.commons.io.DirectoryWalkerTestCase.testFilterAndLimitB(DirectoryWalkerTestCase.java:103)
+
+testFilterAndLimitC(org.apache.commons.io.DirectoryWalkerTestCase)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: [C] Result Size expected:<4> but was:<8>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.apache.commons.io.DirectoryWalkerTestCase.testFilterAndLimitC(DirectoryWalkerTestCase.java:114)
+
+Running org.apache.commons.io.IOUtilsTestCase
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 sec
+Running org.apache.commons.io.FileUtilsCleanSymlinksTestCase
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.16 sec
+Running org.apache.commons.io.ThreadMonitorTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.455 sec
+Running org.apache.commons.io.IOUtilsWriteTestCase
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec
+Running org.apache.commons.io.FileUtilsWaitForTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.121 sec
+Running org.apache.commons.io.FileUtilsDirectoryContainsTestCase
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+Running org.apache.commons.io.IOExceptionWithCauseTestCase
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running org.apache.commons.io.EndianUtilsTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running org.apache.commons.io.FileCleanerTestCase
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.234 sec
+Running org.apache.commons.io.comparator.LastModifiedFileComparatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.924 sec
+Running org.apache.commons.io.comparator.ExtensionFileComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running org.apache.commons.io.comparator.NameFileComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running org.apache.commons.io.comparator.SizeFileComparatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running org.apache.commons.io.comparator.DirectoryFileComparatorTest
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec <<< FAILURE!
+testReverseComparator(org.apache.commons.io.comparator.DirectoryFileComparatorTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.AssertionError: equal expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.apache.commons.io.comparator.ComparatorAbstractTestCase.testReverseComparator(ComparatorAbstractTestCase.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+
+testComparator(org.apache.commons.io.comparator.DirectoryFileComparatorTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: equal expected:<0> but was:<-1>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.apache.commons.io.comparator.ComparatorAbstractTestCase.testComparator(ComparatorAbstractTestCase.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+
+Running org.apache.commons.io.comparator.DefaultFileComparatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running org.apache.commons.io.comparator.PathFileComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec
+Running org.apache.commons.io.comparator.CompositeFileComparatorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+Running org.apache.commons.io.IOCaseTestCase
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 sec
+Running org.apache.commons.io.monitor.FileAlterationObserverTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.064 sec
+Running org.apache.commons.io.monitor.FileAlterationMonitorTestCase
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.02 sec
+Running org.apache.commons.io.FileSystemUtilsTestCase
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 sec
+Running org.apache.commons.io.CharsetsTestCase
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.apache.commons.io.FileUtilsFileNewerTestCase
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+
+Results :
+
+Failed tests: 
+  BOMInputStreamTest.testReadTwiceWithoutBOM:421->readBOMInputStreamTwice:174 null
+  BOMInputStreamTest.testReadTwiceWithBOM:416->readBOMInputStreamTwice:174 null
+  FileFilterTestCase.testFiles:214->assertFiltering:64 Filter(File) org.apache.commons.io.filefilter.FileFileFilter not true for LICENSE.txt expected:<true> but was:<false>
+  FileUtilsTestCase.testContentEqualsIgnoreEOL:698 null
+  DirectoryWalkerTestCaseJava4.testFilterAndLimitB:105 [B] Result Size expected:<2> but was:<3>
+  DirectoryWalkerTestCaseJava4.testFilterAndLimitC:116 [C] Result Size expected:<4> but was:<8>
+  DirectoryWalkerTestCase.testFilterAndLimitB:103 [B] Result Size expected:<2> but was:<3>
+  DirectoryWalkerTestCase.testFilterAndLimitC:114 [C] Result Size expected:<4> but was:<8>
+  DirectoryFileComparatorTest>ComparatorAbstractTestCase.testReverseComparator:86 equal expected:<0> but was:<1>
+  DirectoryFileComparatorTest>ComparatorAbstractTestCase.testComparator:76 equal expected:<0> but was:<-1>
+
+Tests in error: 
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestSimple.testFileSizeIsExactMultipleOfBlockSize:46 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  TailerTest.testMultiByteBreak:118 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamFile.testDataIntegrityWithBufferedReader:82 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults:87 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks:101 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testGBK:152 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testEmptyFile:115 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize:177 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:186 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows949File:160 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows950File:168 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks:94 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile:122 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:193 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile:129 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile:136 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile:144 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8File:108 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults:87 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks:101 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testGBK:152 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testEmptyFile:115 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize:177 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:186 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows949File:160 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows950File:168 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks:94 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile:122 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:193 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile:129 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile:136 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile:144 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8File:108 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults:87 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks:101 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testGBK:152 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testEmptyFile:115 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize:177 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:186 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows949File:160 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows950File:168 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks:94 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile:122 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:193 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile:129 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile:136 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile:144 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8File:108 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults:87 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks:101 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testGBK:152 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testEmptyFile:115 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize:177 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:186 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows949File:160 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows950File:168 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks:94 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile:122 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:193 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile:129 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile:136 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile:144 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8File:108 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileDefaults:87 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileCRBreaks:101 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testGBK:152 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testEmptyFile:115 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testFileSizeIsExactMultipleOfBlockSize:177 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:186 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows949File:160 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testxWindows950File:168 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8FileWindowsBreaks:94 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16BEFile:122 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testIsoFileManyWindowsBreaksSmallBlockSize2VerifyBlockSpanningNewLines:193 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testUTF16LEFile:129 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testShiftJISFile:136 NullPointer
+  ReversedLinesFileReaderTestParamBlockSize.testWindows31jFile:144 NullPointer
+   »  Unexpected exception, expected<java.io.UnsupportedEncodingException> but w...
+  ReversedLinesFileReaderTestParamBlockSize.testUTF8File:108 NullPointer
+
+Tests run: 1157, Failures: 10, Errors: 106, Skipped: 4
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:46 min
+[INFO] Finished at: 2017-09-21T12:20:02+02:00
+[INFO] Final Memory: 29M/427M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.14.1:test (default-test) on project commons-io: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/artefact/tests/Maven Test Sources/commons-io-2.5-test-sources/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

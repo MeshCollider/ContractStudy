@@ -1,0 +1,317 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Google Guice - Core Library 4.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.1:process (default) @ guice ---
+[INFO] Setting property: classpath.resource.loader.class => 'org.codehaus.plexus.velocity.ContextClassLoaderResourceLoader'.
+[INFO] Setting property: velocimacro.messages.on => 'false'.
+[INFO] Setting property: resource.loader => 'classpath'.
+[INFO] Setting property: resource.manager.logwhenfound => 'false'.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ guice ---
+[INFO] Compiling 280 source files to /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[22,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[22,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[23,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[23,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[24,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[24,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[25,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[25,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[31,32] error: package com.google.common.testing does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[33,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/SpiBindingsTest.java:[39,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/SpiBindingsTest.java:[40,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/SpiBindingsTest.java:[53,37] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/RequestInjectionTest.java:[27,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/RequestInjectionTest.java:[34,42] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/ProxyFactoryTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/ProxyFactoryTest.java:[41,38] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralInjectionTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralInjectionTest.java:[33,46] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithGuiceDefaults.java:[26,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleSourceTest.java:[7,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleSourceTest.java:[12,38] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithGuice.java:[19,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithGuice.java:[19,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/UniqueAnnotationsTest.java:[20,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/UniqueAnnotationsTest.java:[27,43] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModuleTest.java:[5,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModuleTest.java:[12,32] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/matcher/MatcherTest.java:[34,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/matcher/MatcherTest.java:[46,33] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/InjectorSpiTest.java:[12,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/InjectorSpiTest.java:[19,37] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModulesTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModulesTest.java:[30,33] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/FailingTargetVisitor.java:[21,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/util/ProvidersTest.java:[20,32] error: package com.google.common.testing does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/util/ProvidersTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/util/ProvidersTest.java:[32,35] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/Jsr330Test.java:[37,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/Jsr330Test.java:[49,32] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BoundProviderTest.java:[19,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BoundProviderTest.java:[24,39] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ScopesTest.java:[34,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ScopesTest.java:[58,32] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralTypeResolutionTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralTypeResolutionTest.java:[52,51] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingTest.java:[48,33] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithDependencyInjection.java:[19,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithDependencyInjection.java:[19,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BinderTest.java:[32,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BinderTest.java:[46,32] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/HasDependenciesTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/HasDependenciesTest.java:[35,41] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/BytecodeGenTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/BytecodeGenTest.java:[49,37] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/MethodInterceptionTest.java:[29,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/MethodInterceptionTest.java:[44,44] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/JitBindingsTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/JitBindingsTest.java:[33,37] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingAnnotationTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingAnnotationTest.java:[31,43] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/NullableInjectionPointTest.java:[6,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/NullableInjectionPointTest.java:[17,48] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ToolStageInjectorTest.java:[14,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ToolStageInjectorTest.java:[21,43] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ElementSourceTest.java:[12,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ElementSourceTest.java:[23,39] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/GenericInjectionTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/GenericInjectionTest.java:[34,42] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithFactories.java:[19,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithFactories.java:[19,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/EagerSingletonTest.java:[19,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/EagerSingletonTest.java:[24,40] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProvisionExceptionTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProvisionExceptionTest.java:[38,44] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/DuplicateBindingsTest.java:[29,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/DuplicateBindingsTest.java:[44,43] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/CycleDetectingLockTest.java:[5,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/CycleDetectingLockTest.java:[14,44] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProviderInjectionTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProviderInjectionTest.java:[31,43] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleAnnotatedMethodScannerTest.java:[40,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleAnnotatedMethodScannerTest.java:[49,54] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/KeyTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/KeyTest.java:[49,29] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[19,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[20,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[27,48] error: cannot find symbol
+[ERROR]  class SuiteUtils
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[27,16] error: cannot find symbol
+[ERROR]  class SuiteUtils
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ImplicitBindingTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ImplicitBindingTest.java:[31,41] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/name/NamesTest.java:[29,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/name/NamesTest.java:[38,31] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ParentInjectorTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ParentInjectorTest.java:[39,40] error: cannot find symbol
+[ERROR]  class TestCase
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/AllTests.java:[48,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/AllTests.java:[49,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/AllTests.java:[63,16] error: cannot find symbol
+[ERROR]  class AllTests
+/home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/PerformanceComparison.java:[20,29] error: package junit.framework does not exist
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.641 s
+[INFO] Finished at: 2017-09-21T13:41:03+02:00
+[INFO] Final Memory: 19M/305M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project guice: Compilation failure: Compilation failure:
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[22,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[22,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[23,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[23,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[24,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[24,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[25,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[25,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[31,32] error: package com.google.common.testing does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/Asserts.java:[33,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/SpiBindingsTest.java:[39,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/SpiBindingsTest.java:[40,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/SpiBindingsTest.java:[53,37] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/RequestInjectionTest.java:[27,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/RequestInjectionTest.java:[34,42] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/ProxyFactoryTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/ProxyFactoryTest.java:[41,38] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralInjectionTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralInjectionTest.java:[33,46] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithGuiceDefaults.java:[26,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleSourceTest.java:[7,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleSourceTest.java:[12,38] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithGuice.java:[19,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithGuice.java:[19,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/UniqueAnnotationsTest.java:[20,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/UniqueAnnotationsTest.java:[27,43] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModuleTest.java:[5,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModuleTest.java:[12,32] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/matcher/MatcherTest.java:[34,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/matcher/MatcherTest.java:[46,33] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/InjectorSpiTest.java:[12,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/InjectorSpiTest.java:[19,37] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModulesTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ModulesTest.java:[30,33] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/FailingTargetVisitor.java:[21,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/util/ProvidersTest.java:[20,32] error: package com.google.common.testing does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/util/ProvidersTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/util/ProvidersTest.java:[32,35] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/Jsr330Test.java:[37,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/Jsr330Test.java:[49,32] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BoundProviderTest.java:[19,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BoundProviderTest.java:[24,39] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ScopesTest.java:[34,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ScopesTest.java:[58,32] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralTypeResolutionTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/TypeLiteralTypeResolutionTest.java:[52,51] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingTest.java:[48,33] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithDependencyInjection.java:[19,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithDependencyInjection.java:[19,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BinderTest.java:[32,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BinderTest.java:[46,32] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/HasDependenciesTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/HasDependenciesTest.java:[35,41] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/BytecodeGenTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/googlecode/guice/BytecodeGenTest.java:[49,37] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/MethodInterceptionTest.java:[29,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/MethodInterceptionTest.java:[44,44] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/JitBindingsTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/JitBindingsTest.java:[33,37] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingAnnotationTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/BindingAnnotationTest.java:[31,43] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/NullableInjectionPointTest.java:[6,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/NullableInjectionPointTest.java:[17,48] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ToolStageInjectorTest.java:[14,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ToolStageInjectorTest.java:[21,43] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ElementSourceTest.java:[12,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ElementSourceTest.java:[23,39] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/GenericInjectionTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/GenericInjectionTest.java:[34,42] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithFactories.java:[19,29] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/example/ClientServiceWithFactories.java:[19,0] error: static import only from classes and interfaces
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/EagerSingletonTest.java:[19,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/EagerSingletonTest.java:[24,40] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProvisionExceptionTest.java:[28,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProvisionExceptionTest.java:[38,44] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/DuplicateBindingsTest.java:[29,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/DuplicateBindingsTest.java:[44,43] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/CycleDetectingLockTest.java:[5,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/internal/CycleDetectingLockTest.java:[14,44] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProviderInjectionTest.java:[23,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ProviderInjectionTest.java:[31,43] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleAnnotatedMethodScannerTest.java:[40,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/spi/ModuleAnnotatedMethodScannerTest.java:[49,54] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/KeyTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/KeyTest.java:[49,29] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[19,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[20,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[27,48] error: cannot find symbol
+[ERROR] class SuiteUtils
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/SuiteUtils.java:[27,16] error: cannot find symbol
+[ERROR] class SuiteUtils
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ImplicitBindingTest.java:[24,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ImplicitBindingTest.java:[31,41] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/name/NamesTest.java:[29,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/name/NamesTest.java:[38,31] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ParentInjectorTest.java:[30,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/ParentInjectorTest.java:[39,40] error: cannot find symbol
+[ERROR] class TestCase
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/AllTests.java:[48,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/AllTests.java:[49,22] error: package junit.framework does not exist
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/AllTests.java:[63,16] error: cannot find symbol
+[ERROR] class AllTests
+[ERROR] /home/artefact/tests/Maven Test Sources/guice-4.0-test-sources/src/test/java/com/google/inject/PerformanceComparison.java:[20,29] error: package junit.framework does not exist
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

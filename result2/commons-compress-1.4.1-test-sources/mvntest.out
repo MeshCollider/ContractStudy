@@ -1,0 +1,310 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Commons Compress 1.4.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.2.1:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.0:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505989399054
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ commons-compress ---
+[INFO] Compiling 100 source files to /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ commons-compress ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ commons-compress ---
+[debug] execute contextualize
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ commons-compress ---
+[INFO] Compiling 64 source files to /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ commons-compress ---
+[INFO] Surefire report directory: /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.apache.commons.compress.archivers.LongPathTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.ArchiveOutputStreamTest
+Tests run: 7, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.08 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.compress.archivers.zip.ZipFileTest
+Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.zip.ExtraFieldUtilsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.apache.commons.compress.archivers.zip.ZipUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.compress.archivers.zip.AsiExtraFieldTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.zip.TestZipEncodings
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraFieldTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.apache.commons.compress.archivers.zip.ZipEightByteIntegerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.apache.commons.compress.archivers.zip.EncryptedArchiveTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.zip.ZipLongTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.zip.GeneralPurposeBitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.compress.archivers.zip.ZipShortTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest
+Tests run: 17, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.097 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.CpioTestCase
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.ar.ArArchiveOutputStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.ArTestCase
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.memory.MemoryArchiveTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.apache.commons.compress.archivers.JarTestCase
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.ArchiveStreamFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.cpio.CpioUtilTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.ZipTestCase
+Tests run: 9, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.ExceptionMessageTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.compress.archivers.TarTestCase
+Tests run: 9, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.034 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.dump.DumpArchiveEntryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.apache.commons.compress.archivers.dump.DumpArchiveInputStreamTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.dump.DumpArchiveUtilTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.compress.archivers.tar.SparseFilesTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.tar.TarUtilsTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest
+Tests run: 13, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE!
+Running org.apache.commons.compress.archivers.tar.TarArchiveEntryTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.apache.commons.compress.archivers.DumpTestCase
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE!
+Running org.apache.commons.compress.ChainingTestCase
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
+Running org.apache.commons.compress.DetectArchiverTestCase
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+Running org.apache.commons.compress.compressors.pack200.Pack200UtilsTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE!
+Running org.apache.commons.compress.compressors.Pack200TestCase
+Tests run: 11, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.073 sec <<< FAILURE!
+Running org.apache.commons.compress.compressors.BZip2UtilsTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.compress.compressors.GZipTestCase
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE!
+Running org.apache.commons.compress.compressors.GzipUtilsTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.compress.compressors.XZUtilsTestCase
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.apache.commons.compress.compressors.bzip2.BlockSortTest
+Cleaning up unclosed ZipFile for archive /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/src/test/resources/bla.zip
+Cleaning up unclosed ZipFile for archive /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/src/test/resources/utf8-7zip-test.zip
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.apache.commons.compress.compressors.XZTestCase
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.015 sec <<< FAILURE!
+Running org.apache.commons.compress.compressors.BZip2TestCase
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE!
+Running org.apache.commons.compress.ArchiveUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.compress.utils.CountingStreamTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.apache.commons.compress.utils.CharsetsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.apache.commons.compress.IOMethodsTest
+Tests run: 10, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.012 sec <<< FAILURE!
+Running org.apache.commons.compress.DetectCompressorTestCase
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+Running org.apache.commons.compress.changes.ChangeSetTestCase
+Tests run: 27, Failures: 0, Errors: 25, Skipped: 0, Time elapsed: 0.034 sec <<< FAILURE!
+
+Results :
+
+Failed tests:   initializationError(org.apache.commons.compress.archivers.LongPathTest): Cannot find 'longpath' resource
+  testDetectionNotArchive(org.apache.commons.compress.DetectArchiverTestCase): Could not find resource test.txt
+  testCOMPRESS117(org.apache.commons.compress.DetectArchiverTestCase): Could not find resource COMPRESS-117.tar
+  testDetection(org.apache.commons.compress.DetectArchiverTestCase): Could not find resource bla.ar
+  testDetection(org.apache.commons.compress.DetectCompressorTestCase): Could not find resource bla.txt.bz2
+
+Tests in error: 
+  testCallSequenceAr(org.apache.commons.compress.archivers.ArchiveOutputStreamTest): src/test/resources/test1.xml (No such file or directory)
+  testCallSequenceCpio(org.apache.commons.compress.archivers.ArchiveOutputStreamTest): Cannot determine type of file test1.xml
+  testCallSequenceJar(org.apache.commons.compress.archivers.ArchiveOutputStreamTest): src/test/resources/test1.xml (No such file or directory)
+  testCallSequenceTar(org.apache.commons.compress.archivers.ArchiveOutputStreamTest): src/test/resources/test1.xml (No such file or directory)
+  testCallSequenceZip(org.apache.commons.compress.archivers.ArchiveOutputStreamTest): src/test/resources/test1.xml (No such file or directory)
+  testWinzipBackSlashWorkaround(org.apache.commons.compress.archivers.zip.ZipFileTest)
+  testCDOrder(org.apache.commons.compress.archivers.zip.ZipFileTest)
+  testPhysicalOrder(org.apache.commons.compress.archivers.zip.ZipFileTest)
+  testDoubleClose(org.apache.commons.compress.archivers.zip.ZipFileTest)
+  testRead7ZipMultiVolumeArchiveForStream(org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest)
+  testRead7ZipMultiVolumeArchiveForFile(org.apache.commons.compress.archivers.zip.Maven221MultiVolumeTest)
+  testReadPasswordEncryptedEntryViaZipFile(org.apache.commons.compress.archivers.zip.EncryptedArchiveTest)
+  testReadPasswordEncryptedEntryViaStream(org.apache.commons.compress.archivers.zip.EncryptedArchiveTest)
+  winzipBackSlashWorkaround(org.apache.commons.compress.archivers.zip.ZipArchiveInputStreamTest)
+  testRead7ZipArchive(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest)
+  testRead7ZipArchiveForStream(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest)
+  testReadWinZipArchive(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest)
+  testReadWinZipArchiveForStream(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest)
+  testRawNameReadFromZipFile(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest)
+  testRawNameReadFromStream(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest)
+  testUtf8Interoperability(org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest): src/test/resources/utf8-7zip-test.zip (No such file or directory)
+  testCpioArchiveCreation(org.apache.commons.compress.archivers.CpioTestCase): src/test/resources/test1.xml (No such file or directory)
+  testCpioUnarchive(org.apache.commons.compress.archivers.CpioTestCase): src/test/resources/test1.xml (No such file or directory)
+  testReadLongNamesGNU(org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest): src/test/resources/longfile_gnu.ar (No such file or directory)
+  testReadLongNamesBSD(org.apache.commons.compress.archivers.ar.ArArchiveInputStreamTest): src/test/resources/longfile_bsd.ar (No such file or directory)
+  testArArchiveCreation(org.apache.commons.compress.archivers.ArTestCase): src/test/resources/test1.xml (No such file or directory)
+  testArUnarchive(org.apache.commons.compress.archivers.ArTestCase): src/test/resources/test1.xml (No such file or directory)
+  testArDelete(org.apache.commons.compress.archivers.ArTestCase): src/test/resources/test1.xml (No such file or directory)
+  testJarUnarchiveAll(org.apache.commons.compress.archivers.JarTestCase): src/test/resources/bla.jar (No such file or directory)
+  testJarArchiveCreation(org.apache.commons.compress.archivers.JarTestCase): src/test/resources/test1.xml (No such file or directory)
+  testJarUnarchive(org.apache.commons.compress.archivers.JarTestCase): src/test/resources/bla.jar (No such file or directory)
+  testCpioUnarchive(org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest): src/test/resources/bla.cpio (No such file or directory)
+  testWriteOldBinary(org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStreamTest): Cannot determine type of file test1.xml
+  testZipArchiveCreation(org.apache.commons.compress.archivers.ZipTestCase): This archives contains unclosed entries.
+  testZipUnarchive(org.apache.commons.compress.archivers.ZipTestCase): src/test/resources/bla.zip (No such file or directory)
+  testSupportedCompressionMethod(org.apache.commons.compress.archivers.ZipTestCase): src/test/resources/bla.zip (No such file or directory)
+  testSkipEntryWithUnsupportedCompressionMethod(org.apache.commons.compress.archivers.ZipTestCase): src/test/resources/moby.zip (No such file or directory)
+  testListAllFilesWithNestedArchive(org.apache.commons.compress.archivers.ZipTestCase): src/test/resources/OSX_ArchiveWithNestedArchive.zip (No such file or directory)
+  testTarArchiveLongNameCreation(org.apache.commons.compress.archivers.TarTestCase): src/test/resources/test1.xml (No such file or directory)
+  testTarUnarchive(org.apache.commons.compress.archivers.TarTestCase): src/test/resources/bla.tar (No such file or directory)
+  testCOMPRESS114(org.apache.commons.compress.archivers.TarTestCase): src/test/resources/COMPRESS-114.tar (No such file or directory)
+  testCOMPRESS178(org.apache.commons.compress.archivers.TarTestCase): src/test/resources/COMPRESS-178.tar (No such file or directory)
+  testTarArchiveCreation(org.apache.commons.compress.archivers.TarTestCase): src/test/resources/test1.xml (No such file or directory)
+  testNotADumpArchive(org.apache.commons.compress.archivers.dump.DumpArchiveInputStreamTest): src/test/resources/bla.zip (No such file or directory)
+  testNotADumpArchiveButBigEnough(org.apache.commons.compress.archivers.dump.DumpArchiveInputStreamTest): src/test/resources/zip64support.tar.bz2 (No such file or directory)
+  testOldGNU(org.apache.commons.compress.archivers.tar.SparseFilesTest)
+  testCount(org.apache.commons.compress.archivers.tar.TarArchiveOutputStreamTest): src/test/resources/test1.xml (No such file or directory)
+  workaroundForBrokenTimeHeader(org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest)
+  datePriorToEpochInGNUFormat(org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest)
+  datePriorToEpochInPAXFormat(org.apache.commons.compress.archivers.tar.TarArchiveInputStreamTest)
+  testDumpUnarchiveAll(org.apache.commons.compress.archivers.DumpTestCase): src/test/resources/bla.dump (No such file or directory)
+  testCompressedDumpUnarchiveAll(org.apache.commons.compress.archivers.DumpTestCase): src/test/resources/bla.z.dump (No such file or directory)
+  testArchiveDetection(org.apache.commons.compress.archivers.DumpTestCase): src/test/resources/bla.dump (No such file or directory)
+  testCompressedArchiveDetection(org.apache.commons.compress.archivers.DumpTestCase): src/test/resources/bla.z.dump (No such file or directory)
+  testCheckArchive(org.apache.commons.compress.archivers.DumpTestCase): src/test/resources/bla.dump (No such file or directory)
+  testCheckCompressedArchive(org.apache.commons.compress.archivers.DumpTestCase): src/test/resources/bla.z.dump (No such file or directory)
+  testTarGzip(org.apache.commons.compress.ChainingTestCase): src/test/resources/bla.tgz (No such file or directory)
+  testTarBzip2(org.apache.commons.compress.ChainingTestCase): src/test/resources/bla.tar.bz2 (No such file or directory)
+  testNormalize(org.apache.commons.compress.compressors.pack200.Pack200UtilsTest): src/test/resources/bla.jar (No such file or directory)
+  testNormalizeInPlace(org.apache.commons.compress.compressors.pack200.Pack200UtilsTest): src/test/resources/bla.jar (No such file or directory)
+  testJarUnarchiveAllInMemory(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.pack (No such file or directory)
+  testJarUnarchiveAllFileArgInMemory(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.pack (No such file or directory)
+  testJarUnarchiveAllTempFile(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.pack (No such file or directory)
+  testJarUnarchiveAllFileTempFile(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.pack (No such file or directory)
+  testJarArchiveCreationInMemory(org.apache.commons.compress.compressors.Pack200TestCase): Unexpected end of ZLIB input stream
+  testJarArchiveCreationTempFile(org.apache.commons.compress.compressors.Pack200TestCase): Unexpected end of ZLIB input stream
+  testGoodSignature(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.pack (No such file or directory)
+  testBadSignature(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.jar (No such file or directory)
+  testShortSignature(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.pack (No such file or directory)
+  testInputStreamMethods(org.apache.commons.compress.compressors.Pack200TestCase): src/test/resources/bla.jar (No such file or directory)
+  testGzipCreation(org.apache.commons.compress.compressors.GZipTestCase): src/test/resources/test1.xml (No such file or directory)
+  testGzipUnarchive(org.apache.commons.compress.compressors.GZipTestCase): src/test/resources/bla.tgz (No such file or directory)
+  testConcatenatedStreamsReadFirstOnly(org.apache.commons.compress.compressors.GZipTestCase): src/test/resources/multiple.gz (No such file or directory)
+  testConcatenatedStreamsReadFully(org.apache.commons.compress.compressors.GZipTestCase): src/test/resources/multiple.gz (No such file or directory)
+  testCorruptedInput(org.apache.commons.compress.compressors.GZipTestCase): src/test/resources/bla.tgz (No such file or directory)
+  testConcatenatedStreamsReadFirstOnly(org.apache.commons.compress.compressors.XZTestCase): src/test/resources/multiple.xz (No such file or directory)
+  testConcatenatedStreamsReadFully(org.apache.commons.compress.compressors.XZTestCase): src/test/resources/multiple.xz (No such file or directory)
+  testXZUnarchive(org.apache.commons.compress.compressors.XZTestCase): src/test/resources/bla.tar.xz (No such file or directory)
+  testXZCreation(org.apache.commons.compress.compressors.XZTestCase): src/test/resources/test1.xml (No such file or directory)
+  testConcatenatedStreamsReadFirstOnly(org.apache.commons.compress.compressors.BZip2TestCase): src/test/resources/multiple.bz2 (No such file or directory)
+  testConcatenatedStreamsReadFully(org.apache.commons.compress.compressors.BZip2TestCase): src/test/resources/multiple.bz2 (No such file or directory)
+  testBzipCreation(org.apache.commons.compress.compressors.BZip2TestCase): src/test/resources/test.txt (No such file or directory)
+  testBzip2Unarchive(org.apache.commons.compress.compressors.BZip2TestCase): src/test/resources/bla.txt.bz2 (No such file or directory)
+  testCOMPRESS131(org.apache.commons.compress.compressors.BZip2TestCase): src/test/resources/COMPRESS-131.bz2 (No such file or directory)
+  testReadAr(org.apache.commons.compress.IOMethodsTest): This archive contains unclosed entries.
+  testReadCpio(org.apache.commons.compress.IOMethodsTest): Cannot determine type of file test1.xml
+  testReadJar(org.apache.commons.compress.IOMethodsTest): This archives contains unclosed entries.
+  testReadTar(org.apache.commons.compress.IOMethodsTest): This archives contains unclosed entries.
+  testReadZip(org.apache.commons.compress.IOMethodsTest): This archives contains unclosed entries.
+  testAddChangeTwice(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/test.txt (No such file or directory)
+  testAddChangeTwiceWithoutReplace(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/test.txt (No such file or directory)
+  testDeleteDir(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeleteDir2(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeleteDir3(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeleteFile(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeleteFile2(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeletePlusAddSame(org.apache.commons.compress.changes.ChangeSetTestCase): This archives contains unclosed entries.
+  testChangeSetResults(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testAddDeleteAdd(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeletePlusAdd(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeleteFromAndAddToZip(org.apache.commons.compress.changes.ChangeSetTestCase): This archives contains unclosed entries.
+  testDeleteAddDelete(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testDeleteFromZip(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/bla.zip (No such file or directory)
+  testDeleteFromTar(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/bla.tar (No such file or directory)
+  testDeleteFromJar(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/bla.jar (No such file or directory)
+  testDeleteFromAndAddToTar(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/test.txt (No such file or directory)
+  testDeleteFromAndAddToJar(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/test.txt (No such file or directory)
+  testDeleteFromAr(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/bla.ar (No such file or directory)
+  testDeleteFromAndAddToAr(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/test.txt (No such file or directory)
+  testAddToEmptyArchive(org.apache.commons.compress.changes.ChangeSetTestCase): src/test/resources/test.txt (No such file or directory)
+  testDeleteAddToOneFileArchive(org.apache.commons.compress.changes.ChangeSetTestCase): This archives contains unclosed entries.
+  testAddDeleteToOneFileArchive(org.apache.commons.compress.changes.ChangeSetTestCase): Cannot determine type of file test1.xml
+  testAddAllreadyExistingWithReplaceTrue(org.apache.commons.compress.changes.ChangeSetTestCase): This archives contains unclosed entries.
+  testAddAllreadyExistingWithReplaceFalse(org.apache.commons.compress.changes.ChangeSetTestCase): This archives contains unclosed entries.
+
+Tests run: 290, Failures: 5, Errors: 114, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.947 s
+[INFO] Finished at: 2017-09-21T12:23:25+02:00
+[INFO] Final Memory: 26M/296M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12:test (default-test) on project commons-compress: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/artefact/tests/Maven Test Sources/commons-compress-1.4.1-test-sources/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

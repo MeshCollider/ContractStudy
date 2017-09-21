@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hadoop Common 2.0.0-alpha
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (create-testdirs) @ hadoop-common ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/target/test-dir
+    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/target/test/data
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (compile-proto) @ hadoop-common ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hadoop-common ---
+[INFO] Executing tasks
+
+main:
+     [exec] sh: 0: Can't open /home/artefact/tests/Maven
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (build-classpath) @ hadoop-common ---
+[INFO] Wrote classpath file '/home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/target/classes/mrapp-generated-classpath'.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.5:add-source (add-source) @ hadoop-common ---
+[INFO] Source directory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/target/generated-sources/java added.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.5:add-test-source (add-test-source) @ hadoop-common ---
+[INFO] Test Source directory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/target/generated-test-sources/java added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.2:resources (default-resources) @ hadoop-common ---
+[INFO] Using default encoding to copy filtered resources.
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ hadoop-common ---
+[INFO] Compiling 621 source files to /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/target/classes
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[53,18] ResolverConfiguration is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[54,19] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/io/FastByteComparisons.java:[25,15] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[518,8] ResolverConfiguration is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[535,10] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[537,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[539,17] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/SecurityUtil.java:[541,20] IPAddressUtil is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/security/LdapGroupsMapping.java:[220,27] LdapCtxFactory is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/io/FastByteComparisons.java:[117,19] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/io/FastByteComparisons.java:[123,21] Unsafe is internal proprietary API and may be removed in a future release
+[WARNING] /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/java/org/apache/hadoop/io/FastByteComparisons.java:[128,28] Unsafe is internal proprietary API and may be removed in a future release
+[INFO] 
+[INFO] --- avro-maven-plugin:1.5.3:schema (generate-avro-test-sources) @ hadoop-common ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.452 s
+[INFO] Finished at: 2017-09-21T12:50:41+02:00
+[INFO] Final Memory: 27M/433M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.avro:avro-maven-plugin:1.5.3:schema (generate-avro-test-sources) on project hadoop-common: neither sourceDirectory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/main/avro or testSourceDirectory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.0-alpha-test-sources/src/test/avro are directories -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
