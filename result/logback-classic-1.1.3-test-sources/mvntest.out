@@ -1,0 +1,80 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Logback Classic Module 1.1.3
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.pom (5 KB at 3.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom (3 KB at 8.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
+3/12 KB   5/12 KB   8/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom (12 KB at 32.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.pom
+3/4 KB     4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.pom (4 KB at 10.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.pom (2 KB at 5.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.pom (2 KB at 5.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.pom (4 KB at 12.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.jar
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-tests.jar
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar
+3/445 KB   5/445 KB   8/445 KB   11/445 KB   13/445 KB   16/445 KB   19/445 KB   21/445 KB   24/445 KB   27/445 KB   29/445 KB   32/445 KB   36/445 KB   40/445 KB   44/445 KB   48/445 KB   52/445 KB   56/445 KB   60/445 KB   64/445 KB   68/445 KB   72/445 KB   76/445 KB   80/445 KB   84/445 KB   88/445 KB   92/445 KB   96/445 KB   100/445 KB   104/445 KB   108/445 KB   112/445 KB   116/445 KB   120/445 KB   124/445 KB   128/445 KB   132/445 KB   136/445 KB   140/445 KB   144/445 KB   148/445 KB   152/445 KB   156/445 KB   160/445 KB   160/445 KB   3/24 KB   160/445 KB   3/42 KB   3/24 KB   160/445 KB   3/42 KB   3/29 KB   3/24 KB   164/445 KB   3/42 KB   3/29 KB   3/24 KB   168/445 KB   3/42 KB   3/29 KB   3/24 KB   172/445 KB   3/42 KB   3/29 KB   3/24 KB   176/445 KB   3/42 KB   3/29 KB   3/24 KB   180/445 KB   3/42 KB   3/29 KB   3/24 KB   184/445 KB   3/42 KB   3/29 KB   3/24 KB   188/445 KB   3/42 KB   3/29 KB   3/24 KB   192/445 KB   3/42 KB   3/29 KB   3/24 KB   192/445 KB   3/42 KB   3/29 KB   3/21 KB   3/24 KB   192/445 KB   3/42 KB   3/29 KB   3/21 KB   5/24 KB   192/445 KB   3/42 KB   3/29 KB   5/21 KB   5/24 KB   192/445 KB   3/42 KB   3/29 KB   5/21 KB   8/24 KB   192/445 KB   3/42 KB   3/29 KB   8/21 KB   8/24 KB   192/445 KB   3/42 KB   3/29 KB   8/21 KB   11/24 KB   192/445 KB   3/42 KB   3/29 KB   11/21 KB   11/24 KB   192/445 KB   3/42 KB   3/29 KB   11/21 KB   13/24 KB   192/445 KB   3/42 KB   3/29 KB   13/21 KB   13/24 KB   192/445 KB   5/42 KB   3/29 KB   13/21 KB   13/24 KB   192/445 KB   8/42 KB   3/29 KB   13/21 KB   13/24 KB   192/445 KB   11/42 KB   3/29 KB   13/21 KB   13/24 KB   192/445 KB   11/42 KB   5/29 KB   13/21 KB   13/24 KB   192/445 KB   13/42 KB   5/29 KB   13/21 KB   13/24 KB   192/445 KB   13/42 KB   8/29 KB   13/21 KB   13/24 KB   192/445 KB   13/42 KB   11/29 KB   13/21 KB   13/24 KB   192/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   196/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   200/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   204/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   208/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   212/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   216/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   220/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   224/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   228/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   232/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   236/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   240/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   244/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   248/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   252/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   256/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   260/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   264/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   268/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   272/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   276/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   280/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   284/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   288/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   292/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   296/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   300/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   304/445 KB   13/42 KB   13/29 KB   13/21 KB   13/24 KB   304/445 KB   13/42 KB   16/29 KB   13/21 KB   13/24 KB   304/445 KB   13/42 KB   16/29 KB   13/21 KB   16/24 KB   304/445 KB   13/42 KB   16/29 KB   16/21 KB   16/24 KB   304/445 KB   13/42 KB   19/29 KB   16/21 KB   16/24 KB   304/445 KB   16/42 KB   19/29 KB   16/21 KB   16/24 KB   308/445 KB   16/42 KB   19/29 KB   16/21 KB   16/24 KB   312/445 KB   16/42 KB   19/29 KB   16/21 KB   16/24 KB   316/445 KB   16/42 KB   19/29 KB   16/21 KB   16/24 KB   320/445 KB   16/42 KB   19/29 KB   16/21 KB   16/24 KB   320/445 KB   16/42 KB   19/29 KB   19/21 KB   19/24 KB   320/445 KB   16/42 KB   19/29 KB   19/21 KB   19/24 KB   320/445 KB   19/42 KB   19/29 KB   19/21 KB   19/24 KB   324/445 KB   19/42 KB   19/29 KB   19/21 KB   19/24 KB   328/445 KB   19/42 KB   19/29 KB   19/21 KB   19/24 KB   332/445 KB   19/42 KB   19/29 KB   19/21 KB   19/24 KB   336/445 KB   19/42 KB   19/29 KB   19/21 KB   19/24 KB   336/445 KB   19/42 KB   19/29 KB   21/21 KB   19/24 KB   336/445 KB   21/42 KB   19/29 KB   21/21 KB   19/24 KB   336/445 KB   21/42 KB   19/29 KB   21/21 KB   21/24 KB   336/445 KB   21/42 KB   21/29 KB   21/21 KB   21/24 KB   340/445 KB   21/42 KB   21/29 KB   21/21 KB   21/24 KB   344/445 KB   21/42 KB   21/29 KB   21/21 KB   21/24 KB   348/445 KB   21/42 KB   21/29 KB   21/21 KB   21/24 KB   352/445 KB   21/42 KB   21/29 KB   21/21 KB   21/24 KB   352/445 KB   21/42 KB   24/29 KB   21/21 KB   21/24 KB   352/445 KB   21/42 KB   24/29 KB   21/21 KB   24/24 KB   352/445 KB   21/42 KB   24/29 KB   21/21 KB   24/24 KB   352/445 KB   24/42 KB   24/29 KB   21/21 KB   24/24 KB   352/445 KB   24/42 KB   27/29 KB   21/21 KB   24/24 KB   352/445 KB   27/42 KB   27/29 KB   21/21 KB   24/24 KB   352/445 KB   27/42 KB   29/29 KB   21/21 KB   24/24 KB   352/445 KB   29/42 KB   29/29 KB   21/21 KB   24/24 KB   352/445 KB   32/42 KB   29/29 KB   21/21 KB   24/24 KB   352/445 KB   36/42 KB   29/29 KB   21/21 KB   24/24 KB   352/445 KB   40/42 KB   29/29 KB   21/21 KB   24/24 KB   352/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   356/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   360/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   364/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   368/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   372/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   376/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   380/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   384/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   388/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   392/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   396/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   400/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   404/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   408/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   412/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   416/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   420/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   424/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   428/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   432/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   436/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   440/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   444/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB   445/445 KB   42/42 KB   29/29 KB   21/21 KB   24/24 KB                                                            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7-tests.jar (21 KB at 21.5 KB/sec)
+                                                         Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar (24 KB at 24.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-tests.jar
+                                                         Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar (29 KB at 29.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.jar
+                                                         Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.7/slf4j-ext-1.7.7.jar (42 KB at 39.9 KB/sec)
+                                                         Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar (445 KB at 416.9 KB/sec)
+3/5 KB                                                   5/5 KB   3/356 KB   5/5 KB   3/356 KB   5/5 KB   3/3 KB   5/356 KB   5/5 KB   3/3 KB   8/356 KB   5/5 KB   3/3 KB   11/356 KB   5/5 KB   3/3 KB   13/356 KB   5/5 KB   3/3 KB   16/356 KB   5/5 KB   3/3 KB   19/356 KB   5/5 KB   3/3 KB   21/356 KB   5/5 KB   3/3 KB   24/356 KB   5/5 KB   3/3 KB   27/356 KB   5/5 KB   3/3 KB   29/356 KB   5/5 KB   3/3 KB   32/356 KB   5/5 KB   3/3 KB                                 Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.jar (3 KB at 1.6 KB/sec)
+                              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar (5 KB at 3.6 KB/sec)
+36/356 KB                     40/356 KB   44/356 KB   48/356 KB   52/356 KB   56/356 KB   60/356 KB   64/356 KB   68/356 KB   72/356 KB   76/356 KB   80/356 KB   84/356 KB   88/356 KB   92/356 KB   96/356 KB   100/356 KB   104/356 KB   108/356 KB   112/356 KB   116/356 KB   120/356 KB   124/356 KB   128/356 KB   132/356 KB   136/356 KB   140/356 KB   144/356 KB   148/356 KB   152/356 KB   156/356 KB   160/356 KB   164/356 KB   168/356 KB   172/356 KB   176/356 KB   180/356 KB   184/356 KB   188/356 KB   192/356 KB   196/356 KB   200/356 KB   204/356 KB   208/356 KB   212/356 KB   216/356 KB   220/356 KB   224/356 KB   228/356 KB   232/356 KB   236/356 KB   240/356 KB   244/356 KB   248/356 KB   252/356 KB   256/356 KB   260/356 KB   264/356 KB   268/356 KB   272/356 KB   276/356 KB   280/356 KB   284/356 KB   288/356 KB   292/356 KB   296/356 KB   300/356 KB   304/356 KB   308/356 KB   312/356 KB   316/356 KB   320/356 KB   324/356 KB   328/356 KB   332/356 KB   336/356 KB   340/356 KB   344/356 KB   348/356 KB   352/356 KB   356/356 KB   356/356 KB                Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3-tests.jar (356 KB at 184.2 KB/sec)
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:generateStubs (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform generateStubs.
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ logback-classic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-classic-1.1.3-test-sources/src/main/groovy
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-classic-1.1.3-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ logback-classic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:compile (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform compile.
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ logback-classic ---
+[WARNING] Manifest ch.qos.logback:logback-classic:jar:1.1.3 : Unused Export-Package instructions: [ch.qos.logback.classic*] 
+[WARNING] Manifest ch.qos.logback:logback-classic:jar:1.1.3 : Unused Import-Package instructions: [javax.*, org.xml.*, groovy.lang.*, org.codehaus.groovy.*] 
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:testGenerateStubs (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform testGenerateStubs.
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ logback-classic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-classic-1.1.3-test-sources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ logback-classic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:testCompile (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform testCompile.
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ logback-classic ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.035 s
+[INFO] Finished at: 2017-09-21T11:45:29+02:00
+[INFO] Final Memory: 19M/217M
+[INFO] ------------------------------------------------------------------------

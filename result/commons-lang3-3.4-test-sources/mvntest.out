@@ -1,0 +1,78 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Lang 3.4
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.5/maven-jar-plugin-2.5.pom
+3/8 KB   6/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.5/maven-jar-plugin-2.5.pom (8 KB at 5.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.5/maven-jar-plugin-2.5.jar
+3/25 KB   6/25 KB   9/25 KB   11/25 KB   14/25 KB   16/25 KB   19/25 KB   22/25 KB   25/25 KB   25/25 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/2.5/maven-jar-plugin-2.5.jar (25 KB at 55.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.3.1/easymock-3.3.1.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.3.1/easymock-3.3.1.pom (5 KB at 13.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/3.3.1/easymock-parent-3.3.1.pom
+3/18 KB   5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/3.3.1/easymock-parent-3.3.1.pom (18 KB at 52.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/cglib/cglib/3.1/cglib-3.1.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/cglib/cglib/3.1/cglib-3.1.pom (2 KB at 4.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.2/asm-4.2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/4.2/asm-4.2.pom (2 KB at 5.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.2/asm-parent-4.2.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.2/asm-parent-4.2.pom (6 KB at 17.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom (2 KB at 5.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.3.1/easymock-3.3.1.jar
+Downloading: https://repo.maven.apache.org/maven2/cglib/cglib/3.1/cglib-3.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar
+3/124 KB   5/124 KB   8/124 KB   11/124 KB   13/124 KB   16/124 KB   19/124 KB   21/124 KB   24/124 KB   27/124 KB   29/124 KB   32/124 KB   36/124 KB   40/124 KB   44/124 KB   48/124 KB   52/124 KB   56/124 KB   60/124 KB   64/124 KB   68/124 KB   72/124 KB   76/124 KB   80/124 KB   84/124 KB   88/124 KB   92/124 KB   96/124 KB   100/124 KB   104/124 KB   108/124 KB   112/124 KB   116/124 KB   120/124 KB   124/124 KB   124/124 KB                Downloaded: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.3.1/easymock-3.3.1.jar (124 KB at 202.4 KB/sec)
+3/277 KB     3/277 KB   3/52 KB   6/277 KB   3/52 KB   9/277 KB   3/52 KB   9/277 KB   6/52 KB   11/277 KB   6/52 KB   11/277 KB   9/52 KB   11/277 KB   11/52 KB   14/277 KB   11/52 KB   14/277 KB   14/52 KB   16/277 KB   14/52 KB   16/277 KB   16/52 KB   19/277 KB   16/52 KB   19/277 KB   19/52 KB   19/277 KB   22/52 KB   22/277 KB   22/52 KB   25/277 KB   22/52 KB   25/277 KB   25/52 KB   25/277 KB   27/52 KB   27/277 KB   30/52 KB   27/277 KB   30/52 KB   27/277 KB   32/52 KB   30/277 KB   32/52 KB   32/277 KB   32/52 KB   36/277 KB   36/52 KB   36/277 KB   40/52 KB   36/277 KB   36/52 KB   36/277 KB   44/52 KB   40/277 KB   44/52 KB   40/277 KB   48/52 KB   44/277 KB   48/52 KB   48/277 KB   48/52 KB   48/277 KB   52/52 KB   52/277 KB   52/52 KB   56/277 KB   52/52 KB   60/277 KB   52/52 KB   64/277 KB   52/52 KB   68/277 KB   52/52 KB   72/277 KB   52/52 KB   76/277 KB   52/52 KB   80/277 KB   52/52 KB   84/277 KB   52/52 KB   88/277 KB   52/52 KB   92/277 KB   52/52 KB   96/277 KB   52/52 KB   100/277 KB   52/52 KB   104/277 KB   52/52 KB   108/277 KB   52/52 KB   112/277 KB   52/52 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar (52 KB at 46.4 KB/sec)
+116/277 KB              120/277 KB   124/277 KB   128/277 KB   132/277 KB   136/277 KB   140/277 KB   144/277 KB   148/277 KB   152/277 KB   156/277 KB   160/277 KB   164/277 KB   168/277 KB   172/277 KB   176/277 KB   180/277 KB   184/277 KB   188/277 KB   192/277 KB   196/277 KB   200/277 KB   204/277 KB   208/277 KB   212/277 KB   216/277 KB   220/277 KB   224/277 KB   228/277 KB   232/277 KB   236/277 KB   240/277 KB   244/277 KB   248/277 KB   252/277 KB   256/277 KB   260/277 KB   264/277 KB   268/277 KB   269/277 KB   273/277 KB   277/277 KB   277/277 KB                Downloaded: https://repo.maven.apache.org/maven2/cglib/cglib/3.1/cglib-3.1.jar (277 KB at 174.0 KB/sec)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-lang3 ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-lang3 ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (javadoc.resources) @ commons-lang3 ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-lang3 ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-lang3 ---
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-lang3-3.4-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-lang3-3.4-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505986093580
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-lang3-3.4-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-lang3-3.4-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-lang3-3.4-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-lang3 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-lang3 ---
+[WARNING] Manifest org.apache.commons:commons-lang3:jar:3.4 : Unused Export-Package instructions: [org.apache.commons.*] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.13:check (checkAPIcompatibility) @ commons-lang3 ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-lang3 ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-lang3-3.4-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ commons-lang3 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ commons-lang3 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.322 s
+[INFO] Finished at: 2017-09-21T11:28:15+02:00
+[INFO] Final Memory: 23M/214M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+3/52 KB   6/52 KB   9/52 KB   11/52 KB   14/52 KB   16/52 KB   19/52 KB   22/52 KB   25/52 KB   27/52 KB   30/52 KB   32/52 KB   36/52 KB   40/52 KB   44/52 KB   48/52 KB   52/52 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom (52 KB at 35.1 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons Compress 1.8.1
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.16/maven-surefire-plugin-2.16.pom
+3/5 KB     5/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.16/maven-surefire-plugin-2.16.pom (5 KB at 16.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.16/surefire-2.16.pom
+3/19 KB   5/19 KB   8/19 KB   11/19 KB   13/19 KB   16/19 KB   19/19 KB   19/19 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.16/surefire-2.16.pom (19 KB at 59.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.16/maven-surefire-plugin-2.16.jar
+3/34 KB    6/34 KB   9/34 KB   11/34 KB   14/34 KB   16/34 KB   19/34 KB   22/34 KB   25/34 KB   27/34 KB   30/34 KB   32/34 KB   34/34 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.16/maven-surefire-plugin-2.16.jar (34 KB at 101.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom (2 KB at 6.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar
+3/98 KB   6/98 KB   9/98 KB   11/98 KB   14/98 KB   16/98 KB   19/98 KB   22/98 KB   25/98 KB   27/98 KB   30/98 KB   32/98 KB   36/98 KB   40/98 KB   44/98 KB   48/98 KB   52/98 KB   56/98 KB   60/98 KB   64/98 KB   68/98 KB   72/98 KB   76/98 KB   80/98 KB   84/98 KB   88/98 KB   92/98 KB   96/98 KB   98/98 KB              Downloaded: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar (98 KB at 203.8 KB/sec)
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-compress ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-compress ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-compress ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-compress-1.8.1-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-compress-1.8.1-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505985902713
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-compress-1.8.1-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-compress-1.8.1-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-compress-1.8.1-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-compress ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-compress ---
+[WARNING] Manifest org.apache.commons:commons-compress:jar:1.8.1 : Unused Export-Package instructions: [org.apache.commons.*] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-compress ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-compress-1.8.1-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-compress ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ commons-compress ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.16/maven-surefire-common-2.16.pom
+3/6 KB     5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.16/maven-surefire-common-2.16.pom (6 KB at 19.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.16/surefire-api-2.16.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.16/surefire-api-2.16.pom (3 KB at 7.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.16/surefire-booter-2.16.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.16/surefire-booter-2.16.pom (3 KB at 9.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.16/maven-surefire-common-2.16.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.16/surefire-booter-2.16.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.16/surefire-api-2.16.jar
+3/259 KB   5/259 KB   8/259 KB   11/259 KB   13/259 KB   16/259 KB   19/259 KB   21/259 KB   24/259 KB   27/259 KB   29/259 KB   32/259 KB   36/259 KB   40/259 KB   44/259 KB   48/259 KB   52/259 KB   56/259 KB   60/259 KB   64/259 KB   68/259 KB   72/259 KB   76/259 KB   80/259 KB   84/259 KB   88/259 KB   92/259 KB   96/259 KB   100/259 KB   104/259 KB   108/259 KB   112/259 KB   116/259 KB   120/259 KB   124/259 KB   128/259 KB   132/259 KB   136/259 KB   140/259 KB   144/259 KB   148/259 KB   152/259 KB   156/259 KB   160/259 KB   164/259 KB   168/259 KB   172/259 KB   176/259 KB   180/259 KB   184/259 KB   188/259 KB   192/259 KB   196/259 KB   200/259 KB   204/259 KB   208/259 KB   212/259 KB   216/259 KB   220/259 KB   224/259 KB   228/259 KB   232/259 KB   236/259 KB   240/259 KB   244/259 KB   248/259 KB   252/259 KB   256/259 KB   259/259 KB   259/259 KB   3/39 KB   259/259 KB   5/39 KB   259/259 KB   8/39 KB   259/259 KB   3/146 KB   8/39 KB   259/259 KB   5/146 KB   8/39 KB   259/259 KB   8/146 KB   8/39 KB   259/259 KB   11/146 KB   8/39 KB   259/259 KB   13/146 KB   8/39 KB   259/259 KB   13/146 KB   11/39 KB   259/259 KB   13/146 KB   13/39 KB                                       Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.16/maven-surefire-common-2.16.jar (259 KB at 354.3 KB/sec)
+13/146 KB   16/39 KB                16/146 KB   16/39 KB   19/146 KB   16/39 KB   19/146 KB   19/39 KB   21/146 KB   19/39 KB   21/146 KB   21/39 KB   24/146 KB   21/39 KB   24/146 KB   24/39 KB   27/146 KB   24/39 KB   27/146 KB   27/39 KB   27/146 KB   29/39 KB   29/146 KB   29/39 KB   32/146 KB   29/39 KB   32/146 KB   32/39 KB   32/146 KB   35/39 KB   32/146 KB   37/39 KB   32/146 KB   39/39 KB   36/146 KB   39/39 KB   40/146 KB   39/39 KB   44/146 KB   39/39 KB   48/146 KB   39/39 KB   52/146 KB   39/39 KB   56/146 KB   39/39 KB   60/146 KB   39/39 KB   64/146 KB   39/39 KB   68/146 KB   39/39 KB   72/146 KB   39/39 KB   76/146 KB   39/39 KB   80/146 KB   39/39 KB   84/146 KB   39/39 KB   88/146 KB   39/39 KB   92/146 KB   39/39 KB   96/146 KB   39/39 KB                          Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.16/surefire-booter-2.16.jar (39 KB at 35.9 KB/sec)
+100/146 KB             104/146 KB   108/146 KB   112/146 KB   116/146 KB   120/146 KB   124/146 KB   128/146 KB   132/146 KB   136/146 KB   140/146 KB   144/146 KB   146/146 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.16/surefire-api-2.16.jar (146 KB at 108.8 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.343 s
+[INFO] Finished at: 2017-09-21T11:25:05+02:00
+[INFO] Final Memory: 20M/219M
+[INFO] ------------------------------------------------------------------------
