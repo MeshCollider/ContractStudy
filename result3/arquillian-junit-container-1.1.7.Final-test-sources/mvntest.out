@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Arquillian TestRunner JUnit Container 1.1.7.Final
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java-version) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-version) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create-timestamp (get-build-timestamp) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (get-scm-revision) @ arquillian-junit-container ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources && git rev-parse --verify HEAD
+[INFO] Working directory: /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources
+[INFO] Storing buildNumber: 76538823b2ac6f8d997e87e5d838884926beb4f5 at timestamp: 1506023654600
+[INFO] Executing: /bin/sh -c cd /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources && git rev-parse --verify HEAD
+[INFO] Working directory: /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ arquillian-junit-container ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ arquillian-junit-container ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.5
+[WARNING] source value 1.5 is obsolete and will be removed in a future release
+[WARNING] target value 1.5 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[WARNING] /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources/src/main/java/org/jboss/arquillian/junit/container/JUnitTestRunner.java:[105,23] AssumptionViolatedException(java.lang.String) in org.junit.internal.AssumptionViolatedException has been deprecated
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ arquillian-junit-container ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ arquillian-junit-container ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources/target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 1.5
+[WARNING] source value 1.5 is obsolete and will be removed in a future release
+[WARNING] target value 1.5 is obsolete and will be removed in a future release
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ arquillian-junit-container ---
+[INFO] Surefire report directory: /home/artefact/tests/MavenTestSources/arquillian-junit-container-1.1.7.Final-test-sources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jboss.arquillian.junit.container.JUnitDeploymentAppenderTestCase
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.228 sec - in org.jboss.arquillian.junit.container.JUnitDeploymentAppenderTestCase
+Running org.jboss.arquillian.junit.container.JUnitTestRunnerTestCase
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in org.jboss.arquillian.junit.container.JUnitTestRunnerTestCase
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.007 s
+[INFO] Finished at: 2017-09-21T21:54:16+02:00
+[INFO] Final Memory: 19M/223M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,57 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons BeanUtils 1.9.2
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for commons-collections:commons-collections-testframework:jar:3.2.1 is missing, no dependency information available
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-beanutils ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-beanutils ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-beanutils ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1506002725499
+[INFO] Executing: /bin/sh -c cd /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-beanutils ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-beanutils ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 111 source files to /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/target/classes
+[WARNING] /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/main/java/org/apache/commons/beanutils/WrapDynaClass.java: /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/main/java/org/apache/commons/beanutils/WrapDynaClass.java uses or overrides a deprecated API.
+[WARNING] /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/main/java/org/apache/commons/beanutils/WrapDynaClass.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/main/java/org/apache/commons/beanutils/converters/AbstractArrayConverter.java: Some input files use unchecked or unsafe operations.
+[WARNING] /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/main/java/org/apache/commons/beanutils/converters/AbstractArrayConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-beanutils ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-beanutils ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/MavenTestSources/commons-beanutils-1.9.2-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-beanutils ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ commons-beanutils ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.281 s
+[INFO] Finished at: 2017-09-21T16:05:29+02:00
+[INFO] Final Memory: 22M/305M
+[INFO] ------------------------------------------------------------------------
