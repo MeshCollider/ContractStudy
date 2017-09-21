@@ -47,13 +47,14 @@ for line in sourcesFile.readlines():
             os.system("cp \"" + pomFileLocation + "\" \"" + outputDir + "\"/pom.xml")
 
         if RUN_TESTS:
+            print("Running mvn test for " + artifact + "-" + version)
             os.chdir(outputDir)
             proc = subprocess.Popen(["mvn test"], stdout=subprocess.PIPE, shell=True)
             (out, err) = proc.communicate()
             outputFile = open('mvntest.out', 'w')
-            outputFile.write(out)
+            outputFile.write(out.decode("utf-8") )
             errorFile = open('mvntest.err', 'w')
-            errorFile.write(err)
+            errorFile.write(err.decode("utf-8") )
             outputFile.close()
             errorFile.close()
             os.chdir("../../")
