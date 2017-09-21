@@ -4,7 +4,7 @@ import shutil
 import subprocess
 
 
-MAVEN_TEST_DIR = "Maven Test Sources/"
+MAVEN_TEST_DIR = "MavenTestSources/"
 MAVEN_SOURCE_DIR = "../mvn-data/"
 RUN_TESTS = True
 

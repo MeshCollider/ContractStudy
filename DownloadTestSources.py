@@ -2,7 +2,7 @@ import os
 import requests
 import urllib
 
-MAVEN_DIR = "Maven Test Sources/"
+MAVEN_DIR = "MavenTestSources/"
 
 def outputError(errorString, artifact, groupID, version):
 	errorsFile.write(errorString + '. groupID: ' + groupID + ', artifact: ' + artifact + ', version: ' + version + os.linesep)

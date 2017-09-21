@@ -2,3 +2,4 @@
 /.recommenders/
 /RemoteSystemsTempFiles/
 /MavenTestSources/
+*jdbc:hsqldb*
