@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.6/logback-parent-1.1.6.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.6/logback-parent-1.1.6.pom (17 KB at 12.8 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Logback Core Module 1.1.6
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.pom
+3/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.pom (5 KB at 15.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/1.2.6/assertj-parent-pom-1.2.6.pom
+3/14 KB   5/14 KB   8/14 KB   11/14 KB   13/14 KB   14/14 KB              Downloaded: https://repo.maven.apache.org/maven2/org/assertj/assertj-parent-pom/1.2.6/assertj-parent-pom-1.2.6.pom (14 KB at 40.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.jar
+3/605 KB   5/605 KB   8/605 KB   11/605 KB   13/605 KB   16/605 KB   19/605 KB   21/605 KB   24/605 KB   27/605 KB   29/605 KB   32/605 KB   36/605 KB   40/605 KB   44/605 KB   48/605 KB   52/605 KB   56/605 KB   60/605 KB   64/605 KB   68/605 KB   72/605 KB   76/605 KB   80/605 KB   84/605 KB   88/605 KB   92/605 KB   96/605 KB   100/605 KB   104/605 KB   108/605 KB   112/605 KB   116/605 KB   120/605 KB   124/605 KB   128/605 KB   132/605 KB   136/605 KB   140/605 KB   144/605 KB   148/605 KB   152/605 KB   156/605 KB   160/605 KB   164/605 KB   168/605 KB   172/605 KB   176/605 KB   180/605 KB   184/605 KB   188/605 KB   192/605 KB   196/605 KB   200/605 KB   204/605 KB   208/605 KB   212/605 KB   216/605 KB   220/605 KB   224/605 KB   228/605 KB   232/605 KB   236/605 KB   240/605 KB   244/605 KB   248/605 KB   252/605 KB   256/605 KB   260/605 KB   264/605 KB   268/605 KB   272/605 KB   276/605 KB   280/605 KB   284/605 KB   288/605 KB   292/605 KB   296/605 KB   300/605 KB   304/605 KB   308/605 KB   312/605 KB   316/605 KB   320/605 KB   324/605 KB   328/605 KB   332/605 KB   336/605 KB   340/605 KB   344/605 KB   348/605 KB   352/605 KB   356/605 KB   360/605 KB   364/605 KB   368/605 KB   372/605 KB   376/605 KB   380/605 KB   384/605 KB   388/605 KB   392/605 KB   396/605 KB   400/605 KB   404/605 KB   408/605 KB   412/605 KB   416/605 KB   420/605 KB   424/605 KB   428/605 KB   432/605 KB   436/605 KB   440/605 KB   444/605 KB   448/605 KB   452/605 KB   456/605 KB   460/605 KB   464/605 KB   468/605 KB   472/605 KB   476/605 KB   480/605 KB   484/605 KB   488/605 KB   492/605 KB   496/605 KB   500/605 KB   504/605 KB   508/605 KB   512/605 KB   516/605 KB   520/605 KB   524/605 KB   528/605 KB   532/605 KB   536/605 KB   540/605 KB   544/605 KB   548/605 KB   552/605 KB   556/605 KB   560/605 KB   564/605 KB   568/605 KB   572/605 KB   576/605 KB   580/605 KB   584/605 KB   588/605 KB   592/605 KB   596/605 KB   600/605 KB   604/605 KB   605/605 KB                Downloaded: https://repo.maven.apache.org/maven2/org/assertj/assertj-core/1.7.1/assertj-core-1.7.1.jar (605 KB at 541.1 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ logback-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-core-1.1.6-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ logback-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ logback-core ---
+[WARNING] Manifest ch.qos.logback:logback-core:jar:1.1.6 : Unused Export-Package instructions: [ch.qos.logback.core.*] 
+[WARNING] Manifest ch.qos.logback:logback-core:jar:1.1.6 : Unused Import-Package instructions: [org.xml.*, javax.*] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ logback-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-core-1.1.6-test-sources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ logback-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ logback-core ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.108 s
+[INFO] Finished at: 2017-09-21T11:44:17+02:00
+[INFO] Final Memory: 19M/213M
+[INFO] ------------------------------------------------------------------------

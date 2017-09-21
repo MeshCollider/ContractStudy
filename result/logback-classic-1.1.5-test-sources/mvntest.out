@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Logback Classic Module 1.1.5
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.5/logback-core-1.1.5.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.5/logback-core-1.1.5.pom (5 KB at 3.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.5/logback-core-1.1.5.jar
+Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.5/logback-core-1.1.5-tests.jar
+3/446 KB   5/446 KB   8/446 KB   11/446 KB   13/446 KB   16/446 KB   19/446 KB   21/446 KB   24/446 KB   27/446 KB   29/446 KB   32/446 KB   36/446 KB   40/446 KB   44/446 KB   48/446 KB   52/446 KB   56/446 KB   60/446 KB   64/446 KB   68/446 KB   72/446 KB   76/446 KB   80/446 KB   84/446 KB   88/446 KB   92/446 KB   96/446 KB   100/446 KB   104/446 KB   108/446 KB   112/446 KB   116/446 KB   120/446 KB   124/446 KB   128/446 KB   132/446 KB   136/446 KB   140/446 KB   144/446 KB   148/446 KB   152/446 KB   156/446 KB   160/446 KB   160/446 KB   3/359 KB   160/446 KB   5/359 KB   160/446 KB   8/359 KB   160/446 KB   11/359 KB   160/446 KB   13/359 KB   164/446 KB   13/359 KB   168/446 KB   13/359 KB   172/446 KB   13/359 KB   176/446 KB   13/359 KB   180/446 KB   13/359 KB   184/446 KB   13/359 KB   188/446 KB   13/359 KB   192/446 KB   13/359 KB   196/446 KB   13/359 KB   200/446 KB   13/359 KB   204/446 KB   13/359 KB   208/446 KB   13/359 KB   212/446 KB   13/359 KB   216/446 KB   13/359 KB   220/446 KB   13/359 KB   224/446 KB   13/359 KB   224/446 KB   16/359 KB   228/446 KB   16/359 KB   228/446 KB   19/359 KB   232/446 KB   19/359 KB   236/446 KB   19/359 KB   240/446 KB   19/359 KB   244/446 KB   19/359 KB   248/446 KB   19/359 KB   248/446 KB   21/359 KB   252/446 KB   21/359 KB   256/446 KB   21/359 KB   256/446 KB   24/359 KB   260/446 KB   24/359 KB   264/446 KB   24/359 KB   268/446 KB   24/359 KB   272/446 KB   24/359 KB   272/446 KB   27/359 KB   276/446 KB   27/359 KB   280/446 KB   27/359 KB   284/446 KB   27/359 KB   284/446 KB   29/359 KB   288/446 KB   29/359 KB   292/446 KB   29/359 KB   296/446 KB   29/359 KB   300/446 KB   29/359 KB   304/446 KB   29/359 KB   304/446 KB   32/359 KB   308/446 KB   32/359 KB   312/446 KB   32/359 KB   316/446 KB   32/359 KB   320/446 KB   32/359 KB   324/446 KB   32/359 KB   328/446 KB   32/359 KB   332/446 KB   32/359 KB   336/446 KB   32/359 KB   340/446 KB   32/359 KB   344/446 KB   32/359 KB   348/446 KB   32/359 KB   352/446 KB   32/359 KB   356/446 KB   32/359 KB   360/446 KB   32/359 KB   364/446 KB   32/359 KB   368/446 KB   32/359 KB   368/446 KB   36/359 KB   368/446 KB   40/359 KB   368/446 KB   44/359 KB   368/446 KB   48/359 KB   372/446 KB   48/359 KB   376/446 KB   48/359 KB   380/446 KB   48/359 KB   384/446 KB   48/359 KB   388/446 KB   48/359 KB   392/446 KB   48/359 KB   396/446 KB   48/359 KB   400/446 KB   48/359 KB   404/446 KB   48/359 KB   408/446 KB   48/359 KB   412/446 KB   48/359 KB   416/446 KB   48/359 KB   420/446 KB   48/359 KB   424/446 KB   48/359 KB   428/446 KB   48/359 KB   432/446 KB   48/359 KB   436/446 KB   48/359 KB   440/446 KB   48/359 KB   444/446 KB   48/359 KB   446/446 KB   48/359 KB   446/446 KB   52/359 KB   446/446 KB   56/359 KB   446/446 KB   60/359 KB   446/446 KB   64/359 KB   446/446 KB   68/359 KB   446/446 KB   72/359 KB   446/446 KB   76/359 KB   446/446 KB   80/359 KB   446/446 KB   84/359 KB   446/446 KB   88/359 KB   446/446 KB   92/359 KB   446/446 KB   96/359 KB   446/446 KB   100/359 KB   446/446 KB   104/359 KB   446/446 KB   108/359 KB   446/446 KB   112/359 KB                             Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.5/logback-core-1.1.5.jar (446 KB at 365.8 KB/sec)
+116/359 KB                120/359 KB   124/359 KB   128/359 KB   132/359 KB   136/359 KB   140/359 KB   144/359 KB   148/359 KB   152/359 KB   156/359 KB   160/359 KB   164/359 KB   168/359 KB   172/359 KB   176/359 KB   180/359 KB   184/359 KB   188/359 KB   192/359 KB   196/359 KB   200/359 KB   204/359 KB   208/359 KB   212/359 KB   216/359 KB   220/359 KB   224/359 KB   228/359 KB   232/359 KB   236/359 KB   240/359 KB   244/359 KB   248/359 KB   252/359 KB   256/359 KB   260/359 KB   264/359 KB   268/359 KB   272/359 KB   276/359 KB   280/359 KB   284/359 KB   288/359 KB   292/359 KB   296/359 KB   300/359 KB   304/359 KB   308/359 KB   312/359 KB   316/359 KB   320/359 KB   324/359 KB   328/359 KB   332/359 KB   336/359 KB   340/359 KB   344/359 KB   348/359 KB   352/359 KB   356/359 KB   359/359 KB                Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.5/logback-core-1.1.5-tests.jar (359 KB at 199.4 KB/sec)
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:generateStubs (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform generateStubs.
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ logback-classic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-classic-1.1.5-test-sources/src/main/groovy
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-classic-1.1.5-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ logback-classic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:compile (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform compile.
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ logback-classic ---
+[WARNING] Manifest ch.qos.logback:logback-classic:jar:1.1.5 : Unused Export-Package instructions: [ch.qos.logback.classic*] 
+[WARNING] Manifest ch.qos.logback:logback-classic:jar:1.1.5 : Unused Import-Package instructions: [javax.*, org.codehaus.groovy.*, groovy.lang.*, org.xml.*] 
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:testGenerateStubs (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform testGenerateStubs.
+[INFO] No sources specified for stub generation.  Skipping.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ logback-classic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-classic-1.1.5-test-sources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ logback-classic ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.1:testCompile (default) @ logback-classic ---
+[INFO] Using Groovy 2.4.0 from project compile classpath to perform testCompile.
+[INFO] No sources specified for compilation.  Skipping.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ logback-classic ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.464 s
+[INFO] Finished at: 2017-09-21T11:45:19+02:00
+[INFO] Final Memory: 19M/219M
+[INFO] ------------------------------------------------------------------------

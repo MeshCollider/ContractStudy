@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons BeanUtils 1.9.2
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/commons-collections/commons-collections-testframework/3.2.1/commons-collections-testframework-3.2.1.pom
+[WARNING] The POM for commons-collections:commons-collections-testframework:jar:3.2.1 is missing, no dependency information available
+Downloading: https://repo.maven.apache.org/maven2/commons-collections/commons-collections-testframework/3.2.1/commons-collections-testframework-3.2.1.jar
+3/101 KB   5/101 KB   8/101 KB   11/101 KB   13/101 KB   16/101 KB   19/101 KB   21/101 KB   24/101 KB   27/101 KB   29/101 KB   32/101 KB   36/101 KB   40/101 KB   44/101 KB   48/101 KB   52/101 KB   56/101 KB   60/101 KB   64/101 KB   68/101 KB   72/101 KB   76/101 KB   80/101 KB   84/101 KB   88/101 KB   92/101 KB   96/101 KB   100/101 KB   101/101 KB                Downloaded: https://repo.maven.apache.org/maven2/commons-collections/commons-collections-testframework/3.2.1/commons-collections-testframework-3.2.1.jar (101 KB at 82.7 KB/sec)
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-beanutils ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-beanutils ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-beanutils ---
+[INFO] Checking for local modifications: skipped.
+[INFO] Updating project files from SCM: skipped.
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-beanutils-1.9.2-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-beanutils-1.9.2-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505987022474
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-beanutils-1.9.2-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-beanutils-1.9.2-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-beanutils ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-beanutils-1.9.2-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-beanutils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-beanutils ---
+[WARNING] Manifest commons-beanutils:commons-beanutils:jar:1.9.2 : Unused Export-Package instructions: [org.apache.commons.*] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-beanutils ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-beanutils-1.9.2-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-beanutils ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ commons-beanutils ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 4.761 s
+[INFO] Finished at: 2017-09-21T11:43:43+02:00
+[INFO] Final Memory: 19M/214M
+[INFO] ------------------------------------------------------------------------

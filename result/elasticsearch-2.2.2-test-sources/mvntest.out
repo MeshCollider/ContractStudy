@@ -1,0 +1,110 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/elasticsearch/parent/2.2.2/parent-2.2.2.pom
+3/80 KB   5/80 KB   8/80 KB   11/80 KB   13/80 KB   16/80 KB   19/80 KB   21/80 KB   24/80 KB   27/80 KB   29/80 KB   32/80 KB   36/80 KB   40/80 KB   44/80 KB   48/80 KB   52/80 KB   56/80 KB   60/80 KB   64/80 KB   68/80 KB   72/80 KB   76/80 KB   80/80 KB              Downloaded: https://repo.maven.apache.org/maven2/org/elasticsearch/parent/2.2.2/parent-2.2.2.pom (80 KB at 52.4 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Elasticsearch: Core 2.2.2
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-maven-plugin/2.3.1/junit4-maven-plugin-2.3.1.pom
+4/4 KB              Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-maven-plugin/2.3.1/junit4-maven-plugin-2.3.1.pom (4 KB at 8.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-parent/2.3.1/randomizedtesting-parent-2.3.1.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-parent/2.3.1/randomizedtesting-parent-2.3.1.pom (17 KB at 53.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-maven-plugin/2.3.1/junit4-maven-plugin-2.3.1.jar
+3/30 KB    5/30 KB   8/30 KB   11/30 KB   13/30 KB   16/30 KB   19/30 KB   21/30 KB   24/30 KB   27/30 KB   29/30 KB   30/30 KB              Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-maven-plugin/2.3.1/junit4-maven-plugin-2.3.1.jar (30 KB at 73.6 KB/sec)
+Downloading: http://maven.elasticsearch.org/releases/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.pom
+           Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.pom
+           Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.pom
+3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.pom (3 KB at 8.4 KB/sec)
+Downloading: http://maven.elasticsearch.org/releases/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.jar
+         Downloading: https://oss.sonatype.org/content/repositories/snapshots/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.jar
+         Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.jar
+3/230 KB   5/230 KB   8/230 KB   11/230 KB   13/230 KB   16/230 KB   19/230 KB   21/230 KB   24/230 KB   27/230 KB   29/230 KB   32/230 KB   36/230 KB   40/230 KB   44/230 KB   48/230 KB   52/230 KB   56/230 KB   60/230 KB   64/230 KB   68/230 KB   72/230 KB   76/230 KB   80/230 KB   84/230 KB   88/230 KB   92/230 KB   96/230 KB   100/230 KB   104/230 KB   108/230 KB   112/230 KB   116/230 KB   120/230 KB   124/230 KB   128/230 KB   132/230 KB   136/230 KB   140/230 KB   144/230 KB   148/230 KB   152/230 KB   156/230 KB   160/230 KB   164/230 KB   168/230 KB   172/230 KB   176/230 KB   180/230 KB   184/230 KB   188/230 KB   192/230 KB   196/230 KB   200/230 KB   204/230 KB   208/230 KB   212/230 KB   216/230 KB   220/230 KB   224/230 KB   228/230 KB   230/230 KB                Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/randomizedtesting-runner/2.3.1/randomizedtesting-runner-2.3.1.jar (230 KB at 301.7 KB/sec)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ elasticsearch ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-version) @ elasticsearch ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:display-info (print-versions) @ elasticsearch ---
+[INFO] Maven Version: 3.3.9
+[INFO] JDK Version: 1.8.0_121 normalized as: 1.8.0-121
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 4.4.0-62-generic
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java-home-is-set) @ elasticsearch ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ elasticsearch ---
+[INFO] Skipping Rule Enforcement.
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ elasticsearch ---
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources" && git rev-parse --verify HEAD
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources
+[INFO] Storing buildNumber: 85e46f5635a2a2f8a00c527e2e92d493d635f2dd at timestamp: 1505987787922
+[INFO] Storing buildScmBranch: BuildTestSources
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (set-permgen) @ elasticsearch ---
+Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-ant/2.3.1/junit4-ant-2.3.1.pom
+4/11 KB      8/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-ant/2.3.1/junit4-ant-2.3.1.pom (11 KB at 36.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-ant/2.3.1/junit4-ant-2.3.1.jar
+1/1406 KB   3/1406 KB   5/1406 KB   7/1406 KB   9/1406 KB   11/1406 KB   13/1406 KB   15/1406 KB   17/1406 KB   19/1406 KB   21/1406 KB   23/1406 KB   25/1406 KB   27/1406 KB   29/1406 KB   31/1406 KB   33/1406 KB   35/1406 KB   37/1406 KB   39/1406 KB   41/1406 KB   43/1406 KB   45/1406 KB   47/1406 KB   49/1406 KB   51/1406 KB   53/1406 KB   55/1406 KB   57/1406 KB   59/1406 KB   61/1406 KB   63/1406 KB   65/1406 KB   67/1406 KB   69/1406 KB   71/1406 KB   73/1406 KB   75/1406 KB   77/1406 KB   79/1406 KB   81/1406 KB   83/1406 KB   85/1406 KB   87/1406 KB   89/1406 KB   91/1406 KB   93/1406 KB   95/1406 KB   97/1406 KB   99/1406 KB   101/1406 KB   103/1406 KB   105/1406 KB   107/1406 KB   109/1406 KB   111/1406 KB   113/1406 KB   115/1406 KB   117/1406 KB   119/1406 KB   121/1406 KB   123/1406 KB   125/1406 KB   127/1406 KB   129/1406 KB   131/1406 KB   133/1406 KB   135/1406 KB   137/1406 KB   139/1406 KB   141/1406 KB   143/1406 KB   145/1406 KB   147/1406 KB   149/1406 KB   151/1406 KB   153/1406 KB   155/1406 KB   157/1406 KB   159/1406 KB   161/1406 KB   163/1406 KB   165/1406 KB   167/1406 KB   169/1406 KB   171/1406 KB   173/1406 KB   175/1406 KB   177/1406 KB   179/1406 KB   181/1406 KB   183/1406 KB   185/1406 KB   187/1406 KB   189/1406 KB   191/1406 KB   193/1406 KB   195/1406 KB   197/1406 KB   199/1406 KB   201/1406 KB   203/1406 KB   205/1406 KB   207/1406 KB   209/1406 KB   211/1406 KB   213/1406 KB   215/1406 KB   217/1406 KB   219/1406 KB   221/1406 KB   223/1406 KB   225/1406 KB   227/1406 KB   229/1406 KB   231/1406 KB   233/1406 KB   235/1406 KB   237/1406 KB   239/1406 KB   241/1406 KB   243/1406 KB   245/1406 KB   247/1406 KB   249/1406 KB   251/1406 KB   253/1406 KB   255/1406 KB   257/1406 KB   259/1406 KB   261/1406 KB   263/1406 KB   265/1406 KB   267/1406 KB   269/1406 KB   271/1406 KB   273/1406 KB   275/1406 KB   277/1406 KB   279/1406 KB   281/1406 KB   283/1406 KB   285/1406 KB   287/1406 KB   289/1406 KB   291/1406 KB   293/1406 KB   295/1406 KB   297/1406 KB   299/1406 KB   301/1406 KB   303/1406 KB   305/1406 KB   307/1406 KB   309/1406 KB   311/1406 KB   313/1406 KB   315/1406 KB   317/1406 KB   319/1406 KB   321/1406 KB   323/1406 KB   325/1406 KB   327/1406 KB   330/1406 KB   333/1406 KB   335/1406 KB   338/1406 KB   341/1406 KB   343/1406 KB   346/1406 KB   349/1406 KB   351/1406 KB   354/1406 KB   357/1406 KB   359/1406 KB   362/1406 KB   365/1406 KB   367/1406 KB   370/1406 KB   373/1406 KB   377/1406 KB   381/1406 KB   385/1406 KB   389/1406 KB   393/1406 KB   397/1406 KB   401/1406 KB   405/1406 KB   409/1406 KB   413/1406 KB   417/1406 KB   421/1406 KB   425/1406 KB   429/1406 KB   433/1406 KB   437/1406 KB   441/1406 KB   445/1406 KB   449/1406 KB   453/1406 KB   457/1406 KB   461/1406 KB   465/1406 KB   469/1406 KB   473/1406 KB   477/1406 KB   481/1406 KB   485/1406 KB   489/1406 KB   493/1406 KB   497/1406 KB   501/1406 KB   505/1406 KB   509/1406 KB   513/1406 KB   517/1406 KB   521/1406 KB   525/1406 KB   529/1406 KB   533/1406 KB   537/1406 KB   541/1406 KB   545/1406 KB   549/1406 KB   553/1406 KB   557/1406 KB   561/1406 KB   565/1406 KB   569/1406 KB   573/1406 KB   577/1406 KB   581/1406 KB   585/1406 KB   589/1406 KB   593/1406 KB   597/1406 KB   601/1406 KB   605/1406 KB   609/1406 KB   613/1406 KB   617/1406 KB   621/1406 KB   623/1406 KB   625/1406 KB   627/1406 KB   629/1406 KB   631/1406 KB   633/1406 KB   635/1406 KB   637/1406 KB   639/1406 KB   641/1406 KB   643/1406 KB   645/1406 KB   647/1406 KB   649/1406 KB   651/1406 KB   653/1406 KB   655/1406 KB   657/1406 KB   659/1406 KB   661/1406 KB   663/1406 KB   665/1406 KB   667/1406 KB   669/1406 KB   671/1406 KB   673/1406 KB   675/1406 KB   677/1406 KB   679/1406 KB   681/1406 KB   683/1406 KB   685/1406 KB   687/1406 KB   689/1406 KB   691/1406 KB   693/1406 KB   695/1406 KB   697/1406 KB   699/1406 KB   701/1406 KB   703/1406 KB   705/1406 KB   707/1406 KB   709/1406 KB   711/1406 KB   713/1406 KB   715/1406 KB   717/1406 KB   719/1406 KB   721/1406 KB   723/1406 KB   725/1406 KB   727/1406 KB   729/1406 KB   731/1406 KB   733/1406 KB   735/1406 KB   737/1406 KB   739/1406 KB   741/1406 KB   743/1406 KB   745/1406 KB   747/1406 KB   749/1406 KB   751/1406 KB   753/1406 KB   755/1406 KB   757/1406 KB   759/1406 KB   761/1406 KB   763/1406 KB   765/1406 KB   767/1406 KB   769/1406 KB   771/1406 KB   773/1406 KB   775/1406 KB   777/1406 KB   779/1406 KB   781/1406 KB   783/1406 KB   785/1406 KB   787/1406 KB   789/1406 KB   791/1406 KB   793/1406 KB   795/1406 KB   797/1406 KB   799/1406 KB   801/1406 KB   803/1406 KB   805/1406 KB   807/1406 KB   809/1406 KB   811/1406 KB   813/1406 KB   815/1406 KB   817/1406 KB   819/1406 KB   821/1406 KB   823/1406 KB   825/1406 KB   827/1406 KB   829/1406 KB   831/1406 KB   833/1406 KB   835/1406 KB   837/1406 KB   839/1406 KB   841/1406 KB   843/1406 KB   845/1406 KB   847/1406 KB   849/1406 KB   851/1406 KB   853/1406 KB   855/1406 KB   857/1406 KB   859/1406 KB   861/1406 KB   863/1406 KB   865/1406 KB   867/1406 KB   869/1406 KB   871/1406 KB   873/1406 KB   875/1406 KB   877/1406 KB   879/1406 KB   881/1406 KB   883/1406 KB   885/1406 KB   887/1406 KB   890/1406 KB   893/1406 KB   895/1406 KB   898/1406 KB   901/1406 KB   903/1406 KB   906/1406 KB   909/1406 KB   911/1406 KB   914/1406 KB   917/1406 KB   919/1406 KB   922/1406 KB   925/1406 KB   927/1406 KB   930/1406 KB   933/1406 KB   937/1406 KB   941/1406 KB   945/1406 KB   949/1406 KB   953/1406 KB   957/1406 KB   961/1406 KB   965/1406 KB   969/1406 KB   973/1406 KB   977/1406 KB   981/1406 KB   985/1406 KB   989/1406 KB   993/1406 KB   997/1406 KB   1001/1406 KB   1005/1406 KB   1009/1406 KB   1013/1406 KB   1017/1406 KB   1021/1406 KB   1025/1406 KB   1029/1406 KB   1033/1406 KB   1037/1406 KB   1041/1406 KB   1045/1406 KB   1049/1406 KB   1053/1406 KB   1057/1406 KB   1061/1406 KB   1065/1406 KB   1069/1406 KB   1073/1406 KB   1077/1406 KB   1081/1406 KB   1085/1406 KB   1089/1406 KB   1093/1406 KB   1097/1406 KB   1101/1406 KB   1105/1406 KB   1109/1406 KB   1113/1406 KB   1117/1406 KB   1121/1406 KB   1125/1406 KB   1129/1406 KB   1133/1406 KB   1137/1406 KB   1141/1406 KB   1145/1406 KB   1149/1406 KB   1153/1406 KB   1157/1406 KB   1161/1406 KB   1165/1406 KB   1169/1406 KB   1173/1406 KB   1177/1406 KB   1181/1406 KB   1183/1406 KB   1185/1406 KB   1187/1406 KB   1189/1406 KB   1191/1406 KB   1193/1406 KB   1195/1406 KB   1197/1406 KB   1199/1406 KB   1201/1406 KB   1203/1406 KB   1205/1406 KB   1207/1406 KB   1209/1406 KB   1211/1406 KB   1213/1406 KB   1215/1406 KB   1217/1406 KB   1219/1406 KB   1221/1406 KB   1223/1406 KB   1225/1406 KB   1227/1406 KB   1229/1406 KB   1231/1406 KB   1233/1406 KB   1235/1406 KB   1237/1406 KB   1239/1406 KB   1241/1406 KB   1243/1406 KB   1245/1406 KB   1247/1406 KB   1249/1406 KB   1251/1406 KB   1253/1406 KB   1255/1406 KB   1257/1406 KB   1259/1406 KB   1261/1406 KB   1263/1406 KB   1265/1406 KB   1267/1406 KB   1270/1406 KB   1273/1406 KB   1275/1406 KB   1277/1406 KB   1279/1406 KB   1281/1406 KB   1283/1406 KB   1285/1406 KB   1287/1406 KB   1289/1406 KB   1291/1406 KB   1293/1406 KB   1295/1406 KB   1297/1406 KB   1299/1406 KB   1301/1406 KB   1303/1406 KB   1305/1406 KB   1307/1406 KB   1309/1406 KB   1311/1406 KB   1313/1406 KB   1315/1406 KB   1317/1406 KB   1319/1406 KB   1321/1406 KB   1323/1406 KB   1326/1406 KB   1329/1406 KB   1331/1406 KB   1334/1406 KB   1337/1406 KB   1339/1406 KB   1342/1406 KB   1345/1406 KB   1347/1406 KB   1350/1406 KB   1353/1406 KB   1355/1406 KB   1358/1406 KB   1361/1406 KB   1363/1406 KB   1366/1406 KB   1369/1406 KB   1373/1406 KB   1377/1406 KB   1381/1406 KB   1385/1406 KB   1389/1406 KB   1393/1406 KB   1397/1406 KB   1401/1406 KB   1405/1406 KB   1406/1406 KB                  Downloaded: https://repo.maven.apache.org/maven2/com/carrotsearch/randomizedtesting/junit4-ant/2.3.1/junit4-ant-2.3.1.jar (1406 KB at 1249.3 KB/sec)
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (check-invalid-patterns) @ elasticsearch ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ elasticsearch ---
+Downloading: http://maven.elasticsearch.org/releases/org/elasticsearch/dev-tools/2.2.2/dev-tools-2.2.2.jar
+               Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/elasticsearch/dev-tools/2.2.2/dev-tools-2.2.2.jar
+               Downloading: https://repo.maven.apache.org/maven2/org/elasticsearch/dev-tools/2.2.2/dev-tools-2.2.2.jar
+3/122 KB       5/122 KB   8/122 KB   11/122 KB   13/122 KB   16/122 KB   19/122 KB   21/122 KB   24/122 KB   27/122 KB   29/122 KB   32/122 KB   36/122 KB   40/122 KB   44/122 KB   48/122 KB   52/122 KB   56/122 KB   60/122 KB   64/122 KB   68/122 KB   72/122 KB   76/122 KB   80/122 KB   84/122 KB   88/122 KB   92/122 KB   96/122 KB   100/122 KB   104/122 KB   108/122 KB   112/122 KB   116/122 KB   120/122 KB   122/122 KB                Downloaded: https://repo.maven.apache.org/maven2/org/elasticsearch/dev-tools/2.2.2/dev-tools-2.2.2.jar (122 KB at 206.3 KB/sec)
+Downloading: http://maven.elasticsearch.org/releases/org/elasticsearch/rest-api-spec/2.2.2/rest-api-spec-2.2.2.jar
+             Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/elasticsearch/rest-api-spec/2.2.2/rest-api-spec-2.2.2.jar
+             Downloading: https://repo.maven.apache.org/maven2/org/elasticsearch/rest-api-spec/2.2.2/rest-api-spec-2.2.2.jar
+3/196 KB     5/196 KB   8/196 KB   11/196 KB   13/196 KB   16/196 KB   19/196 KB   21/196 KB   24/196 KB   27/196 KB   29/196 KB   32/196 KB   36/196 KB   40/196 KB   44/196 KB   48/196 KB   52/196 KB   56/196 KB   60/196 KB   64/196 KB   68/196 KB   72/196 KB   76/196 KB   80/196 KB   84/196 KB   88/196 KB   92/196 KB   96/196 KB   100/196 KB   104/196 KB   108/196 KB   112/196 KB   116/196 KB   120/196 KB   124/196 KB   128/196 KB   132/196 KB   136/196 KB   140/196 KB   144/196 KB   148/196 KB   152/196 KB   156/196 KB   160/196 KB   164/196 KB   168/196 KB   172/196 KB   176/196 KB   180/196 KB   184/196 KB   188/196 KB   192/196 KB   196/196 KB                Downloaded: https://repo.maven.apache.org/maven2/org/elasticsearch/rest-api-spec/2.2.2/rest-api-spec-2.2.2.jar (196 KB at 278.1 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ elasticsearch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources/src/main/resources
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ elasticsearch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java17) @ elasticsearch ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+[INFO] 
+[INFO] --- forbiddenapis:2.0:check (check-forbidden-apis) @ elasticsearch ---
+[INFO] Scanning for classes to check...
+[WARNING] Classes directory does not exist, forbiddenapis check skipped: /home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ elasticsearch ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources/src/test/resources
+[INFO] Copying 339 resources to rest-api-spec
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ elasticsearch ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- forbiddenapis:2.0:testCheck (check-forbidden-test-apis) @ elasticsearch ---
+[INFO] Scanning for classes to check...
+[WARNING] No classes found in '/home/artefact/tests/Maven Test Sources/elasticsearch-2.2.2-test-sources/target/test-classes' (includes=[**/*.class], excludes=null), forbiddenapis check skipped.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19:test (default-test) @ elasticsearch ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- junit4-maven-plugin:2.3.1:junit4 (tests) @ elasticsearch ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 20.198 s
+[INFO] Finished at: 2017-09-21T11:56:39+02:00
+[INFO] Final Memory: 51M/616M
+[INFO] ------------------------------------------------------------------------

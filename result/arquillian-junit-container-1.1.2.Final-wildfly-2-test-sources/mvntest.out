@@ -1,0 +1,105 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-build/1.1.2.Final-wildfly-2/arquillian-build-1.1.2.Final-wildfly-2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-build/1.1.2.Final-wildfly-2/arquillian-build-1.1.2.Final-wildfly-2.pom (4 KB at 2.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-parent/1.1.2.Final-wildfly-2/arquillian-parent-1.1.2.Final-wildfly-2.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-parent/1.1.2.Final-wildfly-2/arquillian-parent-1.1.2.Final-wildfly-2.pom (6 KB at 12.8 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Arquillian TestRunner JUnit Container 1.1.2.Final-wildfly-2
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-2/arquillian-junit-core-1.1.2.Final-wildfly-2.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-2/arquillian-junit-core-1.1.2.Final-wildfly-2.pom (3 KB at 5.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-2/arquillian-test-spi-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-2/arquillian-test-spi-1.1.2.Final-wildfly-2.pom (2 KB at 3.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-2/arquillian-core-spi-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-2/arquillian-core-spi-1.1.2.Final-wildfly-2.pom (2 KB at 2.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-2/arquillian-core-api-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-2/arquillian-core-api-1.1.2.Final-wildfly-2.pom (2 KB at 2.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-2/arquillian-test-api-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-2/arquillian-test-api-1.1.2.Final-wildfly-2.pom (2 KB at 2.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-2/arquillian-container-test-api-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-2/arquillian-container-test-api-1.1.2.Final-wildfly-2.pom (2 KB at 2.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-2/arquillian-container-test-spi-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-2/arquillian-container-test-spi-1.1.2.Final-wildfly-2.pom (2 KB at 4.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-2/arquillian-container-spi-1.1.2.Final-wildfly-2.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-2/arquillian-container-spi-1.1.2.Final-wildfly-2.pom (3 KB at 6.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-2/arquillian-config-api-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-2/arquillian-config-api-1.1.2.Final-wildfly-2.pom (2 KB at 2.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-2/arquillian-config-impl-base-1.1.2.Final-wildfly-2.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-2/arquillian-config-impl-base-1.1.2.Final-wildfly-2.pom (3 KB at 4.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-2/arquillian-core-impl-base-1.1.2.Final-wildfly-2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-2/arquillian-core-impl-base-1.1.2.Final-wildfly-2.pom (2 KB at 3.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-2/arquillian-test-impl-base-1.1.2.Final-wildfly-2.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-2/arquillian-test-impl-base-1.1.2.Final-wildfly-2.pom (3 KB at 4.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-2/arquillian-container-impl-base-1.1.2.Final-wildfly-2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-2/arquillian-container-impl-base-1.1.2.Final-wildfly-2.pom (4 KB at 7.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-2/arquillian-container-test-impl-base-1.1.2.Final-wildfly-2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-2/arquillian-container-test-impl-base-1.1.2.Final-wildfly-2.pom (4 KB at 7.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-2/arquillian-junit-core-1.1.2.Final-wildfly-2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-2/arquillian-core-api-1.1.2.Final-wildfly-2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-2/arquillian-test-api-1.1.2.Final-wildfly-2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-2/arquillian-core-spi-1.1.2.Final-wildfly-2.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-2/arquillian-test-spi-1.1.2.Final-wildfly-2.jar
+3/27 KB   5/27 KB   8/27 KB   11/27 KB   13/27 KB   16/27 KB   19/27 KB   21/27 KB   24/27 KB   27/27 KB   27/27 KB              Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final-wildfly-2/arquillian-junit-core-1.1.2.Final-wildfly-2.jar (27 KB at 37.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-2/arquillian-container-test-api-1.1.2.Final-wildfly-2.jar
+3/9 KB     5/9 KB   8/9 KB   9/9 KB   3/4 KB   9/9 KB   4/4 KB   9/9 KB                     Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final-wildfly-2/arquillian-core-api-1.1.2.Final-wildfly-2.jar (9 KB at 8.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-2/arquillian-container-test-spi-1.1.2.Final-wildfly-2.jar
+3/9 KB   4/4 KB   5/9 KB   4/4 KB   8/9 KB   4/4 KB   9/9 KB   4/4 KB                     Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final-wildfly-2/arquillian-test-api-1.1.2.Final-wildfly-2.jar (4 KB at 3.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-2/arquillian-container-spi-1.1.2.Final-wildfly-2.jar
+                  Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final-wildfly-2/arquillian-container-test-api-1.1.2.Final-wildfly-2.jar (9 KB at 7.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-2/arquillian-core-impl-base-1.1.2.Final-wildfly-2.jar
+3/26 KB           5/26 KB   8/26 KB   11/26 KB   13/26 KB   16/26 KB   19/26 KB   21/26 KB   24/26 KB   26/26 KB   26/26 KB   3/54 KB   26/26 KB   5/54 KB   26/26 KB   8/54 KB   26/26 KB   11/54 KB   26/26 KB   13/54 KB   26/26 KB   16/54 KB   26/26 KB   19/54 KB   26/26 KB   21/54 KB   26/26 KB   24/54 KB   26/26 KB   27/54 KB   26/26 KB   29/54 KB   26/26 KB   32/54 KB   26/26 KB   36/54 KB   26/26 KB   40/54 KB   26/26 KB   44/54 KB   26/26 KB   48/54 KB   26/26 KB   52/54 KB   26/26 KB   54/54 KB                         Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final-wildfly-2/arquillian-container-test-spi-1.1.2.Final-wildfly-2.jar (26 KB at 14.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-2/arquillian-test-impl-base-1.1.2.Final-wildfly-2.jar
+54/54 KB   3/35 KB    54/54 KB   5/35 KB   54/54 KB   8/35 KB   54/54 KB   11/35 KB   54/54 KB   13/35 KB   54/54 KB   16/35 KB   54/54 KB   19/35 KB   54/54 KB   21/35 KB   3/27 KB   54/54 KB   24/35 KB   3/27 KB   54/54 KB   24/35 KB   3/27 KB   54/54 KB   27/35 KB   5/27 KB   54/54 KB   27/35 KB   5/27 KB   54/54 KB   29/35 KB   8/27 KB   54/54 KB   29/35 KB   11/27 KB   54/54 KB   29/35 KB   13/27 KB   54/54 KB   29/35 KB   13/27 KB   54/54 KB   32/35 KB   13/27 KB   54/54 KB   35/35 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final-wildfly-2/arquillian-core-impl-base-1.1.2.Final-wildfly-2.jar (54 KB at 27.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-2/arquillian-container-impl-base-1.1.2.Final-wildfly-2.jar
+13/27 KB   3/23 KB   35/35 KB    13/27 KB   5/23 KB   35/35 KB   13/27 KB   8/23 KB   35/35 KB   13/27 KB   11/23 KB   35/35 KB   13/27 KB   13/23 KB   35/35 KB   13/27 KB   16/23 KB   35/35 KB   16/27 KB   16/23 KB   35/35 KB   16/27 KB   19/23 KB   35/35 KB   19/27 KB   21/23 KB   35/35 KB   19/27 KB   21/23 KB   35/35 KB   19/27 KB   23/23 KB   35/35 KB   21/27 KB   23/23 KB   35/35 KB   24/27 KB   23/23 KB   35/35 KB   27/27 KB   23/23 KB   35/35 KB   27/27 KB   23/23 KB   35/35 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final-wildfly-2/arquillian-test-spi-1.1.2.Final-wildfly-2.jar (35 KB at 15.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-2/arquillian-config-api-1.1.2.Final-wildfly-2.jar
+27/27 KB   23/23 KB   3/52 KB    27/27 KB   23/23 KB   5/52 KB   27/27 KB   23/23 KB   8/52 KB   27/27 KB   23/23 KB   11/52 KB   27/27 KB   23/23 KB   13/52 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final-wildfly-2/arquillian-test-impl-base-1.1.2.Final-wildfly-2.jar (23 KB at 10.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-2/arquillian-config-impl-base-1.1.2.Final-wildfly-2.jar
+                                 Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final-wildfly-2/arquillian-core-spi-1.1.2.Final-wildfly-2.jar (27 KB at 11.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-2/arquillian-container-test-impl-base-1.1.2.Final-wildfly-2.jar
+4/77 KB   13/52 KB               8/77 KB   13/52 KB   12/77 KB   13/52 KB   16/77 KB   13/52 KB   20/77 KB   13/52 KB   24/77 KB   13/52 KB   28/77 KB   13/52 KB   32/77 KB   13/52 KB   36/77 KB   13/52 KB   40/77 KB   13/52 KB   44/77 KB   13/52 KB   48/77 KB   13/52 KB   48/77 KB   16/52 KB   48/77 KB   19/52 KB   48/77 KB   21/52 KB   48/77 KB   24/52 KB   48/77 KB   3/8 KB   24/52 KB   48/77 KB   5/8 KB   24/52 KB   48/77 KB   8/8 KB   24/52 KB   48/77 KB   8/8 KB   27/52 KB   48/77 KB   8/8 KB   29/52 KB   48/77 KB   8/8 KB   32/52 KB   52/77 KB   8/8 KB   32/52 KB   56/77 KB   8/8 KB   32/52 KB   60/77 KB   8/8 KB   32/52 KB   64/77 KB   8/8 KB   32/52 KB   68/77 KB   8/8 KB   32/52 KB   72/77 KB   8/8 KB   32/52 KB   76/77 KB   8/8 KB   32/52 KB   77/77 KB   8/8 KB   32/52 KB   77/77 KB   8/8 KB   36/52 KB   77/77 KB   8/8 KB   40/52 KB   77/77 KB   8/8 KB   44/52 KB   77/77 KB   8/8 KB   48/52 KB   77/77 KB   8/8 KB   52/52 KB   77/77 KB   8/8 KB   52/52 KB   3/41 KB   77/77 KB   8/8 KB   52/52 KB   5/41 KB   77/77 KB   8/8 KB   52/52 KB   8/41 KB   77/77 KB   8/8 KB   52/52 KB   11/41 KB   77/77 KB   8/8 KB   52/52 KB   13/41 KB   77/77 KB   8/8 KB   52/52 KB   16/41 KB   77/77 KB   8/8 KB   52/52 KB   19/41 KB   77/77 KB   8/8 KB   52/52 KB   21/41 KB   77/77 KB   8/8 KB   52/52 KB   24/41 KB   77/77 KB   8/8 KB   52/52 KB   27/41 KB   77/77 KB   8/8 KB   52/52 KB   29/41 KB   77/77 KB   8/8 KB   52/52 KB   32/41 KB   77/77 KB   8/8 KB   52/52 KB   36/41 KB   77/77 KB   8/8 KB   52/52 KB   40/41 KB   77/77 KB   8/8 KB   52/52 KB   41/41 KB                                             Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final-wildfly-2/arquillian-config-api-1.1.2.Final-wildfly-2.jar (8 KB at 2.7 KB/sec)
+77/77 KB   3/98 KB   52/52 KB   41/41 KB   77/77 KB   5/98 KB   52/52 KB   41/41 KB   77/77 KB   8/98 KB   52/52 KB   41/41 KB                                              Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final-wildfly-2/arquillian-container-impl-base-1.1.2.Final-wildfly-2.jar (77 KB at 28.5 KB/sec)
+11/98 KB   52/52 KB   41/41 KB             13/98 KB   52/52 KB   41/41 KB   16/98 KB   52/52 KB   41/41 KB   19/98 KB   52/52 KB   41/41 KB   21/98 KB   52/52 KB   41/41 KB   24/98 KB   52/52 KB   41/41 KB   27/98 KB   52/52 KB   41/41 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final-wildfly-2/arquillian-container-spi-1.1.2.Final-wildfly-2.jar (52 KB at 18.4 KB/sec)
+                                 Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final-wildfly-2/arquillian-config-impl-base-1.1.2.Final-wildfly-2.jar (41 KB at 14.2 KB/sec)
+29/98 KB                         32/98 KB   36/98 KB   40/98 KB   44/98 KB   48/98 KB   52/98 KB   56/98 KB   60/98 KB   64/98 KB   68/98 KB   72/98 KB   76/98 KB   80/98 KB   84/98 KB   88/98 KB   92/98 KB   96/98 KB   98/98 KB              Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final-wildfly-2/arquillian-container-test-impl-base-1.1.2.Final-wildfly-2.jar (98 KB at 30.3 KB/sec)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-java-version) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven-version) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ arquillian-junit-container ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/arquillian-junit-container-1.1.2.Final-wildfly-2-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ arquillian-junit-container ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ arquillian-junit-container ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/arquillian-junit-container-1.1.2.Final-wildfly-2-test-sources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ arquillian-junit-container ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ arquillian-junit-container ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/artefact/tests/Maven Test Sources/arquillian-junit-container-1.1.2.Final-wildfly-2-test-sources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.091 s
+[INFO] Finished at: 2017-09-21T12:01:05+02:00
+[INFO] Final Memory: 13M/169M
+[INFO] ------------------------------------------------------------------------

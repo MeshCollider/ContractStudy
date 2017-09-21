@@ -1,0 +1,102 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Commons CLI 1.3
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.pom
+3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.pom (7 KB at 5.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom
+3/27 KB   5/27 KB   8/27 KB   11/27 KB   13/27 KB   16/27 KB   19/27 KB   21/27 KB   24/27 KB   27/27 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/30/mojo-parent-30.pom (27 KB at 58.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.jar
+3/42 KB    5/42 KB   8/42 KB   11/42 KB   13/42 KB   16/42 KB   19/42 KB   21/42 KB   24/42 KB   27/42 KB   29/42 KB   32/42 KB   36/42 KB   40/42 KB   42/42 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/1.8/build-helper-maven-plugin-1.8.jar (42 KB at 111.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.13/animal-sniffer-maven-plugin-1.13.pom
+4/5 KB     5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.13/animal-sniffer-maven-plugin-1.13.pom (5 KB at 15.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.13/animal-sniffer-parent-1.13.pom
+3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-parent/1.13/animal-sniffer-parent-1.13.pom (5 KB at 13.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.13/animal-sniffer-maven-plugin-1.13.jar
+3/31 KB   5/31 KB   8/31 KB   11/31 KB   13/31 KB   16/31 KB   19/31 KB   21/31 KB   24/31 KB   27/31 KB   29/31 KB   31/31 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-maven-plugin/1.13/animal-sniffer-maven-plugin-1.13.jar (31 KB at 90.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.pom
+3/6 KB     5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.pom (6 KB at 17.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.18/surefire-2.18.pom
+3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/2.18/surefire-2.18.pom (17 KB at 51.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.jar
+3/36 KB    5/36 KB   8/36 KB   11/36 KB   13/36 KB   16/36 KB   19/36 KB   21/36 KB   24/36 KB   27/36 KB   29/36 KB   32/36 KB   35/36 KB   36/36 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18/maven-surefire-plugin-2.18.jar (36 KB at 110.1 KB/sec)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-cli ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ commons-cli ---
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-cli ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ commons-cli ---
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-cli-1.3-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-cli-1.3-test-sources
+[INFO] Storing buildNumber: ?????? at timestamp: 1505985859527
+[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-cli-1.3-test-sources" && svn --non-interactive info
+[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-cli-1.3-test-sources
+[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ commons-cli ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-cli-1.3-test-sources/src/main/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ commons-cli ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ commons-cli ---
+[WARNING] Manifest commons-cli:commons-cli:jar:1.3 : Unused Export-Package instructions: [org.apache.commons.*] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.13:check (checkAPIcompatibility) @ commons-cli ---
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.13/animal-sniffer-1.13.pom
+3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.13/animal-sniffer-1.13.pom (3 KB at 7.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/4.0/asm-all-4.0.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/4.0/asm-all-4.0.pom (2 KB at 6.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/4.0/asm-parent-4.0.pom (6 KB at 17.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.13/java-boot-classpath-detector-1.13.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.13/java-boot-classpath-detector-1.13.pom (3 KB at 7.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.13/animal-sniffer-1.13.jar
+Downloading: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/4.0/asm-all-4.0.jar
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.13/java-boot-classpath-detector-1.13.jar
+3/32 KB   5/32 KB   8/32 KB   11/32 KB   13/32 KB   16/32 KB   19/32 KB   21/32 KB   24/32 KB   27/32 KB   29/32 KB   32/32 KB   32/32 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer/1.13/animal-sniffer-1.13.jar (32 KB at 93.6 KB/sec)
+3/208 KB   5/208 KB   8/208 KB   11/208 KB   13/208 KB   13/208 KB   3/5 KB   13/208 KB   5/5 KB   13/208 KB   5/5 KB   16/208 KB   5/5 KB   19/208 KB   5/5 KB   21/208 KB   5/5 KB   24/208 KB   5/5 KB   27/208 KB   5/5 KB                        Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/java-boot-classpath-detector/1.13/java-boot-classpath-detector-1.13.jar (5 KB at 5.9 KB/sec)
+29/208 KB            32/208 KB   36/208 KB   40/208 KB   44/208 KB   48/208 KB   52/208 KB   56/208 KB   60/208 KB   64/208 KB   68/208 KB   72/208 KB   76/208 KB   80/208 KB   84/208 KB   88/208 KB   92/208 KB   96/208 KB   100/208 KB   104/208 KB   108/208 KB   112/208 KB   116/208 KB   120/208 KB   124/208 KB   128/208 KB   132/208 KB   136/208 KB   140/208 KB   144/208 KB   148/208 KB   152/208 KB   156/208 KB   160/208 KB   164/208 KB   168/208 KB   172/208 KB   176/208 KB   180/208 KB   184/208 KB   188/208 KB   192/208 KB   196/208 KB   200/208 KB   204/208 KB   208/208 KB   208/208 KB                Downloaded: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-all/4.0/asm-all-4.0.jar (208 KB at 143.4 KB/sec)
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/signature/java15/1.0/java15-1.0.signature
+4/506 KB     8/506 KB   12/506 KB   16/506 KB   20/506 KB   24/506 KB   28/506 KB   32/506 KB   36/506 KB   40/506 KB   44/506 KB   48/506 KB   52/506 KB   56/506 KB   60/506 KB   64/506 KB   68/506 KB   72/506 KB   76/506 KB   80/506 KB   84/506 KB   88/506 KB   92/506 KB   96/506 KB   100/506 KB   104/506 KB   108/506 KB   112/506 KB   116/506 KB   120/506 KB   124/506 KB   128/506 KB   132/506 KB   136/506 KB   140/506 KB   144/506 KB   148/506 KB   152/506 KB   156/506 KB   160/506 KB   164/506 KB   168/506 KB   172/506 KB   176/506 KB   180/506 KB   184/506 KB   188/506 KB   192/506 KB   196/506 KB   200/506 KB   204/506 KB   208/506 KB   212/506 KB   216/506 KB   220/506 KB   224/506 KB   228/506 KB   232/506 KB   236/506 KB   240/506 KB   244/506 KB   248/506 KB   252/506 KB   256/506 KB   260/506 KB   264/506 KB   268/506 KB   272/506 KB   276/506 KB   280/506 KB   284/506 KB   288/506 KB   292/506 KB   296/506 KB   300/506 KB   304/506 KB   308/506 KB   312/506 KB   316/506 KB   320/506 KB   324/506 KB   328/506 KB   332/506 KB   336/506 KB   340/506 KB   344/506 KB   348/506 KB   352/506 KB   356/506 KB   360/506 KB   364/506 KB   368/506 KB   372/506 KB   376/506 KB   380/506 KB   384/506 KB   388/506 KB   392/506 KB   396/506 KB   400/506 KB   404/506 KB   408/506 KB   412/506 KB   416/506 KB   420/506 KB   424/506 KB   428/506 KB   432/506 KB   436/506 KB   440/506 KB   444/506 KB   448/506 KB   452/506 KB   456/506 KB   460/506 KB   464/506 KB   468/506 KB   472/506 KB   476/506 KB   480/506 KB   484/506 KB   488/506 KB   492/506 KB   496/506 KB   500/506 KB   504/506 KB   506/506 KB                Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/signature/java15/1.0/java15-1.0.signature (506 KB at 769.1 KB/sec)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ commons-cli ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-cli-1.3-test-sources/src/test/resources
+[INFO] Copying 0 resource to META-INF
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ commons-cli ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18:test (default-test) @ commons-cli ---
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.pom
+4/7 KB       7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.pom (7 KB at 18.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.pom (3 KB at 7.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.pom (3 KB at 9.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.jar
+3/268 KB   5/268 KB   8/268 KB   11/268 KB   13/268 KB   16/268 KB   19/268 KB   21/268 KB   24/268 KB   27/268 KB   29/268 KB   32/268 KB   32/268 KB   3/39 KB   32/268 KB   3/39 KB   3/145 KB   32/268 KB   3/39 KB   5/145 KB   32/268 KB   5/39 KB   5/145 KB   32/268 KB   8/39 KB   5/145 KB   36/268 KB   8/39 KB   5/145 KB   40/268 KB   8/39 KB   5/145 KB   40/268 KB   8/39 KB   8/145 KB   44/268 KB   8/39 KB   8/145 KB   48/268 KB   8/39 KB   8/145 KB   52/268 KB   8/39 KB   8/145 KB   56/268 KB   8/39 KB   8/145 KB   60/268 KB   8/39 KB   8/145 KB   64/268 KB   8/39 KB   11/145 KB   64/268 KB   8/39 KB   11/145 KB   64/268 KB   8/39 KB   13/145 KB   68/268 KB   8/39 KB   13/145 KB   72/268 KB   8/39 KB   13/145 KB   76/268 KB   8/39 KB   13/145 KB   80/268 KB   8/39 KB   13/145 KB   80/268 KB   8/39 KB   16/145 KB   84/268 KB   8/39 KB   16/145 KB   84/268 KB   8/39 KB   19/145 KB   88/268 KB   8/39 KB   19/145 KB   92/268 KB   8/39 KB   19/145 KB   96/268 KB   8/39 KB   19/145 KB   100/268 KB   8/39 KB   19/145 KB   104/268 KB   8/39 KB   19/145 KB   108/268 KB   8/39 KB   19/145 KB   112/268 KB   8/39 KB   19/145 KB   112/268 KB   11/39 KB   19/145 KB   116/268 KB   11/39 KB   19/145 KB   120/268 KB   11/39 KB   19/145 KB   124/268 KB   11/39 KB   19/145 KB   128/268 KB   11/39 KB   19/145 KB   132/268 KB   11/39 KB   19/145 KB   136/268 KB   11/39 KB   19/145 KB   140/268 KB   11/39 KB   19/145 KB   144/268 KB   11/39 KB   19/145 KB   144/268 KB   11/39 KB   21/145 KB   148/268 KB   11/39 KB   24/145 KB   148/268 KB   11/39 KB   27/145 KB   148/268 KB   11/39 KB   29/145 KB   148/268 KB   11/39 KB   32/145 KB   148/268 KB   11/39 KB   21/145 KB   152/268 KB   11/39 KB   32/145 KB   156/268 KB   11/39 KB   32/145 KB   160/268 KB   11/39 KB   32/145 KB   160/268 KB   13/39 KB   32/145 KB   164/268 KB   13/39 KB   32/145 KB   168/268 KB   13/39 KB   32/145 KB   172/268 KB   13/39 KB   32/145 KB   176/268 KB   13/39 KB   32/145 KB   180/268 KB   13/39 KB   32/145 KB   184/268 KB   13/39 KB   32/145 KB   188/268 KB   13/39 KB   32/145 KB   192/268 KB   13/39 KB   32/145 KB   196/268 KB   13/39 KB   32/145 KB   200/268 KB   13/39 KB   32/145 KB   204/268 KB   13/39 KB   32/145 KB   208/268 KB   13/39 KB   32/145 KB   212/268 KB   13/39 KB   32/145 KB   216/268 KB   13/39 KB   32/145 KB   220/268 KB   13/39 KB   32/145 KB   224/268 KB   13/39 KB   32/145 KB   228/268 KB   13/39 KB   32/145 KB   232/268 KB   13/39 KB   32/145 KB   236/268 KB   13/39 KB   32/145 KB   240/268 KB   13/39 KB   32/145 KB   240/268 KB   13/39 KB   36/145 KB   240/268 KB   13/39 KB   40/145 KB   240/268 KB   13/39 KB   44/145 KB   240/268 KB   13/39 KB   48/145 KB   244/268 KB   13/39 KB   48/145 KB   248/268 KB   13/39 KB   48/145 KB   252/268 KB   13/39 KB   48/145 KB   256/268 KB   13/39 KB   48/145 KB   260/268 KB   13/39 KB   48/145 KB   264/268 KB   13/39 KB   48/145 KB   268/268 KB   13/39 KB   48/145 KB   268/268 KB   13/39 KB   48/145 KB   268/268 KB   16/39 KB   48/145 KB   268/268 KB   16/39 KB   52/145 KB   268/268 KB   16/39 KB   56/145 KB   268/268 KB   16/39 KB   60/145 KB   268/268 KB   16/39 KB   64/145 KB   268/268 KB   19/39 KB   64/145 KB   268/268 KB   19/39 KB   68/145 KB   268/268 KB   19/39 KB   72/145 KB   268/268 KB   19/39 KB   76/145 KB   268/268 KB   19/39 KB   80/145 KB   268/268 KB   21/39 KB   80/145 KB   268/268 KB   24/39 KB   80/145 KB   268/268 KB   24/39 KB   84/145 KB   268/268 KB   27/39 KB   84/145 KB   268/268 KB   27/39 KB   88/145 KB                                       27/39 KB   92/145 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/maven-surefire-common/2.18/maven-surefire-common-2.18.jar (268 KB at 730.7 KB/sec)
+27/39 KB   96/145 KB   29/39 KB   96/145 KB   32/39 KB   96/145 KB   32/39 KB   100/145 KB   32/39 KB   104/145 KB   32/39 KB   108/145 KB   32/39 KB   112/145 KB   35/39 KB   112/145 KB   37/39 KB   112/145 KB   39/39 KB   112/145 KB   39/39 KB   116/145 KB   39/39 KB   120/145 KB   39/39 KB   124/145 KB   39/39 KB   128/145 KB   39/39 KB   132/145 KB   39/39 KB   136/145 KB   39/39 KB   140/145 KB   39/39 KB   144/145 KB   39/39 KB   145/145 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-booter/2.18/surefire-booter-2.18.jar (39 KB at 70.4 KB/sec)
+                        Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-api/2.18/surefire-api-2.18.jar (145 KB at 219.5 KB/sec)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.288 s
+[INFO] Finished at: 2017-09-21T11:24:26+02:00
+[INFO] Final Memory: 22M/218M
+[INFO] ------------------------------------------------------------------------

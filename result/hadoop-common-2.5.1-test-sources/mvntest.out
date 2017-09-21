@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom
+3/18 KB   6/18 KB   9/18 KB   11/18 KB   14/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.5.1/hadoop-project-dist-2.5.1.pom (18 KB at 12.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom
+3/39 KB    6/39 KB   9/39 KB   11/39 KB   14/39 KB   16/39 KB   19/39 KB   22/39 KB   25/39 KB   27/39 KB   30/39 KB   32/39 KB   35/39 KB   38/39 KB   39/39 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom (39 KB at 81.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom
+3/18 KB    5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.5.1/hadoop-main-2.5.1.pom (18 KB at 56.1 KB/sec)
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-common:jar:2.5.1
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 480, column 15
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-enforcer-plugin @ org.apache.hadoop:hadoop-project:2.5.1, /home/artefact/.m2/repository/org/apache/hadoop/hadoop-project/2.5.1/hadoop-project-2.5.1.pom, line 1023, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Hadoop Common 2.5.1
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.5.1/hadoop-maven-plugins-2.5.1.pom
+3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.5.1/hadoop-maven-plugins-2.5.1.pom (3 KB at 9.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.5.1/hadoop-maven-plugins-2.5.1.jar
+3/19 KB   5/19 KB   8/19 KB   11/19 KB   13/19 KB   16/19 KB   19/19 KB   19/19 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.5.1/hadoop-maven-plugins-2.5.1.jar (19 KB at 34.6 KB/sec)
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.pom
+           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.pom
+           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.pom
+3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.pom (3 KB at 7.7 KB/sec)
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom
+3/7 KB   6/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.pom (7 KB at 17.2 KB/sec)
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.jar
+Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+                  Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.jar
+Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+                  Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.jar
+Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar
+3/17 KB   6/17 KB   9/17 KB   11/17 KB   14/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.5.1/hadoop-annotations-2.5.1.jar (17 KB at 51.0 KB/sec)
+3/52 KB    5/52 KB   8/52 KB   11/52 KB   13/52 KB   16/52 KB   19/52 KB   21/52 KB   24/52 KB   27/52 KB   29/52 KB   32/52 KB   36/52 KB   40/52 KB   44/52 KB   48/52 KB   52/52 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.5.1/hadoop-auth-2.5.1.jar (52 KB at 46.4 KB/sec)
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.7:run (create-testdirs) @ hadoop-common ---
+[INFO] Executing tasks
+
+main:
+    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.5.1-test-sources/target/test-dir
+    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.5.1-test-sources/target/test/data
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- hadoop-maven-plugins:2.5.1:protoc (compile-protoc) @ hadoop-common ---
+[WARNING] [protoc, --version] failed: java.io.IOException: Cannot run program "protoc": error=2, No such file or directory
+[ERROR] stdout: []
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.031 s
+[INFO] Finished at: 2017-09-21T11:32:05+02:00
+[INFO] Final Memory: 19M/214M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.hadoop:hadoop-maven-plugins:2.5.1:protoc (compile-protoc) on project hadoop-common: org.apache.maven.plugin.MojoExecutionException: 'protoc --version' did not return a version -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

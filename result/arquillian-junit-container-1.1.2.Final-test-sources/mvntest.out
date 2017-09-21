@@ -1,0 +1,121 @@
+[INFO] Scanning for projects...
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-build/1.1.2.Final/arquillian-build-1.1.2.Final.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-build/1.1.2.Final/arquillian-build-1.1.2.Final.pom (4 KB at 2.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-parent/1.1.2.Final/arquillian-parent-1.1.2.Final.pom
+3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-parent/1.1.2.Final/arquillian-parent-1.1.2.Final.pom (6 KB at 14.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.1.2/shrinkwrap-bom-1.1.2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.1.2/shrinkwrap-bom-1.1.2.pom (4 KB at 11.3 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Arquillian TestRunner JUnit Container 1.1.2.Final
+[INFO] ------------------------------------------------------------------------
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final/arquillian-junit-core-1.1.2.Final.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final/arquillian-junit-core-1.1.2.Final.pom (3 KB at 8.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.pom (2 KB at 4.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.pom (2 KB at 3.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.pom (2 KB at 3.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final/arquillian-test-api-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final/arquillian-test-api-1.1.2.Final.pom (2 KB at 3.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final/arquillian-container-test-api-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final/arquillian-container-test-api-1.1.2.Final.pom (2 KB at 4.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.pom (4 KB at 10.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-parent/1.1.2/shrinkwrap-parent-1.1.2.pom
+3/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-parent/1.1.2/shrinkwrap-parent-1.1.2.pom (11 KB at 31.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final/arquillian-container-test-spi-1.1.2.Final.pom
+2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final/arquillian-container-test-spi-1.1.2.Final.pom (2 KB at 4.7 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.pom (3 KB at 8.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final/arquillian-config-api-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final/arquillian-config-api-1.1.2.Final.pom (2 KB at 4.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final/arquillian-config-impl-base-1.1.2.Final.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final/arquillian-config-impl-base-1.1.2.Final.pom (3 KB at 8.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final/arquillian-core-impl-base-1.1.2.Final.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final/arquillian-core-impl-base-1.1.2.Final.pom (2 KB at 5.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final/arquillian-test-impl-base-1.1.2.Final.pom
+3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final/arquillian-test-impl-base-1.1.2.Final.pom (3 KB at 7.6 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final/arquillian-container-impl-base-1.1.2.Final.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final/arquillian-container-impl-base-1.1.2.Final.pom (4 KB at 13.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final/arquillian-container-test-impl-base-1.1.2.Final.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final/arquillian-container-test-impl-base-1.1.2.Final.pom (4 KB at 12.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.pom
+3/4 KB   4/4 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.pom (4 KB at 13.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.pom
+2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.pom (2 KB at 4.1 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final/arquillian-junit-core-1.1.2.Final.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final/arquillian-test-api-1.1.2.Final.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.jar
+3/27 KB   5/27 KB   8/27 KB   11/27 KB   13/27 KB   16/27 KB   19/27 KB   21/27 KB   24/27 KB   27/27 KB   27/27 KB              Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/junit/arquillian-junit-core/1.1.2.Final/arquillian-junit-core-1.1.2.Final.jar (27 KB at 59.4 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final/arquillian-container-test-api-1.1.2.Final.jar
+3/9 KB     5/9 KB   8/9 KB   9/9 KB   3/27 KB   9/9 KB   5/27 KB   9/9 KB   8/27 KB   9/9 KB   11/27 KB   9/9 KB   13/27 KB   9/9 KB   13/27 KB   9/9 KB   3/35 KB   13/27 KB   9/9 KB   5/35 KB   13/27 KB   9/9 KB   8/35 KB   13/27 KB   9/9 KB   11/35 KB   13/27 KB   9/9 KB   13/35 KB   13/27 KB   3/4 KB   9/9 KB   13/35 KB   13/27 KB   4/4 KB   9/9 KB   13/35 KB                                           Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-api/1.1.2.Final/arquillian-container-test-api-1.1.2.Final.jar (9 KB at 11.5 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar
+16/27 KB   4/4 KB   13/35 KB            19/27 KB   4/4 KB   13/35 KB   21/27 KB   4/4 KB   13/35 KB   21/27 KB   4/4 KB   13/35 KB   3/9 KB   21/27 KB   4/4 KB   13/35 KB   5/9 KB   21/27 KB   4/4 KB   13/35 KB   8/9 KB   21/27 KB   4/4 KB   13/35 KB   9/9 KB   24/27 KB   4/4 KB   13/35 KB   9/9 KB   27/27 KB   4/4 KB   13/35 KB   9/9 KB   27/27 KB   4/4 KB   13/35 KB   9/9 KB   27/27 KB   4/4 KB   16/35 KB   9/9 KB   27/27 KB   4/4 KB   19/35 KB   9/9 KB   27/27 KB   4/4 KB   21/35 KB   9/9 KB   27/27 KB   4/4 KB   24/35 KB   9/9 KB   27/27 KB   4/4 KB   27/35 KB   9/9 KB   27/27 KB   4/4 KB   29/35 KB   9/9 KB   27/27 KB   4/4 KB   32/35 KB   9/9 KB                                           Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-api/1.1.2.Final/arquillian-test-api-1.1.2.Final.jar (4 KB at 3.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final/arquillian-container-test-spi-1.1.2.Final.jar
+27/27 KB   35/35 KB   9/9 KB            27/27 KB   3/64 KB   35/35 KB   9/9 KB   27/27 KB   5/64 KB   35/35 KB   9/9 KB   27/27 KB   8/64 KB   35/35 KB   9/9 KB   27/27 KB   11/64 KB   35/35 KB   9/9 KB   27/27 KB   13/64 KB   35/35 KB   9/9 KB   27/27 KB   16/64 KB   35/35 KB   9/9 KB   27/27 KB   19/64 KB   35/35 KB   9/9 KB   27/27 KB   21/64 KB   35/35 KB   9/9 KB   27/27 KB   24/64 KB   35/35 KB   9/9 KB   27/27 KB   27/64 KB   35/35 KB   9/9 KB   27/27 KB   29/64 KB   35/35 KB   9/9 KB   27/27 KB   32/64 KB   35/35 KB   9/9 KB                                             Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar (9 KB at 8.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar
+                                          Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar (27 KB at 28.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final/arquillian-core-impl-base-1.1.2.Final.jar
+36/64 KB   35/35 KB                       40/64 KB   35/35 KB   44/64 KB   35/35 KB   48/64 KB   35/35 KB   48/64 KB   3/26 KB   35/35 KB                                   Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.jar (35 KB at 33.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final/arquillian-test-impl-base-1.1.2.Final.jar
+48/64 KB   5/26 KB              48/64 KB   8/26 KB   48/64 KB   11/26 KB   48/64 KB   13/26 KB   52/64 KB   13/26 KB   56/64 KB   13/26 KB   60/64 KB   13/26 KB   64/64 KB   13/26 KB   64/64 KB   13/26 KB   3/52 KB   64/64 KB   13/26 KB   5/52 KB   64/64 KB   13/26 KB   8/52 KB   64/64 KB   13/26 KB   3/53 KB   8/52 KB   64/64 KB   13/26 KB   5/53 KB   8/52 KB   64/64 KB   13/26 KB   8/53 KB   8/52 KB   64/64 KB   13/26 KB   8/53 KB   11/52 KB   64/64 KB   13/26 KB   11/53 KB   11/52 KB   64/64 KB   13/26 KB   11/53 KB   13/52 KB   64/64 KB   13/26 KB   13/53 KB   13/52 KB   64/64 KB   13/26 KB   13/53 KB   16/52 KB   64/64 KB   13/26 KB   16/53 KB   16/52 KB   64/64 KB   13/26 KB   16/53 KB   19/52 KB   64/64 KB   13/26 KB   16/53 KB   21/52 KB   64/64 KB   13/26 KB   19/53 KB   21/52 KB   64/64 KB   13/26 KB   21/53 KB   21/52 KB   64/64 KB   13/26 KB   24/53 KB   21/52 KB   64/64 KB   13/26 KB   24/53 KB   21/52 KB   64/64 KB   16/26 KB   24/53 KB   21/52 KB   64/64 KB   19/26 KB   27/53 KB   21/52 KB   64/64 KB   19/26 KB   27/53 KB   21/52 KB   64/64 KB   21/26 KB   27/53 KB   21/52 KB   64/64 KB   3/23 KB   21/26 KB   27/53 KB   21/52 KB   64/64 KB   5/23 KB   21/26 KB   27/53 KB   21/52 KB   64/64 KB   8/23 KB   21/26 KB   27/53 KB   21/52 KB   64/64 KB   11/23 KB   24/26 KB   27/53 KB   21/52 KB   64/64 KB   11/23 KB   24/26 KB   27/53 KB   21/52 KB   64/64 KB   11/23 KB   26/26 KB   27/53 KB   21/52 KB   64/64 KB   13/23 KB   26/26 KB   27/53 KB   21/52 KB   64/64 KB   16/23 KB   26/26 KB   27/53 KB   21/52 KB   64/64 KB   19/23 KB   26/26 KB                                                          Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar (64 KB at 53.8 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final/arquillian-container-impl-base-1.1.2.Final.jar
+27/53 KB   21/52 KB   21/23 KB   26/26 KB              27/53 KB   21/52 KB   23/23 KB   26/26 KB   27/53 KB   24/52 KB   23/23 KB   26/26 KB   27/53 KB   27/52 KB   23/23 KB   26/26 KB   27/53 KB   29/52 KB   23/23 KB   26/26 KB   29/53 KB   29/52 KB   23/23 KB   26/26 KB   32/53 KB   29/52 KB   23/23 KB   26/26 KB   32/53 KB   32/52 KB   23/23 KB   26/26 KB   32/53 KB   36/52 KB   23/23 KB   26/26 KB   32/53 KB   40/52 KB   23/23 KB   26/26 KB   32/53 KB   44/52 KB   23/23 KB   26/26 KB   32/53 KB   48/52 KB   23/23 KB   26/26 KB   36/53 KB   48/52 KB   23/23 KB   26/26 KB   40/53 KB   48/52 KB   23/23 KB   26/26 KB   44/53 KB   48/52 KB   23/23 KB   26/26 KB   48/53 KB   48/52 KB   23/23 KB   26/26 KB   48/53 KB   52/52 KB   23/23 KB   26/26 KB   52/53 KB   52/52 KB   23/23 KB   26/26 KB   53/53 KB   52/52 KB   23/23 KB   26/26 KB                                               Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.2.Final/arquillian-container-test-spi-1.1.2.Final.jar (26 KB at 19.0 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final/arquillian-config-api-1.1.2.Final.jar
+                                            Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/test/arquillian-test-impl-base/1.1.2.Final/arquillian-test-impl-base-1.1.2.Final.jar (23 KB at 17.2 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final/arquillian-config-impl-base-1.1.2.Final.jar
+53/53 KB   52/52 KB   4/77 KB               53/53 KB   52/52 KB   8/77 KB   53/53 KB   52/52 KB   12/77 KB   53/53 KB   52/52 KB   16/77 KB   53/53 KB   52/52 KB   20/77 KB   53/53 KB   52/52 KB   24/77 KB   53/53 KB   52/52 KB   28/77 KB   53/53 KB   52/52 KB   32/77 KB   53/53 KB   52/52 KB   36/77 KB   53/53 KB   52/52 KB   40/77 KB   53/53 KB   52/52 KB   44/77 KB   53/53 KB   52/52 KB   48/77 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final/arquillian-core-impl-base-1.1.2.Final.jar (53 KB at 37.3 KB/sec)
+                                 Downloading: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final/arquillian-container-test-impl-base-1.1.2.Final.jar
+Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar (52 KB at 35.9 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar
+3/7 KB   48/77 KB                5/7 KB   48/77 KB   7/7 KB   48/77 KB   7/7 KB   52/77 KB   7/7 KB   56/77 KB   7/7 KB   60/77 KB   7/7 KB   64/77 KB   7/7 KB   68/77 KB   7/7 KB   72/77 KB   7/7 KB   76/77 KB   7/7 KB   77/77 KB   7/7 KB   77/77 KB   3/41 KB   7/7 KB   77/77 KB   5/41 KB   7/7 KB   77/77 KB   8/41 KB   7/7 KB   77/77 KB   11/41 KB   7/7 KB   77/77 KB   13/41 KB   7/7 KB   77/77 KB   16/41 KB   7/7 KB   77/77 KB   19/41 KB   7/7 KB   77/77 KB   21/41 KB   7/7 KB   77/77 KB   24/41 KB   7/7 KB   77/77 KB   27/41 KB   7/7 KB   77/77 KB   29/41 KB   7/7 KB   77/77 KB   32/41 KB   7/7 KB   77/77 KB   36/41 KB   7/7 KB   77/77 KB   40/41 KB   7/7 KB   77/77 KB   41/41 KB   7/7 KB   77/77 KB   41/41 KB   4/144 KB   4/98 KB   7/7 KB   77/77 KB   41/41 KB   8/144 KB   4/98 KB   7/7 KB   77/77 KB   41/41 KB   12/144 KB   4/98 KB   7/7 KB   77/77 KB   41/41 KB   16/144 KB   4/98 KB   7/7 KB   77/77 KB   41/41 KB   4/144 KB   8/98 KB   7/7 KB   77/77 KB   41/41 KB   16/144 KB   12/98 KB   7/7 KB   77/77 KB   41/41 KB   16/144 KB   16/98 KB   7/7 KB   77/77 KB   41/41 KB   16/144 KB   20/98 KB   7/7 KB   77/77 KB   41/41 KB   16/144 KB   24/98 KB   7/7 KB   77/77 KB   41/41 KB   20/144 KB   28/98 KB   7/7 KB   77/77 KB   41/41 KB   20/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   20/144 KB   20/98 KB   7/7 KB   77/77 KB   41/41 KB   20/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   24/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   28/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   32/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   36/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   40/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   44/144 KB   32/98 KB   7/7 KB   77/77 KB   41/41 KB   48/144 KB                                                         Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-api/1.1.2.Final/arquillian-config-api-1.1.2.Final.jar (7 KB at 4.3 KB/sec)
+Downloading: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar
+36/98 KB   77/77 KB   41/41 KB   48/144 KB            40/98 KB   77/77 KB   41/41 KB   48/144 KB   44/98 KB   77/77 KB   41/41 KB   48/144 KB   48/98 KB   77/77 KB   41/41 KB   48/144 KB                                                Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-impl-base/1.1.2.Final/arquillian-container-impl-base-1.1.2.Final.jar (77 KB at 47.1 KB/sec)
+                                             Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/config/arquillian-config-impl-base/1.1.2.Final/arquillian-config-impl-base-1.1.2.Final.jar (41 KB at 23.7 KB/sec)
+48/98 KB   52/144 KB                         48/98 KB   56/144 KB   48/98 KB   60/144 KB   48/98 KB   64/144 KB   52/98 KB   64/144 KB   56/98 KB   64/144 KB   60/98 KB   64/144 KB   64/98 KB   64/144 KB   64/98 KB   68/144 KB   64/98 KB   72/144 KB   64/98 KB   76/144 KB   64/98 KB   80/144 KB   68/98 KB   80/144 KB   72/98 KB   80/144 KB   76/98 KB   80/144 KB   80/98 KB   80/144 KB   80/98 KB   84/144 KB   80/98 KB   88/144 KB   80/98 KB   92/144 KB   84/98 KB   92/144 KB   84/98 KB   96/144 KB   88/98 KB   96/144 KB   92/98 KB   96/144 KB   96/98 KB   96/144 KB   98/98 KB   96/144 KB   98/98 KB   100/144 KB   98/98 KB   104/144 KB   98/98 KB   108/144 KB   3/4 KB   98/98 KB   108/144 KB   4/4 KB   98/98 KB   108/144 KB   4/4 KB   98/98 KB   112/144 KB   4/4 KB   98/98 KB   116/144 KB   4/4 KB   98/98 KB   120/144 KB   4/4 KB   98/98 KB   124/144 KB   4/4 KB   98/98 KB   128/144 KB   4/4 KB   98/98 KB   132/144 KB   4/4 KB   98/98 KB   136/144 KB   4/4 KB   98/98 KB   140/144 KB   4/4 KB   98/98 KB   144/144 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final/arquillian-container-test-impl-base-1.1.2.Final.jar (98 KB at 51.5 KB/sec)
+                                 Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-spi/1.1.2/shrinkwrap-spi-1.1.2.jar (4 KB at 2.0 KB/sec)
+                                 Downloaded: https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar (144 KB at 70.3 KB/sec)
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-java-version) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven-version) @ arquillian-junit-container ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ arquillian-junit-container ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/arquillian-junit-container-1.1.2.Final-test-sources/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ arquillian-junit-container ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ arquillian-junit-container ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/arquillian-junit-container-1.1.2.Final-test-sources/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ arquillian-junit-container ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ arquillian-junit-container ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /home/artefact/tests/Maven Test Sources/arquillian-junit-container-1.1.2.Final-test-sources/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.732 s
+[INFO] Finished at: 2017-09-21T11:59:44+02:00
+[INFO] Final Memory: 15M/216M
+[INFO] ------------------------------------------------------------------------
