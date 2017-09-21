@@ -51,11 +51,14 @@ for line in sourcesFile.readlines():
             os.chdir(outputDir)
             proc = subprocess.Popen(["mvn test"], stdout=subprocess.PIPE, shell=True)
             (out, err) = proc.communicate()
+            if out is None:
+                print("ERROR: no output for " + artifact + "-" + version)
             outputFile = open('mvntest.out', 'w')
-            outputFile.write(out.decode("utf-8") )
-            errorFile = open('mvntest.err', 'w')
-            errorFile.write(err.decode("utf-8") )
+            outputFile.write(out.decode("utf-8"))
             outputFile.close()
-            errorFile.close()
+            if not err is None:
+                errorFile = open('mvntest.err', 'w')
+                errorFile.write(err.decode("utf-8"))
+                errorFile.close()
             os.chdir("../../")
         print("Finished Processing " + artifact + "-" + version)
