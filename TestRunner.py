@@ -21,6 +21,6 @@ for rootdir,dirs,files in os.walk(MAVEN_TEST_DIR):
             # move the sources into the correct directory structure
             #os.system("mkdir \"" + outputDir + "/src\"")
             #os.system("mkdir \"" + outputDir + "/src/test\"")
-            os.system("mv \"" + outputDir + "\"/* \"" + outputDir + "\"src/test/")
+            os.system("mv \"" + outputDir + "\"/* \"" + outputDir + "\"/src/test/")
 
             
