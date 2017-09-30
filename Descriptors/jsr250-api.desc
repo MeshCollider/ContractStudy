@@ -1,0 +1,3 @@
+versions: 1.0
+git_url: -
+run_command: `mvn test`

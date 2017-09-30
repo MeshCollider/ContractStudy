@@ -1,35 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.4/logback-parent-1.1.4.pom
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.4/logback-parent-1.1.4.pom (17 KB at 12.3 KB/sec)
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Logback Core Module 1.1.4
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ logback-core ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-core-1.1.4-test-sources/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ logback-core ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- maven-bundle-plugin:2.5.3:manifest (bundle-manifest) @ logback-core ---
-[WARNING] Manifest ch.qos.logback:logback-core:jar:1.1.4 : Unused Export-Package instructions: [ch.qos.logback.core.*] 
-[WARNING] Manifest ch.qos.logback:logback-core:jar:1.1.4 : Unused Import-Package instructions: [javax.*, org.xml.*] 
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ logback-core ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/logback-core-1.1.4-test-sources/src/test/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ logback-core ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ logback-core ---
-[INFO] No tests to run.
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 3.773 s
-[INFO] Finished at: 2017-09-21T11:44:30+02:00
-[INFO] Final Memory: 19M/225M
-[INFO] ------------------------------------------------------------------------

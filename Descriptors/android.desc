@@ -1,0 +1,4 @@
+versions: 4.1.1.4,2.2.1,4.0.1.2,2.1.2,2.3.3,1.5_r4,1.5_r3,1.6_r2,2.3.1,2.1_r1
+git_url: https://android.googlesource.com/platform/manifest
+type: custom
+run_command: `mvn test`

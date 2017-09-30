@@ -1,76 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.0.3-alpha/hadoop-project-dist-2.0.3-alpha.pom
-3/18 KB   5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.0.3-alpha/hadoop-project-dist-2.0.3-alpha.pom (18 KB at 11.3 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.0.3-alpha/hadoop-project-2.0.3-alpha.pom
-3/33 KB    5/33 KB   8/33 KB   11/33 KB   13/33 KB   16/33 KB   19/33 KB   21/33 KB   24/33 KB   27/33 KB   29/33 KB   32/33 KB   33/33 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.0.3-alpha/hadoop-project-2.0.3-alpha.pom (33 KB at 47.0 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.0.3-alpha/hadoop-main-2.0.3-alpha.pom
-3/16 KB    5/16 KB   8/16 KB   11/16 KB   13/16 KB   16/16 KB   16/16 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.0.3-alpha/hadoop-main-2.0.3-alpha.pom (16 KB at 33.5 KB/sec)
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Hadoop Common 2.0.3-alpha
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2/exec-maven-plugin-1.2.pom
-3/7 KB     5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2/exec-maven-plugin-1.2.pom (7 KB at 22.9 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/24/mojo-parent-24.pom
-3/23 KB   5/23 KB   8/23 KB   11/23 KB   13/23 KB   16/23 KB   19/23 KB   21/23 KB   23/23 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/24/mojo-parent-24.pom (23 KB at 67.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2/exec-maven-plugin-1.2.jar
-3/36 KB    5/36 KB   8/36 KB   11/36 KB   13/36 KB   16/36 KB   19/36 KB   21/36 KB   24/36 KB   27/36 KB   29/36 KB   32/36 KB   35/36 KB   36/36 KB              Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.2/exec-maven-plugin-1.2.jar (36 KB at 107.5 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.pom
-2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.pom (2 KB at 3.2 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.pom
-3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.pom (7 KB at 11.8 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.jar
-                  Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.jar
-                  Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.jar
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.3-alpha/hadoop-annotations-2.0.3-alpha.jar (17 KB at 29.8 KB/sec)
-3/47 KB    5/47 KB   8/47 KB   11/47 KB   13/47 KB   16/47 KB   19/47 KB   21/47 KB   24/47 KB   27/47 KB   29/47 KB   32/47 KB   36/47 KB   40/47 KB   44/47 KB   47/47 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.3-alpha/hadoop-auth-2.0.3-alpha.jar (47 KB at 34.2 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (create-testdirs) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.3-alpha-test-sources/target/test-dir
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.3-alpha-test-sources/target/test/data
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (create-protobuf-generated-sources-directory) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.3-alpha-test-sources/target/generated-sources/java
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.3-alpha-test-sources/target/generated-test-sources/java
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-     [exec] sh: 0: Can't open /home/artefact/tests/Maven
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- exec-maven-plugin:1.2:exec (compile-proto) @ hadoop-common ---
-Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.0.1/commons-exec-1.0.1.pom
-3/8 KB     5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.0.1/commons-exec-1.0.1.pom (8 KB at 23.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.0.1/commons-exec-1.0.1.jar
-3/49 KB   5/49 KB   8/49 KB   11/49 KB   13/49 KB   16/49 KB   19/49 KB   21/49 KB   24/49 KB   27/49 KB   29/49 KB   32/49 KB   36/49 KB   40/49 KB   44/49 KB   48/49 KB   49/49 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.0.1/commons-exec-1.0.1.jar (49 KB at 135.5 KB/sec)
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13.108 s
-[INFO] Finished at: 2017-09-21T11:33:08+02:00
-[INFO] Final Memory: 15M/217M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.2:exec (compile-proto) on project hadoop-common: Command execution failed. Cannot run program "protoc" (in directory "/home/artefact/tests/Maven Test Sources/hadoop-common-2.0.3-alpha-test-sources"): error=2, No such file or directory -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

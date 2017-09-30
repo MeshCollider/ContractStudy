@@ -1,149 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.1/hadoop-project-dist-2.6.1.pom
-3/18 KB   5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.1/hadoop-project-dist-2.6.1.pom (18 KB at 13.2 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.1/hadoop-project-2.6.1.pom
-3/43 KB    5/43 KB   8/43 KB   11/43 KB   13/43 KB   16/43 KB   19/43 KB   21/43 KB   24/43 KB   27/43 KB   29/43 KB   32/43 KB   36/43 KB   40/43 KB   43/43 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.1/hadoop-project-2.6.1.pom (43 KB at 87.7 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.1/hadoop-main-2.6.1.pom
-4/18 KB    8/18 KB   12/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.1/hadoop-main-2.6.1.pom (18 KB at 54.7 KB/sec)
-[WARNING] 
-[WARNING] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-common:jar:2.6.1
-[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 516, column 15
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.servlet.jsp:jsp-api:jar -> duplicate declaration of version 2.1 @ org.apache.hadoop:hadoop-project:2.6.1, /home/artefact/.m2/repository/org/apache/hadoop/hadoop-project/2.6.1/hadoop-project-2.6.1.pom, line 563, column 19
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.curator:curator-framework:jar -> duplicate declaration of version 2.6.0 @ org.apache.hadoop:hadoop-project:2.6.1, /home/artefact/.m2/repository/org/apache/hadoop/hadoop-project/2.6.1/hadoop-project-2.6.1.pom, line 915, column 18
-[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.curator:curator-test:jar -> duplicate declaration of version 2.6.0 @ org.apache.hadoop:hadoop-project:2.6.1, /home/artefact/.m2/repository/org/apache/hadoop/hadoop-project/2.6.1/hadoop-project-2.6.1.pom, line 920, column 18
-[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-enforcer-plugin @ org.apache.hadoop:hadoop-project:2.6.1, /home/artefact/.m2/repository/org/apache/hadoop/hadoop-project/2.6.1/hadoop-project-2.6.1.pom, line 1154, column 15
-[WARNING] 
-[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
-[WARNING] 
-[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
-[WARNING] 
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Hadoop Common 2.6.1
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.1/hadoop-maven-plugins-2.6.1.pom
-3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.1/hadoop-maven-plugins-2.6.1.pom (3 KB at 6.9 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.1/hadoop-maven-plugins-2.6.1.jar
-3/19 KB   5/19 KB   8/19 KB   11/19 KB   13/19 KB   16/19 KB   19/19 KB   19/19 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.1/hadoop-maven-plugins-2.6.1.jar (19 KB at 35.4 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.pom
-3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.pom (3 KB at 7.6 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom
-3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom (3 KB at 8.0 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom
-3/12 KB   6/12 KB   9/12 KB   11/12 KB   12/12 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.5/slf4j-parent-1.7.5.pom (12 KB at 36.9 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom
-2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom (2 KB at 5.1 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.pom
-3/8 KB   5/8 KB   8/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.pom (8 KB at 25.2 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom
-3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.pom (3 KB at 6.7 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom
-3/30 KB   5/30 KB   8/30 KB   11/30 KB   13/30 KB   16/30 KB   19/30 KB   21/30 KB   24/30 KB   27/30 KB   29/30 KB   30/30 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/apache-curator/2.6.0/apache-curator-2.6.0.pom (30 KB at 92.6 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom
-3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.pom (3 KB at 7.3 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.pom
-3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.pom (6 KB at 11.2 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom
-2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.pom (2 KB at 6.4 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom
-3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.pom (3 KB at 7.5 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom
-3/3 KB   3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom (3 KB at 9.5 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/htrace/htrace/3.0.4/htrace-3.0.4.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/htrace/htrace/3.0.4/htrace-3.0.4.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/htrace/htrace/3.0.4/htrace-3.0.4.pom
-3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/htrace/htrace/3.0.4/htrace-3.0.4.pom (7 KB at 21.9 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
-         Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1-tests.jar
-         Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.jar
-         Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
-         Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-         Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
-         Downloading: https://repository.apache.org/content/repositories/snapshots/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar
-                                             Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.jar
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1-tests.jar
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.jar
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar
-                                             Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.jar
-Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
-Downloading: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.1/hadoop-annotations-2.6.1.jar (17 KB at 50.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1-tests.jar
-3/66 KB    5/66 KB   8/66 KB   11/66 KB   13/66 KB   3/26 KB   13/66 KB   6/26 KB   13/66 KB   9/26 KB   13/66 KB   11/26 KB   13/66 KB   11/26 KB   3/9 KB   13/66 KB   11/26 KB   5/9 KB   13/66 KB   11/26 KB   8/9 KB   13/66 KB   11/26 KB   9/9 KB   13/66 KB   11/26 KB   9/9 KB   3/181 KB   13/66 KB   11/26 KB   9/9 KB   5/181 KB   13/66 KB   11/26 KB   9/9 KB   8/181 KB   13/66 KB   11/26 KB   9/9 KB   11/181 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   3/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   5/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   8/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   11/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   13/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   16/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   19/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   21/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   24/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   27/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   29/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   32/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   36/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   40/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   44/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   48/72 KB   13/66 KB   11/26 KB   9/9 KB   13/181 KB   48/72 KB   16/66 KB   11/26 KB   9/9 KB   13/181 KB   48/72 KB   19/66 KB   11/26 KB   9/9 KB   13/181 KB   48/72 KB   21/66 KB   11/26 KB   9/9 KB   13/181 KB   48/72 KB   24/66 KB   11/26 KB   9/9 KB   13/181 KB   48/72 KB   27/66 KB   14/26 KB   9/9 KB   13/181 KB   48/72 KB   27/66 KB   14/26 KB   9/9 KB   16/181 KB   48/72 KB   27/66 KB   14/26 KB   9/9 KB   16/181 KB   48/72 KB   29/66 KB   14/26 KB   9/9 KB   16/181 KB   48/72 KB   32/66 KB                                                         Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar (9 KB at 10.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.jar
-14/26 KB   19/181 KB   48/72 KB   32/66 KB            16/26 KB   19/181 KB   48/72 KB   32/66 KB   16/26 KB   21/181 KB   48/72 KB   32/66 KB   19/26 KB   21/181 KB   48/72 KB   32/66 KB   19/26 KB   21/181 KB   52/72 KB   32/66 KB   19/26 KB   21/181 KB   56/72 KB   32/66 KB   19/26 KB   21/181 KB   60/72 KB   32/66 KB   19/26 KB   21/181 KB   64/72 KB   32/66 KB   19/26 KB   24/181 KB   64/72 KB   32/66 KB   22/26 KB   24/181 KB   64/72 KB   32/66 KB   22/26 KB   24/181 KB   68/72 KB   32/66 KB   22/26 KB   24/181 KB   72/72 KB   32/66 KB   25/26 KB   24/181 KB   72/72 KB   32/66 KB   26/26 KB   24/181 KB   72/72 KB   32/66 KB   26/26 KB   27/181 KB   72/72 KB   32/66 KB   26/26 KB   29/181 KB   72/72 KB   32/66 KB   26/26 KB   32/181 KB   72/72 KB   32/66 KB   26/26 KB   32/181 KB   72/72 KB   36/66 KB   26/26 KB   32/181 KB   72/72 KB   40/66 KB   26/26 KB   32/181 KB   72/72 KB   44/66 KB   26/26 KB   32/181 KB   72/72 KB   48/66 KB   26/26 KB   32/181 KB   72/72 KB   52/66 KB   26/26 KB   32/181 KB   72/72 KB   56/66 KB   26/26 KB   32/181 KB   72/72 KB   60/66 KB   26/26 KB   32/181 KB   72/72 KB   64/66 KB   26/26 KB   32/181 KB   72/72 KB   66/66 KB   26/26 KB   36/181 KB   72/72 KB   66/66 KB   26/26 KB   40/181 KB   72/72 KB   66/66 KB   26/26 KB   44/181 KB   72/72 KB   66/66 KB   26/26 KB   48/181 KB   72/72 KB   66/66 KB   26/26 KB   52/181 KB   72/72 KB   66/66 KB   26/26 KB   56/181 KB   72/72 KB   66/66 KB   26/26 KB   60/181 KB   72/72 KB   66/66 KB   26/26 KB   64/181 KB   72/72 KB   66/66 KB                                                Downloaded: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar (26 KB at 25.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar
-68/181 KB   72/72 KB   66/66 KB              72/181 KB   72/72 KB   66/66 KB   76/181 KB   72/72 KB   66/66 KB   80/181 KB   72/72 KB   66/66 KB   80/181 KB   72/72 KB   3/17 KB   66/66 KB   80/181 KB   72/72 KB   5/17 KB   66/66 KB   80/181 KB   72/72 KB   8/17 KB   66/66 KB   84/181 KB   72/72 KB   8/17 KB   66/66 KB   88/181 KB   72/72 KB   8/17 KB   66/66 KB   92/181 KB   72/72 KB   8/17 KB   66/66 KB   96/181 KB   72/72 KB   8/17 KB   66/66 KB                                               Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1-tests.jar (72 KB at 66.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar
-96/181 KB   11/17 KB   66/66 KB             96/181 KB   13/17 KB   66/66 KB   96/181 KB   16/17 KB   66/66 KB   96/181 KB   17/17 KB   66/66 KB                                     Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.1/hadoop-auth-2.6.1.jar (66 KB at 59.8 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar
-100/181 KB   17/17 KB             104/181 KB   17/17 KB   108/181 KB   17/17 KB   112/181 KB   17/17 KB   116/181 KB   17/17 KB   120/181 KB   17/17 KB   124/181 KB   17/17 KB   128/181 KB   17/17 KB   3/39 KB   128/181 KB   17/17 KB   6/39 KB   128/181 KB   17/17 KB   9/39 KB   128/181 KB   17/17 KB   9/39 KB   132/181 KB   17/17 KB   9/39 KB   136/181 KB   17/17 KB   9/39 KB   140/181 KB   17/17 KB   9/39 KB   144/181 KB   17/17 KB   11/39 KB   144/181 KB   17/17 KB   14/39 KB   144/181 KB   17/17 KB   16/39 KB   144/181 KB   17/17 KB   19/39 KB   144/181 KB   17/17 KB   22/39 KB   144/181 KB   17/17 KB   25/39 KB   144/181 KB   17/17 KB   27/39 KB   144/181 KB   17/17 KB   30/39 KB   144/181 KB   17/17 KB   32/39 KB   144/181 KB   17/17 KB   35/39 KB   144/181 KB   17/17 KB   35/39 KB   148/181 KB   17/17 KB   35/39 KB   152/181 KB   17/17 KB   35/39 KB   156/181 KB   17/17 KB   35/39 KB   160/181 KB   17/17 KB   35/39 KB   160/181 KB   4/68 KB   17/17 KB   35/39 KB   160/181 KB   8/68 KB   17/17 KB   35/39 KB   160/181 KB   12/68 KB   17/17 KB   35/39 KB   160/181 KB   16/68 KB   17/17 KB   35/39 KB   160/181 KB   20/68 KB   17/17 KB   35/39 KB   160/181 KB   24/68 KB   17/17 KB   35/39 KB   160/181 KB   28/68 KB   17/17 KB   35/39 KB   160/181 KB   32/68 KB   17/17 KB   35/39 KB   160/181 KB   32/68 KB   17/17 KB   4/243 KB   35/39 KB   160/181 KB   32/68 KB   17/17 KB   8/243 KB   35/39 KB   160/181 KB   32/68 KB   17/17 KB   12/243 KB   35/39 KB   160/181 KB   32/68 KB   17/17 KB   16/243 KB   35/39 KB   164/181 KB   32/68 KB   17/17 KB   16/243 KB   35/39 KB   168/181 KB   32/68 KB   17/17 KB   16/243 KB   35/39 KB   172/181 KB   32/68 KB   17/17 KB   16/243 KB   35/39 KB   176/181 KB   32/68 KB   17/17 KB   16/243 KB   35/39 KB   176/181 KB   36/68 KB   17/17 KB   16/243 KB   35/39 KB   176/181 KB   40/68 KB   17/17 KB   16/243 KB   35/39 KB   176/181 KB   44/68 KB   17/17 KB   16/243 KB   35/39 KB   176/181 KB   48/68 KB   17/17 KB   16/243 KB   35/39 KB   180/181 KB   48/68 KB   17/17 KB   16/243 KB   35/39 KB   181/181 KB   48/68 KB   17/17 KB   16/243 KB   35/39 KB   181/181 KB   48/68 KB   17/17 KB   20/243 KB   35/39 KB   181/181 KB   48/68 KB   17/17 KB   24/243 KB   35/39 KB   181/181 KB   48/68 KB   17/17 KB   28/243 KB   35/39 KB   181/181 KB   48/68 KB   17/17 KB   32/243 KB   38/39 KB   181/181 KB   48/68 KB   17/17 KB   32/243 KB   39/39 KB   181/181 KB   48/68 KB   17/17 KB   32/243 KB   39/39 KB   181/181 KB   48/68 KB   17/17 KB   36/243 KB   39/39 KB   181/181 KB   48/68 KB   17/17 KB   40/243 KB   39/39 KB   181/181 KB   48/68 KB   17/17 KB   44/243 KB   39/39 KB   181/181 KB   48/68 KB   17/17 KB   48/243 KB                                                             Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.1/hadoop-minikdc-2.6.1.jar (17 KB at 12.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar
-39/39 KB   181/181 KB   52/68 KB   48/243 KB              39/39 KB   181/181 KB   56/68 KB   48/243 KB   39/39 KB   181/181 KB   60/68 KB   48/243 KB   39/39 KB   181/181 KB   64/68 KB   48/243 KB   39/39 KB   181/181 KB   68/68 KB   48/243 KB   39/39 KB   181/181 KB   68/68 KB   52/243 KB   39/39 KB   181/181 KB   68/68 KB   56/243 KB   39/39 KB   181/181 KB   68/68 KB   60/243 KB   39/39 KB   181/181 KB   68/68 KB   64/243 KB   39/39 KB   181/181 KB   68/68 KB   68/243 KB   39/39 KB   181/181 KB   68/68 KB   72/243 KB   39/39 KB   181/181 KB   68/68 KB   76/243 KB   39/39 KB   181/181 KB   68/68 KB   80/243 KB                                                  Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.6.0/curator-framework-2.6.0.jar (181 KB at 128.5 KB/sec)
-39/39 KB   68/68 KB   84/243 KB                39/39 KB   68/68 KB   88/243 KB   39/39 KB   68/68 KB   92/243 KB   39/39 KB   68/68 KB   96/243 KB   39/39 KB   68/68 KB   100/243 KB   39/39 KB   68/68 KB   104/243 KB   39/39 KB   68/68 KB   108/243 KB   39/39 KB   68/68 KB   112/243 KB                                      Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-test/2.6.0/curator-test-2.6.0.jar (39 KB at 27.1 KB/sec)
-3/31 KB   68/68 KB   112/243 KB    5/31 KB   68/68 KB   112/243 KB   8/31 KB   68/68 KB   112/243 KB   11/31 KB   68/68 KB   112/243 KB   13/31 KB   68/68 KB   112/243 KB   16/31 KB   68/68 KB   112/243 KB   19/31 KB   68/68 KB   112/243 KB   21/31 KB   68/68 KB   112/243 KB   24/31 KB   68/68 KB   112/243 KB   27/31 KB   68/68 KB   112/243 KB   29/31 KB   68/68 KB   112/243 KB   31/31 KB   68/68 KB   112/243 KB                                      Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-client/2.6.0/curator-client-2.6.0.jar (68 KB at 44.9 KB/sec)
-31/31 KB   116/243 KB              31/31 KB   120/243 KB   31/31 KB   124/243 KB   31/31 KB   128/243 KB   31/31 KB   132/243 KB   31/31 KB   136/243 KB   31/31 KB   140/243 KB   31/31 KB   144/243 KB   31/31 KB   148/243 KB   31/31 KB   152/243 KB   31/31 KB   156/243 KB   31/31 KB   160/243 KB   31/31 KB   164/243 KB   31/31 KB   168/243 KB   31/31 KB   172/243 KB   31/31 KB   176/243 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar (31 KB at 18.7 KB/sec)
-180/243 KB              184/243 KB   188/243 KB   192/243 KB   196/243 KB   200/243 KB   204/243 KB   208/243 KB   212/243 KB   216/243 KB   220/243 KB   224/243 KB   228/243 KB   232/243 KB   236/243 KB   240/243 KB   243/243 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/curator/curator-recipes/2.6.0/curator-recipes-2.6.0.jar (243 KB at 128.8 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.7:run (create-testdirs) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.6.1-test-sources/target/test-dir
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.6.1-test-sources/target/test/data
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- hadoop-maven-plugins:2.6.1:protoc (compile-protoc) @ hadoop-common ---
-[WARNING] [protoc, --version] failed: java.io.IOException: Cannot run program "protoc": error=2, No such file or directory
-[ERROR] stdout: []
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 32.181 s
-[INFO] Finished at: 2017-09-21T11:31:07+02:00
-[INFO] Final Memory: 21M/215M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.hadoop:hadoop-maven-plugins:2.6.1:protoc (compile-protoc) on project hadoop-common: org.apache.maven.plugin.MojoExecutionException: 'protoc --version' did not return a version -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

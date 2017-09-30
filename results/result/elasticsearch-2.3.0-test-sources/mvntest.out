@@ -1,104 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/elasticsearch/parent/2.3.0/parent-2.3.0.pom
-3/80 KB   5/80 KB   8/80 KB   11/80 KB   13/80 KB   16/80 KB   19/80 KB   21/80 KB   24/80 KB   27/80 KB   29/80 KB   32/80 KB   36/80 KB   40/80 KB   44/80 KB   48/80 KB   52/80 KB   56/80 KB   60/80 KB   64/80 KB   68/80 KB   72/80 KB   76/80 KB   80/80 KB              Downloaded: https://repo.maven.apache.org/maven2/org/elasticsearch/parent/2.3.0/parent-2.3.0.pom (80 KB at 52.4 KB/sec)
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Elasticsearch: Core 2.3.0
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ elasticsearch ---
-[INFO] Skipping Rule Enforcement.
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-version) @ elasticsearch ---
-[INFO] Skipping Rule Enforcement.
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.4.1:display-info (print-versions) @ elasticsearch ---
-[INFO] Maven Version: 3.3.9
-[INFO] JDK Version: 1.8.0_121 normalized as: 1.8.0-121
-[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 4.4.0-62-generic
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java-home-is-set) @ elasticsearch ---
-[INFO] Skipping Rule Enforcement.
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ elasticsearch ---
-[INFO] Skipping Rule Enforcement.
-[INFO] 
-[INFO] --- buildnumber-maven-plugin:1.3:create (default) @ elasticsearch ---
-[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources" && git rev-parse --verify HEAD
-[INFO] Working directory: /home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources
-[INFO] Storing buildNumber: 85e46f5635a2a2f8a00c527e2e92d493d635f2dd at timestamp: 1505987521013
-[INFO] Storing buildScmBranch: BuildTestSources
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.8:run (set-permgen) @ elasticsearch ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.8:run (check-invalid-patterns) @ elasticsearch ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.8:run (set-doclint-all) @ elasticsearch ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.8:run (set-doclint-missing) @ elasticsearch ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ elasticsearch ---
-Downloading: http://maven.elasticsearch.org/releases/org/elasticsearch/dev-tools/2.3.0/dev-tools-2.3.0.jar
-           Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/elasticsearch/dev-tools/2.3.0/dev-tools-2.3.0.jar
-           Downloading: https://repo.maven.apache.org/maven2/org/elasticsearch/dev-tools/2.3.0/dev-tools-2.3.0.jar
-3/122 KB   5/122 KB   8/122 KB   11/122 KB   13/122 KB   16/122 KB   19/122 KB   21/122 KB   24/122 KB   27/122 KB   29/122 KB   32/122 KB   36/122 KB   40/122 KB   44/122 KB   48/122 KB   52/122 KB   56/122 KB   60/122 KB   64/122 KB   68/122 KB   72/122 KB   76/122 KB   80/122 KB   84/122 KB   88/122 KB   92/122 KB   96/122 KB   100/122 KB   104/122 KB   108/122 KB   112/122 KB   116/122 KB   120/122 KB   122/122 KB                Downloaded: https://repo.maven.apache.org/maven2/org/elasticsearch/dev-tools/2.3.0/dev-tools-2.3.0.jar (122 KB at 124.2 KB/sec)
-Downloading: http://maven.elasticsearch.org/releases/org/elasticsearch/rest-api-spec/2.3.0/rest-api-spec-2.3.0.jar
-             Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/elasticsearch/rest-api-spec/2.3.0/rest-api-spec-2.3.0.jar
-             Downloading: https://repo.maven.apache.org/maven2/org/elasticsearch/rest-api-spec/2.3.0/rest-api-spec-2.3.0.jar
-3/200 KB     5/200 KB   8/200 KB   11/200 KB   13/200 KB   16/200 KB   19/200 KB   21/200 KB   24/200 KB   27/200 KB   29/200 KB   32/200 KB   36/200 KB   40/200 KB   44/200 KB   48/200 KB   52/200 KB   56/200 KB   60/200 KB   64/200 KB   68/200 KB   72/200 KB   76/200 KB   80/200 KB   84/200 KB   88/200 KB   92/200 KB   96/200 KB   100/200 KB   104/200 KB   108/200 KB   112/200 KB   116/200 KB   120/200 KB   124/200 KB   128/200 KB   132/200 KB   136/200 KB   140/200 KB   144/200 KB   148/200 KB   152/200 KB   156/200 KB   160/200 KB   164/200 KB   168/200 KB   172/200 KB   176/200 KB   180/200 KB   184/200 KB   188/200 KB   192/200 KB   196/200 KB   200/200 KB   200/200 KB                Downloaded: https://repo.maven.apache.org/maven2/org/elasticsearch/rest-api-spec/2.3.0/rest-api-spec-2.3.0.jar (200 KB at 186.3 KB/sec)
-[INFO] 
-[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ elasticsearch ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources/src/main/resources
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ elasticsearch ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- animal-sniffer-maven-plugin:1.14:check (check-java17) @ elasticsearch ---
-[INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
-[INFO] 
-[INFO] --- forbiddenapis:2.0:check (check-forbidden-apis) @ elasticsearch ---
-[INFO] Scanning for classes to check...
-[WARNING] Classes directory does not exist, forbiddenapis check skipped: /home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources/target/classes
-[INFO] 
-[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ elasticsearch ---
-[INFO] Using 'UTF-8' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources/src/test/resources
-[INFO] Copying 345 resources to rest-api-spec
-[INFO] Copying 1 resource
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ elasticsearch ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- forbiddenapis:2.0:testCheck (check-forbidden-test-apis) @ elasticsearch ---
-[INFO] Scanning for classes to check...
-[WARNING] No classes found in '/home/artefact/tests/Maven Test Sources/elasticsearch-2.3.0-test-sources/target/test-classes' (includes=[**/*.class], excludes=null), forbiddenapis check skipped.
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.19:test (default-test) @ elasticsearch ---
-[INFO] Tests are skipped.
-[INFO] 
-[INFO] --- junit4-maven-plugin:2.3.2:junit4 (tests) @ elasticsearch ---
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 15.233 s
-[INFO] Finished at: 2017-09-21T11:52:13+02:00
-[INFO] Final Memory: 70M/708M
-[INFO] ------------------------------------------------------------------------

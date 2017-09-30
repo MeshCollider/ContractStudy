@@ -1,73 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.1.0-beta/hadoop-project-dist-2.1.0-beta.pom
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.1.0-beta/hadoop-project-dist-2.1.0-beta.pom (17 KB at 12.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.1.0-beta/hadoop-project-2.1.0-beta.pom
-3/34 KB    6/34 KB   7/34 KB   10/34 KB   11/34 KB   14/34 KB   15/34 KB   18/34 KB   19/34 KB   22/34 KB   23/34 KB   26/34 KB   27/34 KB   30/34 KB   31/34 KB   34/34 KB   34/34 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.1.0-beta/hadoop-project-2.1.0-beta.pom (34 KB at 57.8 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.1.0-beta/hadoop-main-2.1.0-beta.pom
-3/17 KB    5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.1.0-beta/hadoop-main-2.1.0-beta.pom (17 KB at 51.6 KB/sec)
-[WARNING] 
-[WARNING] Some problems were encountered while building the effective model for org.apache.hadoop:hadoop-common:jar:2.1.0-beta
-[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-surefire-plugin @ line 462, column 15
-[WARNING] 
-[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
-[WARNING] 
-[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
-[WARNING] 
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Hadoop Common 2.1.0-beta
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.1.0-beta/hadoop-maven-plugins-2.1.0-beta.pom
-3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.1.0-beta/hadoop-maven-plugins-2.1.0-beta.pom (3 KB at 4.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.1.0-beta/hadoop-maven-plugins-2.1.0-beta.jar
-3/19 KB   5/19 KB   8/19 KB   11/19 KB   13/19 KB   16/19 KB   19/19 KB   19/19 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.1.0-beta/hadoop-maven-plugins-2.1.0-beta.jar (19 KB at 31.6 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.pom
-2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.pom (2 KB at 6.4 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.pom
-3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.pom (7 KB at 23.1 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-compress/1.4/commons-compress-1.4.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/commons/commons-compress/1.4/commons-compress-1.4.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.4/commons-compress-1.4.pom
-3/11 KB   5/11 KB   8/11 KB   11/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.4/commons-compress-1.4.pom (11 KB at 34.0 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/commons/commons-compress/1.4/commons-compress-1.4.jar
-                                 Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/commons/commons-compress/1.4/commons-compress-1.4.jar
-                                 Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.4/commons-compress-1.4.jar
-3/17 KB    5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.1.0-beta/hadoop-annotations-2.1.0-beta.jar (17 KB at 51.1 KB/sec)
-3/47 KB    5/47 KB   8/47 KB   11/47 KB   13/47 KB   13/47 KB   3/234 KB   13/47 KB   5/234 KB   13/47 KB   8/234 KB   13/47 KB   11/234 KB   13/47 KB   13/234 KB   16/47 KB   13/234 KB   19/47 KB   13/234 KB   19/47 KB   16/234 KB   21/47 KB   16/234 KB   21/47 KB   19/234 KB   24/47 KB   19/234 KB   24/47 KB   21/234 KB   24/47 KB   24/234 KB   24/47 KB   27/234 KB   27/47 KB   27/234 KB   29/47 KB   27/234 KB   32/47 KB   27/234 KB   32/47 KB   29/234 KB   32/47 KB   32/234 KB   36/47 KB   32/234 KB   40/47 KB   32/234 KB   44/47 KB   32/234 KB   47/47 KB   32/234 KB   47/47 KB   36/234 KB   47/47 KB   40/234 KB   47/47 KB   44/234 KB   47/47 KB   48/234 KB   47/47 KB   52/234 KB   47/47 KB   56/234 KB   47/47 KB   60/234 KB   47/47 KB   64/234 KB   47/47 KB   68/234 KB   47/47 KB   72/234 KB   47/47 KB   76/234 KB   47/47 KB   80/234 KB   47/47 KB   84/234 KB   47/47 KB   88/234 KB   47/47 KB   92/234 KB   47/47 KB   96/234 KB                          Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.1.0-beta/hadoop-auth-2.1.0-beta.jar (47 KB at 42.7 KB/sec)
-100/234 KB             104/234 KB   108/234 KB   112/234 KB   116/234 KB   120/234 KB   124/234 KB   128/234 KB   132/234 KB   136/234 KB   140/234 KB   144/234 KB   148/234 KB   152/234 KB   156/234 KB   160/234 KB   164/234 KB   168/234 KB   172/234 KB   176/234 KB   180/234 KB   184/234 KB   188/234 KB   192/234 KB   196/234 KB   200/234 KB   204/234 KB   208/234 KB   212/234 KB   216/234 KB   220/234 KB   224/234 KB   228/234 KB   232/234 KB   234/234 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.4/commons-compress-1.4.jar (234 KB at 152.2 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (create-testdirs) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.1.0-beta-test-sources/target/test-dir
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.1.0-beta-test-sources/target/test/data
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- hadoop-maven-plugins:2.1.0-beta:protoc (compile-protoc) @ hadoop-common ---
-[WARNING] [protoc, --version] failed: java.io.IOException: Cannot run program "protoc": error=2, No such file or directory
-[ERROR] stdout: []
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13.623 s
-[INFO] Finished at: 2017-09-21T11:34:05+02:00
-[INFO] Final Memory: 15M/215M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.hadoop:hadoop-maven-plugins:2.1.0-beta:protoc (compile-protoc) on project hadoop-common: org.apache.maven.plugin.MojoExecutionException: 'protoc --version' did not return a version -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

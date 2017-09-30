@@ -1,79 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.0.2-alpha/hadoop-project-dist-2.0.2-alpha.pom
-3/18 KB   5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.0.2-alpha/hadoop-project-dist-2.0.2-alpha.pom (18 KB at 11.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.0.2-alpha/hadoop-project-2.0.2-alpha.pom
-3/35 KB    5/35 KB   8/35 KB   11/35 KB   13/35 KB   16/35 KB   19/35 KB   21/35 KB   24/35 KB   27/35 KB   29/35 KB   32/35 KB   35/35 KB   35/35 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.0.2-alpha/hadoop-project-2.0.2-alpha.pom (35 KB at 76.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.0.2-alpha/hadoop-main-2.0.2-alpha.pom
-3/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.0.2-alpha/hadoop-main-2.0.2-alpha.pom (13 KB at 40.1 KB/sec)
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Hadoop Common 2.0.2-alpha
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.pom
-2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.pom (2 KB at 3.2 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.pom
-3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.pom (7 KB at 22.5 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.jar
-                  Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.jar
-                  Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.jar
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.0.2-alpha/hadoop-annotations-2.0.2-alpha.jar (17 KB at 34.0 KB/sec)
-3/44 KB    5/44 KB   8/44 KB   11/44 KB   13/44 KB   16/44 KB   19/44 KB   21/44 KB   24/44 KB   27/44 KB   29/44 KB   32/44 KB   36/44 KB   40/44 KB   44/44 KB   44/44 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.0.2-alpha/hadoop-auth-2.0.2-alpha.jar (44 KB at 39.8 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (create-testdirs) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/target/test-dir
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/target/test/data
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (compile-proto) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-     [exec] sh: 0: Can't open /home/artefact/tests/Maven
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.1:build-classpath (build-classpath) @ hadoop-common ---
-[INFO] Wrote classpath file '/home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/target/classes/mrapp-generated-classpath'.
-[INFO] 
-[INFO] --- build-helper-maven-plugin:1.5:add-source (add-source) @ hadoop-common ---
-[INFO] Source directory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/target/generated-sources/java added.
-[INFO] 
-[INFO] --- build-helper-maven-plugin:1.5:add-test-source (add-test-source) @ hadoop-common ---
-[INFO] Test Source directory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/target/generated-test-sources/java added.
-[INFO] 
-[INFO] --- maven-resources-plugin:2.2:resources (default-resources) @ hadoop-common ---
-[INFO] Using default encoding to copy filtered resources.
-[INFO] 
-[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ hadoop-common ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- avro-maven-plugin:1.5.3:schema (generate-avro-test-sources) @ hadoop-common ---
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 11.936 s
-[INFO] Finished at: 2017-09-21T11:33:49+02:00
-[INFO] Final Memory: 19M/211M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.avro:avro-maven-plugin:1.5.3:schema (generate-avro-test-sources) on project hadoop-common: neither sourceDirectory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/src/main/avro or testSourceDirectory: /home/artefact/tests/Maven Test Sources/hadoop-common-2.0.2-alpha-test-sources/src/test/avro are directories -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

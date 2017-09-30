@@ -1,69 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.4/hadoop-project-dist-2.6.4.pom
-3/18 KB   5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/2.6.4/hadoop-project-dist-2.6.4.pom (18 KB at 13.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.4/hadoop-project-2.6.4.pom
-3/42 KB    5/42 KB   8/42 KB   11/42 KB   13/42 KB   16/42 KB   19/42 KB   21/42 KB   24/42 KB   27/42 KB   29/42 KB   32/42 KB   36/42 KB   40/42 KB   42/42 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/2.6.4/hadoop-project-2.6.4.pom (42 KB at 90.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.4/hadoop-main-2.6.4.pom
-4/18 KB    8/18 KB   12/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/2.6.4/hadoop-main-2.6.4.pom (18 KB at 56.2 KB/sec)
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Hadoop Common 2.6.4
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.4/hadoop-maven-plugins-2.6.4.pom
-3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.4/hadoop-maven-plugins-2.6.4.pom (3 KB at 4.8 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.4/hadoop-maven-plugins-2.6.4.jar
-3/19 KB   5/19 KB   8/19 KB   11/19 KB   13/19 KB   16/19 KB   19/19 KB   19/19 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-maven-plugins/2.6.4/hadoop-maven-plugins-2.6.4.jar (19 KB at 41.0 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.pom
-3/3 KB     3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.pom (3 KB at 7.7 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.pom
-3/8 KB   5/8 KB   8/8 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.pom (8 KB at 25.2 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.pom
-3/6 KB   5/6 KB   6/6 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.pom (6 KB at 11.8 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4-tests.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.jar
-                                    Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4-tests.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.jar
-                                    Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4-tests.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.jar
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.4/hadoop-annotations-2.6.4.jar (17 KB at 52.5 KB/sec)
-3/66 KB    5/66 KB   8/66 KB   11/66 KB   13/66 KB   13/66 KB   3/72 KB   13/66 KB   5/72 KB   13/66 KB   8/72 KB   13/66 KB   11/72 KB   13/66 KB   13/72 KB   3/17 KB   13/66 KB   13/72 KB   5/17 KB   13/66 KB   13/72 KB   8/17 KB   13/66 KB   13/72 KB   11/17 KB   13/66 KB   13/72 KB   13/17 KB   13/66 KB   13/72 KB   13/17 KB   16/66 KB   13/72 KB   13/17 KB   19/66 KB   13/72 KB   13/17 KB   21/66 KB   13/72 KB   13/17 KB   24/66 KB   13/72 KB   13/17 KB   27/66 KB   13/72 KB   13/17 KB   29/66 KB   13/72 KB   13/17 KB   32/66 KB   13/72 KB   13/17 KB   32/66 KB   16/72 KB   13/17 KB   32/66 KB   19/72 KB   13/17 KB   32/66 KB   21/72 KB   13/17 KB   32/66 KB   24/72 KB   13/17 KB   32/66 KB   27/72 KB   13/17 KB   32/66 KB   29/72 KB   13/17 KB   32/66 KB   32/72 KB   16/17 KB   32/66 KB   32/72 KB   17/17 KB   32/66 KB   32/72 KB   17/17 KB   36/66 KB   32/72 KB   17/17 KB   40/66 KB   32/72 KB   17/17 KB   44/66 KB   32/72 KB   17/17 KB   48/66 KB   32/72 KB   17/17 KB   52/66 KB   32/72 KB   17/17 KB   56/66 KB   32/72 KB   17/17 KB   60/66 KB   32/72 KB   17/17 KB   64/66 KB   32/72 KB   17/17 KB   66/66 KB   32/72 KB   17/17 KB   66/66 KB   36/72 KB   17/17 KB   66/66 KB   40/72 KB   17/17 KB   66/66 KB   44/72 KB   17/17 KB   66/66 KB   48/72 KB   17/17 KB   66/66 KB   52/72 KB   17/17 KB   66/66 KB   56/72 KB   17/17 KB   66/66 KB   60/72 KB   17/17 KB   66/66 KB   64/72 KB   17/17 KB   66/66 KB   68/72 KB   17/17 KB   66/66 KB   72/72 KB                                    Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4.jar (66 KB at 57.3 KB/sec)
-                                 Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-minikdc/2.6.4/hadoop-minikdc-2.6.4.jar (17 KB at 13.9 KB/sec)
-                                 Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/2.6.4/hadoop-auth-2.6.4-tests.jar (72 KB at 55.4 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.7:run (create-testdirs) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.6.4-test-sources/target/test-dir
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-2.6.4-test-sources/target/test/data
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- hadoop-maven-plugins:2.6.4:protoc (compile-protoc) @ hadoop-common ---
-[WARNING] [protoc, --version] failed: java.io.IOException: Cannot run program "protoc": error=2, No such file or directory
-[ERROR] stdout: []
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13.666 s
-[INFO] Finished at: 2017-09-21T11:32:53+02:00
-[INFO] Final Memory: 20M/211M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.hadoop:hadoop-maven-plugins:2.6.4:protoc (compile-protoc) on project hadoop-common: org.apache.maven.plugin.MojoExecutionException: 'protoc --version' did not return a version -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

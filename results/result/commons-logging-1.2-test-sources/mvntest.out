@@ -1,98 +1,0 @@
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Commons Logging 1.2
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.12/maven-failsafe-plugin-2.12.pom
-3/13 KB   5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.12/maven-failsafe-plugin-2.12.pom (13 KB at 9.8 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.12/maven-failsafe-plugin-2.12.jar
-3/50 KB    5/50 KB   8/50 KB   11/50 KB   13/50 KB   16/50 KB   19/50 KB   21/50 KB   24/50 KB   27/50 KB   29/50 KB   32/50 KB   36/50 KB   40/50 KB   44/50 KB   48/50 KB   50/50 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/2.12/maven-failsafe-plugin-2.12.jar (50 KB at 102.2 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.4/maven-dependency-plugin-2.4.pom
-4/11 KB    8/11 KB   11/11 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.4/maven-dependency-plugin-2.4.pom (11 KB at 34.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.4/maven-dependency-plugin-2.4.jar
-4/132 KB   8/132 KB   12/132 KB   16/132 KB   20/132 KB   24/132 KB   28/132 KB   32/132 KB   36/132 KB   40/132 KB   44/132 KB   48/132 KB   52/132 KB   56/132 KB   60/132 KB   64/132 KB   68/132 KB   72/132 KB   76/132 KB   80/132 KB   84/132 KB   88/132 KB   92/132 KB   96/132 KB   100/132 KB   104/132 KB   108/132 KB   112/132 KB   116/132 KB   120/132 KB   124/132 KB   128/132 KB   132/132 KB   132/132 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.4/maven-dependency-plugin-2.4.jar (132 KB at 212.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
-147/147 B                Downloaded: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom (147 B at 0.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.5/avalon-framework-4.1.5.pom
-166/166 B               Downloaded: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.5/avalon-framework-4.1.5.pom (166 B at 0.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
-156/156 B               Downloaded: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom (156 B at 0.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.jar
-Downloading: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.5/avalon-framework-4.1.5.jar
-Downloading: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar
-3/72 KB     5/72 KB   8/72 KB   11/72 KB   13/72 KB   16/72 KB   19/72 KB   21/72 KB   24/72 KB   27/72 KB   29/72 KB   32/72 KB   36/72 KB   40/72 KB   44/72 KB   48/72 KB   52/72 KB   56/72 KB   60/72 KB   64/72 KB   68/72 KB   72/72 KB   72/72 KB              Downloaded: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.5/avalon-framework-4.1.5.jar (72 KB at 156.9 KB/sec)
-3/77 KB    3/71 KB   3/77 KB   5/71 KB   3/77 KB   5/71 KB   5/77 KB   8/71 KB   5/77 KB   11/71 KB   5/77 KB   11/71 KB   8/77 KB   13/71 KB   8/77 KB   13/71 KB   11/77 KB   13/71 KB   13/77 KB   13/71 KB   16/77 KB   16/71 KB   16/77 KB   16/71 KB   19/77 KB   16/71 KB   21/77 KB   19/71 KB   21/77 KB   21/71 KB   21/77 KB   21/71 KB   24/77 KB   21/71 KB   27/77 KB   24/71 KB   27/77 KB   24/71 KB   29/77 KB   27/71 KB   29/77 KB   29/71 KB   29/77 KB   29/71 KB   32/77 KB   32/71 KB   32/77 KB   32/71 KB   36/77 KB   32/71 KB   40/77 KB   32/71 KB   44/77 KB   32/71 KB   48/77 KB   36/71 KB   48/77 KB   40/71 KB   48/77 KB   44/71 KB   48/77 KB   48/71 KB   48/77 KB   48/71 KB   52/77 KB   48/71 KB   56/77 KB   48/71 KB   60/77 KB   48/71 KB   64/77 KB   52/71 KB   64/77 KB   56/71 KB   64/77 KB   60/71 KB   64/77 KB   64/71 KB   64/77 KB   64/71 KB   68/77 KB   68/71 KB   68/77 KB   68/71 KB   72/77 KB   68/71 KB   76/77 KB   68/71 KB   77/77 KB   71/71 KB   77/77 KB                         Downloaded: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar (77 KB at 64.7 KB/sec)
-                      Downloaded: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.jar (71 KB at 59.6 KB/sec)
-[INFO] 
-[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-maven-3) @ commons-logging ---
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.4:properties (default) @ commons-logging ---
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.pom
-3/3 KB                         Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.pom (3 KB at 7.9 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0/plexus-io-2.0.pom
-2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0/plexus-io-2.0.pom (2 KB at 4.9 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.pom
-2/2 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.pom (2 KB at 5.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.pom
-3/5 KB   5/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.pom (5 KB at 16.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/asm/asm/3.0/asm-3.0.pom
-360/360 B               Downloaded: https://repo.maven.apache.org/maven2/asm/asm/3.0/asm-3.0.pom (360 B at 1.2 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/asm/asm-parent/3.0/asm-parent-3.0.pom
-3/3 KB               Downloaded: https://repo.maven.apache.org/maven2/asm/asm-parent/3.0/asm-parent-3.0.pom (3 KB at 8.2 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
-3/3 KB            Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (3 KB at 7.5 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.jar
-Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.jar
-Downloading: https://repo.maven.apache.org/maven2/asm/asm/3.0/asm-3.0.jar
-3/176 KB   5/176 KB   8/176 KB   11/176 KB   13/176 KB   13/176 KB   3/57 KB   13/176 KB   5/57 KB   16/176 KB   8/57 KB   16/176 KB   5/57 KB   19/176 KB   8/57 KB   19/176 KB   11/57 KB   19/176 KB   11/57 KB   1/28 KB   19/176 KB   11/57 KB   4/28 KB   19/176 KB   11/57 KB   5/28 KB   21/176 KB   11/57 KB   5/28 KB   21/176 KB   13/57 KB   5/28 KB   21/176 KB   13/57 KB   8/28 KB   21/176 KB   13/57 KB   9/28 KB   24/176 KB   13/57 KB   9/28 KB   24/176 KB   16/57 KB   9/28 KB   24/176 KB   16/57 KB   12/28 KB   24/176 KB   16/57 KB   13/28 KB   24/176 KB   16/57 KB   16/28 KB   24/176 KB   16/57 KB   17/28 KB   27/176 KB   16/57 KB   17/28 KB   27/176 KB   19/57 KB   17/28 KB   27/176 KB   19/57 KB   20/28 KB   27/176 KB   19/57 KB   21/28 KB   29/176 KB   19/57 KB   21/28 KB   29/176 KB   19/57 KB   24/28 KB   32/176 KB   19/57 KB   24/28 KB   32/176 KB   21/57 KB   24/28 KB   32/176 KB   21/57 KB   27/28 KB   32/176 KB   21/57 KB   28/28 KB   32/176 KB   24/57 KB   28/28 KB   32/176 KB   27/57 KB   28/28 KB   32/176 KB   29/57 KB   28/28 KB   36/176 KB   29/57 KB   28/28 KB   40/176 KB   29/57 KB   28/28 KB   44/176 KB   29/57 KB   28/28 KB   48/176 KB   29/57 KB   28/28 KB   48/176 KB   32/57 KB   28/28 KB   48/176 KB   36/57 KB   28/28 KB   48/176 KB   40/57 KB   28/28 KB   48/176 KB   44/57 KB   28/28 KB   48/176 KB   48/57 KB   28/28 KB   48/176 KB   52/57 KB   28/28 KB   48/176 KB   56/57 KB   28/28 KB   48/176 KB   57/57 KB   28/28 KB   52/176 KB   57/57 KB   28/28 KB   56/176 KB   57/57 KB   28/28 KB   60/176 KB   57/57 KB   28/28 KB   64/176 KB   57/57 KB   28/28 KB   68/176 KB   57/57 KB   28/28 KB   72/176 KB   57/57 KB   28/28 KB   76/176 KB   57/57 KB   28/28 KB   80/176 KB   57/57 KB   28/28 KB   84/176 KB   57/57 KB   28/28 KB   88/176 KB   57/57 KB   28/28 KB   92/176 KB   57/57 KB   28/28 KB   96/176 KB   57/57 KB   28/28 KB                                     Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.jar (28 KB at 85.2 KB/sec)
-100/176 KB   57/57 KB             104/176 KB   57/57 KB   108/176 KB   57/57 KB   112/176 KB   57/57 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.1/plexus-io-2.0.1.jar (57 KB at 161.7 KB/sec)
-116/176 KB              120/176 KB   124/176 KB   128/176 KB   132/176 KB   136/176 KB   140/176 KB   144/176 KB   148/176 KB   152/176 KB   156/176 KB   160/176 KB   164/176 KB   168/176 KB   172/176 KB   176/176 KB   176/176 KB   176/176 KB   3/42 KB   176/176 KB   5/42 KB   176/176 KB   8/42 KB   176/176 KB   11/42 KB   176/176 KB   13/42 KB                           Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.jar (176 KB at 268.6 KB/sec)
-16/42 KB                19/42 KB   21/42 KB   24/42 KB   27/42 KB   29/42 KB   32/42 KB   36/42 KB   40/42 KB   42/42 KB              Downloaded: https://repo.maven.apache.org/maven2/asm/asm/3.0/asm-3.0.jar (42 KB at 39.2 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.7:run (javadoc.resources) @ commons-logging ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-remote-resources-plugin:1.5:process (default) @ commons-logging ---
-[INFO] 
-[INFO] --- buildnumber-maven-plugin:1.2:create (default) @ commons-logging ---
-[INFO] Checking for local modifications: skipped.
-[INFO] Updating project files from SCM: skipped.
-[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-logging-1.2-test-sources" && svn --non-interactive info
-[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-logging-1.2-test-sources
-[INFO] Storing buildNumber: ?????? at timestamp: 1505985984134
-[INFO] Executing: /bin/sh -c cd "/home/artefact/tests/Maven Test Sources/commons-logging-1.2-test-sources" && svn --non-interactive info
-[INFO] Working directory: /home/artefact/tests/Maven Test Sources/commons-logging-1.2-test-sources
-[INFO] Storing buildScmBranch: UNKNOWN_BRANCH
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ commons-logging ---
-[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-logging-1.2-test-sources/src/main/resources
-[INFO] Copying 0 resource to META-INF
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ commons-logging ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- maven-bundle-plugin:2.4.0:manifest (bundle-manifest) @ commons-logging ---
-[WARNING] Manifest commons-logging:commons-logging:jar:1.2 : Unused Export-Package instructions: [org.apache.commons.*] 
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ commons-logging ---
-[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/artefact/tests/Maven Test Sources/commons-logging-1.2-test-sources/src/test/resources
-[INFO] Copying 0 resource to META-INF
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ commons-logging ---
-[INFO] No sources to compile
-[INFO] 
-[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ commons-logging ---
-[INFO] Tests are skipped.
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 12.200 s
-[INFO] Finished at: 2017-09-21T11:26:24+02:00
-[INFO] Final Memory: 23M/209M
-[INFO] ------------------------------------------------------------------------

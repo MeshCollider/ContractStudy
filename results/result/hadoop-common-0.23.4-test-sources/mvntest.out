@@ -1,79 +1,0 @@
-[INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/0.23.4/hadoop-project-dist-0.23.4.pom
-3/18 KB   5/18 KB   8/18 KB   11/18 KB   13/18 KB   16/18 KB   18/18 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project-dist/0.23.4/hadoop-project-dist-0.23.4.pom (18 KB at 10.6 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/0.23.4/hadoop-project-0.23.4.pom
-3/34 KB    5/34 KB   8/34 KB   11/34 KB   13/34 KB   16/34 KB   19/34 KB   21/34 KB   24/34 KB   27/34 KB   29/34 KB   32/34 KB   34/34 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-project/0.23.4/hadoop-project-0.23.4.pom (34 KB at 43.3 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/0.23.4/hadoop-main-0.23.4.pom
-3/13 KB    5/13 KB   8/13 KB   11/13 KB   13/13 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-main/0.23.4/hadoop-main-0.23.4.pom (13 KB at 17.8 KB/sec)
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building Apache Hadoop Common 0.23.4
-[INFO] ------------------------------------------------------------------------
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.pom
-           Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.pom
-           Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.pom
-2/2 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.pom (2 KB at 2.9 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.pom
-         Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.pom
-         Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.pom
-3/7 KB   5/7 KB   7/7 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.pom (7 KB at 13.4 KB/sec)
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.jar
-Downloading: https://repository.apache.org/content/repositories/snapshots/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.jar
-                  Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.jar
-Downloading: http://repository.jboss.org/nexus/content/groups/public/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.jar
-                  Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.jar
-Downloading: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.jar
-3/17 KB   5/17 KB   8/17 KB   11/17 KB   13/17 KB   16/17 KB   17/17 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-annotations/0.23.4/hadoop-annotations-0.23.4.jar (17 KB at 26.7 KB/sec)
-3/42 KB    5/42 KB   8/42 KB   11/42 KB   13/42 KB   16/42 KB   19/42 KB   21/42 KB   24/42 KB   27/42 KB   29/42 KB   32/42 KB   36/42 KB   40/42 KB   42/42 KB              Downloaded: https://repo.maven.apache.org/maven2/org/apache/hadoop/hadoop-auth/0.23.4/hadoop-auth-0.23.4.jar (42 KB at 32.2 KB/sec)
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (create-testdirs) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/target/test-dir
-    [mkdir] Created dir: /home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/target/test/data
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (compile-proto) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-antrun-plugin:1.6:run (save-version) @ hadoop-common ---
-[INFO] Executing tasks
-
-main:
-     [exec] sh: 0: Can't open /home/artefact/tests/Maven
-[INFO] Executed tasks
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.1:build-classpath (build-classpath) @ hadoop-common ---
-[INFO] Wrote classpath file '/home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/target/classes/mrapp-generated-classpath'.
-[INFO] 
-[INFO] --- build-helper-maven-plugin:1.5:add-source (add-source) @ hadoop-common ---
-[INFO] Source directory: /home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/target/generated-sources/java added.
-[INFO] 
-[INFO] --- build-helper-maven-plugin:1.5:add-test-source (add-test-source) @ hadoop-common ---
-[INFO] Test Source directory: /home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/target/generated-test-sources/java added.
-[INFO] 
-[INFO] --- maven-resources-plugin:2.2:resources (default-resources) @ hadoop-common ---
-[INFO] Using default encoding to copy filtered resources.
-[INFO] 
-[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ hadoop-common ---
-[INFO] Nothing to compile - all classes are up to date
-[INFO] 
-[INFO] --- avro-maven-plugin:1.5.3:schema (generate-avro-test-sources) @ hadoop-common ---
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 13.383 s
-[INFO] Finished at: 2017-09-21T11:38:09+02:00
-[INFO] Final Memory: 19M/208M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.avro:avro-maven-plugin:1.5.3:schema (generate-avro-test-sources) on project hadoop-common: neither sourceDirectory: /home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/src/main/avro or testSourceDirectory: /home/artefact/tests/Maven Test Sources/hadoop-common-0.23.4-test-sources/src/test/avro are directories -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
