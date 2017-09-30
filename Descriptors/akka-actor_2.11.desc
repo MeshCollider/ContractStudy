@@ -2,3 +2,4 @@ versions: 2.4-ARTERY-M3,2.4.0,2.4.2-RC3,2.3.15,2.4-ARTERY-M1,2.3.12,2.4.7,2.3.5,
 git_url: https://github.com/akka/akka
 type: github
 run_command: `mvn test`
+lang: scala
