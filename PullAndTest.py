@@ -81,6 +81,7 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
 
                         os.chdir(repo_dir)
                         print (run_command)
+                        print(os.getcwd())
                         proc = subprocess.Popen([run_command], stdout=subprocess.PIPE, shell=True)
                         (out, err) = proc.communicate()
                         if out is None:
