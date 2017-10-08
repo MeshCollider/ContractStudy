@@ -107,24 +107,4 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
             outputError(str(e), artifact)
             continue
 
-        '''
-        print("Running mvn test for " + artifact + "-" + version)
-        os.chdir(outputDir)
-        proc = subprocess.Popen(["mvn test"], stdout=subprocess.PIPE, shell=True)
-        (out, err) = proc.communicate()
-        if out is None:
-            print("ERROR: no output for " + artifact + "-" + version)
-        outputFile = open('mvntest.out', 'w')
-        outputFile.write(out.decode("utf-8"))
-        outputFile.close()
-        if not err is None:
-            errorFile = open('mvntest.err', 'w')
-            errorFile.write(err.decode("utf-8"))
-            errorFile.close()
-        os.system("rm -r src/ target/")
-        os.chdir("../../")
-        
-        os.system("mkdir \"" + outputDir + "\"/src")
-        '''
-
         print("Finished Processing " + artifact)
