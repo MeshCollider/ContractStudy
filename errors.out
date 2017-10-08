@@ -1,21 +1,12 @@
-Cmd('git') failed due to: exit code(1)
-  cmdline: git checkout --force 1.9.0
-  stderr: 'error: pathspec '1.9.0' did not match any file(s) known to git.'. Artifact: ant
-Cmd('git') failed due to: exit code(1)
-  cmdline: git checkout --force 1.0.4.Final
-  stderr: 'error: unable to create file protocols/servlet/src/main/resources/META-INF/services/org.jboss.arquillian.protocol.servlet.arq514hack.descriptors.api.application.ApplicationDescriptor: Filename too long
-Note: checking out '1.0.4.Final'.
+Error checking out version v1_2_14: [Errno 2] No such file or directory: 'Results/log4j/1.2.14.err'. Artifact: log4j
+Error checking out version v1_2_9: [Errno 2] No such file or directory: 'Results/log4j/1.2.9.err'. Artifact: log4j
+Error checking out version v1_2_17: [Errno 2] No such file or directory: 'Results/log4j/1.2.17.err'. Artifact: log4j
+Error checking out version v1_2_13: [Errno 2] No such file or directory: 'Results/log4j/1.2.13.err'. Artifact: log4j
+Error checking out version v1_2_16: [Errno 2] No such file or directory: 'Results/log4j/1.2.16.err'. Artifact: log4j
+Error checking out version v1_2_15: [Errno 2] No such file or directory: 'Results/log4j/1.2.15.err'. Artifact: log4j
+Error checking out version v1_2_8
+: Cmd('git') failed due to: exit code(1)
+  cmdline: git checkout --force v1_2_8
 
-You are in 'detached HEAD' state. You can look around, make experimental
-changes and commit them, and you can discard any commits you make in this
-state without impacting any branches by performing another checkout.
-
-If you want to create a new branch to retain commits you create, you may
-do so (now or later) by using -b with the checkout command again. Example:
-
-  git checkout -b <new-branch-name>
-
-HEAD is now at cb6f79ca... ARQ-1399 prepare release 1.0.4.Final'. Artifact: arquillian-junit-container
-Cmd('git') failed due to: exit code(1)
-  cmdline: git checkout --force 1.7.2
-  stderr: 'error: pathspec '1.7.2' did not match any file(s) known to git.'. Artifact: aspectjrt
+  stderr: 'error: pathspec 'v1_2_8
+' did not match any file(s) known to git.'. Artifact: log4j

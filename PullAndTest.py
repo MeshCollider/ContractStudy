@@ -9,6 +9,8 @@ from git import Repo
 DESCRIPTORS_DIR = "Descriptors/"
 RESULTS_DIR = "Results/"
 
+SPECIFIC_PROJECT = "log4j"
+
 def outputError(errorString, artifact):
     errorsFile.write(errorString + '. Artifact: ' + artifact + os.linesep)
     print("Error with " + artifact + ": " + errorString)
@@ -24,11 +26,17 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
         descFile = open(fullPath, 'r')
         artifact = filename[:-5]
 
+        if SPECIFIC_PROJECT and artifact != SPECIFIC_PROJECT:
+            continue
+
         try:
             type = ""
             git_url = ""
             versions = []
             lang = ""
+            versionstyle = ""
+            testdir = "src/tests"
+            run_command = "mvn test"
             for line in descFile.readlines():
                 if line.startswith("versions: "):
                     versions = line.replace("versions: ", "").split(",")
@@ -38,12 +46,21 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                     type = line.replace("type: ", "").strip()
                 elif line.startswith("lang: "):
                     lang = line.replace("lang: ", "").strip()
+                elif line.startswith("versionstyle: "):
+                    versionstyle = line.replace("versionstyle: ", "").strip()
+                elif line.startswith("testdir: "):
+                    testdir = line.replace("testdir: ", "").strip()
+                elif line.startswith("run_command: "):
+                    run_command = line.replace("run_command: ", "").strip()
 
             if lang and lang == "scala":
                 print(artifact + " uses scala, skipping")
                 continue
 
             repo_dir = RESULTS_DIR + artifact
+            repo_tests_dir = RESULTS_DIR + artifact + "-test-dirs"
+            if not os.path.exists(repo_tests_dir):
+                os.makedirs(repo_tests_dir)
 
             print("Processing artifact ", artifact, " of repo type ", type)
 
@@ -55,8 +72,33 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                     repo = Repo(repo_dir)
                 git = repo.git
                 for version in versions:
-                    git.checkout(version, force=True)
-                    print("Successfully checked out version " + version + " of artifact " + artifact)
+                    try:
+                        versionParts = version.split(".")
+                        versionString = versionstyle.replace("{MAJ}", versionParts[0]).replace("{MIN}", versionParts[1]).replace("{PATCH}", versionParts[2])
+                        git.checkout(versionString, force=True)
+                        shutil.copytree(repo_dir + "/" + testdir, repo_tests_dir + "/" + version)
+                        print("Successfully checked out version " + version + " of artifact " + artifact + ". Running tests...")
+
+                        os.chdir(repo_dir)
+                        print (run_command)
+                        proc = subprocess.Popen([run_command], stdout=subprocess.PIPE, shell=True)
+                        (out, err) = proc.communicate()
+                        if out is None:
+                            print("ERROR: no output for " + artifact + "-" + version)
+                        outputFile = open(version + '.out', 'w')
+                        outputFile.write(out.decode("utf-8"))
+                        outputFile.close()
+                        if not err is None:
+                            errorFile = open(version + '.err', 'w')
+                            errorFile.write(err.decode("utf-8"))
+                            errorFile.close()
+                        os.chdir("../../")
+                        shutil.copyfile(repo_dir + "/" + version + '.out', repo_tests_dir + "/" + version + '.out')
+                        shutil.copyfile(repo_dir + "/" + version + '.err', repo_tests_dir + "/" + version + '.err')
+
+                    except Exception as e:
+                        outputError("Error checking out version " + versionString + ": " + str(e), artifact)
+                        continue
             else:
                 print(artifact + " has unknown type, skipping")
 
