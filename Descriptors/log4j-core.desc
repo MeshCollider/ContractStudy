@@ -2,6 +2,8 @@ versions: 2.4,2.0-beta3,2.6.1,2.1,2.2,2.6.2,2.0-beta1,2.6,2.4.1,2.0-alpha1,2.0-r
 git_url: https://github.com/apache/logging-log4j2
 type: github
 versionstyle: log4j-{MAJ}.{MIN}.{PATCH}
+prefix: log4j-
+separator: .
 run_command: mvn test
 subdir: log4j-core
 testdir: src/test

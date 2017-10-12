@@ -35,7 +35,8 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
             git_url = ""
             versions = []
             lang = ""
-            versionstyle = ""
+            prefix = ""
+            separator = "."
             testdir = "src/tests"
             run_command = "mvn test"
             subdir = ""
@@ -48,8 +49,10 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                     type = line.replace("type: ", "").strip()
                 elif line.startswith("lang: "):
                     lang = line.replace("lang: ", "").strip()
-                elif line.startswith("versionstyle: "):
-                    versionstyle = line.replace("versionstyle: ", "").strip()
+                elif line.startswith("prefix: "):
+                    prefix = line.replace("prefix: ", "").strip()
+                elif line.startswith("separator: "):
+                    separator = line.replace("separator: ", "").strip()
                 elif line.startswith("testdir: "):
                     testdir = line.replace("testdir: ", "").strip()
                 elif line.startswith("run_command: "):
@@ -84,7 +87,9 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                         versionParts = version.split(".")
                         #print(versionParts)
                         #print(versionstyle)
-                        versionString = versionstyle.replace("{MAJ}", versionParts[0]).replace("{MIN}", versionParts[1]).replace("{PATCH}", versionParts[2])
+                        versionString = prefix + versionParts[0] + separator + versionParts[1]
+                        if len(versionParts) > 2:
+                             versionString += separator + versionParts[2]
                         git.checkout(versionString, force=True)
                         shutil.copytree(repo_dir_temp + "/" + testdir, repo_tests_dir + "/" + version)
                         print("Successfully checked out version " + version + " of artifact " + artifact + ". Running tests...")
