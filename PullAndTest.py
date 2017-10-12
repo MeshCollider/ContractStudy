@@ -82,8 +82,9 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                             repo_dir_temp += "/" + repodir
                             
                         versionParts = version.split(".")
+                        print(versionParts)
+                        print(versionstyle)
                         versionString = versionstyle.replace("{MAJ}", versionParts[0]).replace("{MIN}", versionParts[1]).replace("{PATCH}", versionParts[2])
-                        print(versionString)
                         git.checkout(versionString, force=True)
                         shutil.copytree(repo_dir_temp + "/" + testdir, repo_tests_dir + "/" + version)
                         print("Successfully checked out version " + version + " of artifact " + artifact + ". Running tests...")
