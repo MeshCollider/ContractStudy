@@ -82,7 +82,7 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
 
                         time.sleep(2) # wait for 2 seconds to make sure git is finished
 
-                        os.listdir(repo_dir)
+                        print(os.listdir(repo_dir))
                         
                         os.chdir(repo_dir)
                         print (run_command)
