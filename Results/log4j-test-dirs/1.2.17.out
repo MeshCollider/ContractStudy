@@ -1,0 +1,1292 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for log4j:log4j:bundle:1.2.17
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ line 89, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Apache Log4j 1.2.17
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.2:run (javadoc.resources) @ log4j ---
+[INFO] Executing tasks
+     [copy] Copying 2 files to /home/artefact/tests/Results/log4j/target/apidocs/META-INF
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ log4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:compile (default-compile) @ log4j ---
+[INFO] Compiling 213 source files to /home/artefact/tests/Results/log4j/target/classes
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.2:run (ntdll) @ log4j ---
+[INFO] Executing tasks
+
+windres:
+    [mkdir] Created dir: /home/artefact/tests/Results/log4j/target/obj
+
+compile:
+
+windres-echo:
+     [echo] i586-mingw32msvc-windres could not be found or failed, NTEventLogAppender.dll build skipped.
+
+jni_md.h-echo:
+     [echo] ${env.JNI_WIN32_INCLUDE_DIR}/jni_md.h not found, NTEventLogAppender.dll build skipped.
+
+build:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ log4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.1:testCompile (default-testCompile) @ log4j ---
+[INFO] Compiling 90 source files to /home/artefact/tests/Results/log4j/target/test-classes
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.2:run (mkdir_tests_output) @ log4j ---
+[INFO] Executing tasks
+    [mkdir] Created dir: /home/artefact/tests/Results/log4j/tests/output
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.5:test (default-test) @ log4j ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.2:run (runAll) @ log4j ---
+[INFO] Executing tasks
+
+parentBuild:
+
+prepare:
+[available] DEPRECATED - <available> used to override an existing property.
+[available]   Build file should not reuse the same property name for different values.
+    [mkdir] Created dir: /home/artefact/tests/Results/log4j/tests/classes
+
+build:
+    [javac] Compiling 90 source files to /home/artefact/tests/Results/log4j/tests/classes
+
+Core:
+    [junit] Running org.apache.log4j.CoreTestSuite
+    [junit] Tests run: 503, Failures: 0, Errors: 0, Time elapsed: 27.006 sec
+    [junit] Testsuite: org.apache.log4j.CoreTestSuite
+    [junit] Tests run: 503, Failures: 0, Errors: 0, Time elapsed: 27.006 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] จ., ก.ค. 03, 02:00:00.000 CEST
+    [junit] จ., ก.ค. 03, 02:00:00.000 CEST
+    [junit] จ., ก.ค. 03, 02:00:00.000 CEST
+    [junit] จ., ก.ค. 03, 02:00:00.000 CEST
+    [junit] จ., ก.ค. 03, 02:00:00.008 CEST
+    [junit] จ., ก.ค. 03, 02:00:00.008 CEST
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] log4j:ERROR Could not read configuration file [output/badescape.properties].
+    [junit] java.lang.IllegalArgumentException: Malformed \uxxxx encoding.
+    [junit] 	at java.util.Properties.loadConvert(Properties.java:574)
+    [junit] 	at java.util.Properties.load0(Properties.java:391)
+    [junit] 	at java.util.Properties.load(Properties.java:341)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:373)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+    [junit] 	at org.apache.log4j.PropertyConfiguratorTest.testBadUnicodeEscape(PropertyConfiguratorTest.java:58)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:498)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:154)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:127)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:106)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:124)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:109)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:118)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:672)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:567)
+    [junit] log4j:ERROR Ignoring configuration file [output/badescape.properties].
+    [junit] log4j:ERROR Could not read configuration file from URL [file:/home/artefact/tests/Results/log4j/tests/output/urlbadescape.properties].
+    [junit] java.lang.IllegalArgumentException: Malformed \uxxxx encoding.
+    [junit] 	at java.util.Properties.loadConvert(Properties.java:574)
+    [junit] 	at java.util.Properties.load0(Properties.java:391)
+    [junit] 	at java.util.Properties.load(Properties.java:341)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:558)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:415)
+    [junit] 	at org.apache.log4j.PropertyConfiguratorTest.testURLBadEscape(PropertyConfiguratorTest.java:92)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:498)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:154)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:127)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:106)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:124)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:109)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:118)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:672)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:567)
+    [junit] log4j:ERROR Ignoring configuration file [file:/home/artefact/tests/Results/log4j/tests/output/urlbadescape.properties].
+    [junit] log4j:ERROR Unrecognized format specifier []
+    [junit] log4j:ERROR Empty conversion specifier starting at position 2 in conversion pattern.
+    [junit] log4j:ERROR Unrecognized format specifier []
+    [junit] log4j:ERROR Empty conversion specifier starting at position 6 in conversion pattern.
+    [junit] log4j:ERROR Unrecognized format specifier [bogus]
+    [junit] log4j:ERROR Unrecognized conversion specifier [bogus] starting at position 6 in conversion pattern.
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: testLevel took 0.002 sec
+    [junit] Testcase: testLocationInfoNoFQCN took 0.001 sec
+    [junit] Testcase: testBadMessage took 0.001 sec
+    [junit] Testcase: testSerializationSimple took 0.04 sec
+    [junit] Testcase: testSerializationWithException took 0.013 sec
+    [junit] Testcase: testSerializationWithLocation took 0.001 sec
+    [junit] Testcase: testSerializationNDC took 0.001 sec
+    [junit] Testcase: testSerializationMDC took 0.001 sec
+    [junit] Testcase: testDeserializationSimple took 0.067 sec
+    [junit] Testcase: testDeserializationWithException took 0.001 sec
+    [junit] Testcase: testDeserializationWithLocation took 0 sec
+    [junit] Testcase: testFQNOfCategoryClass took 0.001 sec
+    [junit] Testcase: testSerializeINFO took 0 sec
+    [junit] Testcase: testSerialVersionUID took 0 sec
+    [junit] Testcase: testIntToFatal took 0 sec
+    [junit] Testcase: testIntToOff took 0 sec
+    [junit] Testcase: testToLevelUnrecognizedInt took 0 sec
+    [junit] Testcase: testToLevelNull took 0 sec
+    [junit] Testcase: testDotlessLowerI took 0.003 sec
+    [junit] Testcase: testDottedLowerI took 0 sec
+    [junit] Testcase: testTrace took 0 sec
+    [junit] Testcase: testIntToTrace took 0 sec
+    [junit] Testcase: testStringToTrace took 0 sec
+    [junit] Testcase: testDeserializeINFO took 0 sec
+    [junit] Testcase: testCustomLevelSerialization took 0.001 sec
+    [junit] Testcase: testTraceInt took 0 sec
+    [junit] Testcase: testLevelExtendsPriority took 0 sec
+    [junit] Testcase: testOFF took 0 sec
+    [junit] Testcase: testFATAL took 0 sec
+    [junit] Testcase: testERROR took 0 sec
+    [junit] Testcase: testWARN took 0 sec
+    [junit] Testcase: testINFO took 0 sec
+    [junit] Testcase: testDEBUG took 0 sec
+    [junit] Testcase: testTRACE took 0 sec
+    [junit] Testcase: testALL took 0 sec
+    [junit] Testcase: testIntToAll took 0 sec
+    [junit] Testcase: testDotlessLowerI took 0 sec
+    [junit] Testcase: testDottedLowerI took 0 sec
+    [junit] Testcase: testFatalInt took 0 sec
+    [junit] Testcase: testErrorInt took 0 sec
+    [junit] Testcase: testWarnInt took 0 sec
+    [junit] Testcase: testInfoInt took 0 sec
+    [junit] Testcase: testDebugInt took 0 sec
+    [junit] Testcase: testAllInt took 0 sec
+    [junit] Testcase: testFatal took 0 sec
+    [junit] Testcase: testEqualsNull took 0 sec
+    [junit] Testcase: testEqualsLevel took 0 sec
+    [junit] Testcase: testGetAllPossiblePriorities took 0 sec
+    [junit] Testcase: testToPriorityString took 0 sec
+    [junit] Testcase: testToPriorityInt took 0 sec
+    [junit] Testcase: testToPriorityStringPriority took 0 sec
+    [junit] Testcase: testToPriorityIntPriority took 0 sec
+    [junit] Testcase: testOffInt took 0 sec
+    [junit] Testcase: testERROR took 0 sec
+    [junit] Testcase: testWARN took 0 sec
+    [junit] Testcase: testINFO took 0 sec
+    [junit] Testcase: testDEBUG took 0 sec
+    [junit] Testcase: testForcedLog took 0.102 sec
+    [junit] Testcase: testGetChainedPriorityReturnType took 0 sec
+    [junit] Testcase: testL7dlog4Param took 0.001 sec
+    [junit] Testcase: testSetPriority took 0 sec
+    [junit] Testcase: testL7dlog took 0 sec
+    [junit] Testcase: testDirectoryCreation took 0.004 sec
+    [junit] Testcase: testGetThresholdReturnType took 0.001 sec
+    [junit] Testcase: testgetSetThreshold took 0 sec
+    [junit] Testcase: testIsAsSevereAsThreshold took 0 sec
+    [junit] Testcase: testConfiguratorClassKey took 0 sec
+    [junit] Testcase: testDefaultInitOverrideKey took 0 sec
+    [junit] Testcase: testDefaultConfigurationFile took 0 sec
+    [junit] Testcase: testDefaultXmlConfigurationFile took 0 sec
+    [junit] Testcase: testDefaultConfigurationKey took 0 sec
+    [junit] Testcase: testConfigDebugKey took 0 sec
+    [junit] Testcase: testDebugKey took 0 sec
+    [junit] Testcase: testLineSep took 0 sec
+    [junit] Testcase: testLineSepLen took 0 sec
+    [junit] Testcase: testGetContentType took 0 sec
+    [junit] Testcase: testIgnoresThrowable took 0 sec
+    [junit] Testcase: testGetHeader took 0 sec
+    [junit] Testcase: testGetFooter took 0 sec
+    [junit] Testcase: testFormat took 0 sec
+    [junit] Testcase: testSetDateFormatNull took 0 sec
+    [junit] Testcase: testSetDateFormatNullString took 0 sec
+    [junit] Testcase: testSetDateFormatRelative took 0.002 sec
+    [junit] Testcase: testSetDateFormatAbsolute took 0.002 sec
+    [junit] Testcase: testSetDateFormatDateTime took 0.001 sec
+    [junit] Testcase: testSetDateFormatISO8601 took 0 sec
+    [junit] Testcase: testSetDateFormatSimple took 0.001 sec
+    [junit] Testcase: testActivateOptions took 0 sec
+    [junit] Testcase: testSetDateFormatWithFormat took 0 sec
+    [junit] Testcase: testISO8601Format took 0.001 sec
+    [junit] Testcase: testDateTimeFormat took 0 sec
+    [junit] Testcase: testNullDateFormat took 0 sec
+    [junit] Testcase: testRelativeTimeDateFormat took 0 sec
+    [junit] Testcase: testDateFormatOption took 0 sec
+    [junit] Testcase: testTimeZoneOption took 0 sec
+    [junit] Testcase: testGetOptionStrings took 0 sec
+    [junit] Testcase: testSetOptionDateFormat took 0 sec
+    [junit] Testcase: testSetOptionTimeZone took 0 sec
+    [junit] Testcase: testSetDateFormat took 0 sec
+    [junit] Testcase: testSetTimeZone took 0 sec
+    [junit] Testcase: testLineSep took 0 sec
+    [junit] Testcase: testLineSepLen took 0 sec
+    [junit] Testcase: testGetContentType took 0 sec
+    [junit] Testcase: testIgnoresThrowable took 0.001 sec
+    [junit] Testcase: testGetHeader took 0 sec
+    [junit] Testcase: testGetFooter took 0 sec
+    [junit] Testcase: testFormat took 0 sec
+    [junit] Testcase: testFormat took 0 sec
+    [junit] Testcase: testGetSetThreadPrinting took 0 sec
+    [junit] Testcase: testGetSetCategoryPrefixing took 0.001 sec
+    [junit] Testcase: testGetSetContextPrinting took 0 sec
+    [junit] Testcase: testSetDateFormatNull took 0 sec
+    [junit] Testcase: testSetDateFormatNullString took 0 sec
+    [junit] Testcase: testSetDateFormatRelative took 0 sec
+    [junit] Testcase: testSetDateFormatAbsolute took 0 sec
+    [junit] Testcase: testSetDateFormatDateTime took 0 sec
+    [junit] Testcase: testSetDateFormatISO8601 took 0 sec
+    [junit] Testcase: testSetDateFormatSimple took 0.001 sec
+    [junit] Testcase: testActivateOptions took 0 sec
+    [junit] Testcase: testSetDateFormatWithFormat took 0 sec
+    [junit] Testcase: testISO8601Format took 0.001 sec
+    [junit] Testcase: testDateTimeFormat took 0 sec
+    [junit] Testcase: testNullDateFormat took 0 sec
+    [junit] Testcase: testRelativeTimeDateFormat took 0 sec
+    [junit] Testcase: testDateFormatOption took 0 sec
+    [junit] Testcase: testTimeZoneOption took 0 sec
+    [junit] Testcase: testGetOptionStrings took 0 sec
+    [junit] Testcase: testSetOptionDateFormat took 0 sec
+    [junit] Testcase: testSetOptionTimeZone took 0.001 sec
+    [junit] Testcase: testSetDateFormat took 0 sec
+    [junit] Testcase: testSetTimeZone took 0 sec
+    [junit] Testcase: testLineSep took 0 sec
+    [junit] Testcase: testLineSepLen took 0 sec
+    [junit] Testcase: testGetContentType took 0 sec
+    [junit] Testcase: testIgnoresThrowable took 0 sec
+    [junit] Testcase: testGetHeader took 0 sec
+    [junit] Testcase: testGetFooter took 0 sec
+    [junit] Testcase: testActivateOptions took 0 sec
+    [junit] Testcase: testFormat took 0.086 sec
+    [junit] Testcase: testFormatWithException took 0.005 sec
+    [junit] Testcase: testFormatWithNDC took 0.001 sec
+    [junit] Testcase: testGetSetLocationInfo took 0 sec
+    [junit] Testcase: testProblemCharacters took 0.008 sec
+    [junit] Testcase: testNDCWithCDATA took 0.007 sec
+    [junit] Testcase: testExceptionWithCDATA took 0.001 sec
+    [junit] Testcase: testLineSep took 0 sec
+    [junit] Testcase: testLineSepLen took 0 sec
+    [junit] Testcase: testGetContentType took 0 sec
+    [junit] Testcase: testIgnoresThrowable took 0 sec
+    [junit] Testcase: testGetHeader took 0 sec
+    [junit] Testcase: testGetFooter took 0 sec
+    [junit] Testcase: testActivateOptions took 0.001 sec
+    [junit] Testcase: testGetHeaderWithLocation took 0.003 sec
+    [junit] Testcase: testGetSetTitle took 0 sec
+    [junit] Testcase: testFormatResize took 0.002 sec
+    [junit] Testcase: testGetHeader took 0 sec
+    [junit] Testcase: testGetFooter took 0 sec
+    [junit] Testcase: testFormat took 0.006 sec
+    [junit] Testcase: testGetSetLocationInfo took 0 sec
+    [junit] Testcase: testProblemCharacters took 0.02 sec
+    [junit] Testcase: testLineSep took 0 sec
+    [junit] Testcase: testLineSepLen took 0 sec
+    [junit] Testcase: testGetContentType took 0 sec
+    [junit] Testcase: testIgnoresThrowable took 0 sec
+    [junit] Testcase: testFormatResize took 0 sec
+    [junit] Testcase: testFormat took 0 sec
+    [junit] Testcase: testGetPatternFormat took 0 sec
+    [junit] Testcase: testDefaultConversionPattern took 0 sec
+    [junit] Testcase: testTTCCConversionPattern took 0 sec
+    [junit] Testcase: testLineSep took 0 sec
+    [junit] Testcase: testLineSepLen took 0 sec
+    [junit] Testcase: testGetContentType took 0 sec
+    [junit] Testcase: testIgnoresThrowable took 0 sec
+    [junit] Testcase: testGetHeader took 0 sec
+    [junit] Testcase: testGetFooter took 0 sec
+    [junit] Testcase: testLevel took 0 sec
+    [junit] Testcase: testLocationInfoNoFQCN took 0 sec
+    [junit] Testcase: testBadMessage took 0 sec
+    [junit] Testcase: testSerializationSimple took 0 sec
+    [junit] Testcase: testSerializationWithException took 0.001 sec
+    [junit] Testcase: testSerializationWithLocation took 0 sec
+    [junit] Testcase: testSerializationNDC took 0.001 sec
+    [junit] Testcase: testSerializationMDC took 0.001 sec
+    [junit] Testcase: testDeserializationSimple took 0 sec
+    [junit] Testcase: testDeserializationWithException took 0.001 sec
+    [junit] Testcase: testDeserializationWithLocation took 0 sec
+    [junit] Testcase: testFQNOfCategoryClass took 0 sec
+    [junit] Testcase: testOverriddenBehavior took 0 sec
+    [junit] Testcase: testNotOverriddenBehavior took 0.001 sec
+    [junit] Testcase: testNull took 0 sec
+    [junit] Testcase: testEmpty took 0 sec
+    [junit] Testcase: testLineFeed took 0 sec
+    [junit] Testcase: testCarriageReturn took 0 sec
+    [junit] Testcase: testParsing took 0.002 sec
+    [junit] Testcase: testLineFeedBlank took 0 sec
+    [junit] Testcase: testGetThrowable took 0 sec
+    [junit] Testcase: testIsolation took 0 sec
+    [junit] Testcase: testNastyException took 0.001 sec
+    [junit] Testcase: testLocationInfo took 0 sec
+    [junit] Testcase: testFourParamConstructor took 0.001 sec
+    [junit] Testcase: testReset took 0.003 sec
+    [junit] Testcase: testNested took 0.061 sec
+    [junit] Testcase: testThrowableRenderer took 0.003 sec
+    [junit] Testcase: testBadUnicodeEscape took 0.002 sec
+    [junit] Testcase: testURL took 0.001 sec
+    [junit] Testcase: testURLBadEscape took 0.002 sec
+    [junit] Testcase: testInputStream took 0.001 sec
+    [junit] Testcase: testJarURL took 0.005 sec
+    [junit] Testcase: testTrigger took 0.092 sec
+    [junit] Testcase: testIt took 1.415 sec
+    [junit] Testcase: testDefaultRender took 0.001 sec
+    [junit] Testcase: testEnhancedRender took 0.01 sec
+    [junit] Testcase: testEnteringNullNullNull took 0.108 sec
+    [junit] Testcase: testEnteringNullNullNullArray took 0.101 sec
+    [junit] Testcase: testEnteringWithParam took 0.1 sec
+    [junit] Testcase: testEnteringWithBadParam took 0.105 sec
+    [junit] Testcase: testExiting took 0.101 sec
+    [junit] Testcase: testEnteringWithBadParams took 0.103 sec
+    [junit] Testcase: testExitingNullNull took 0.102 sec
+    [junit] Testcase: testExitingNullNullNull took 0.104 sec
+    [junit] Testcase: testExitingWithValue took 0.101 sec
+    [junit] Testcase: testExitingWithBadValue took 0.101 sec
+    [junit] Testcase: testThrowing took 0.102 sec
+    [junit] Testcase: testEnteringNullNull took 0.101 sec
+    [junit] Testcase: testEntering took 0.101 sec
+    [junit] Testcase: testThrowingNullNullNull took 0.101 sec
+    [junit] Testcase: testWarnInt took 0.107 sec
+    [junit] Testcase: testInfoInt took 0.104 sec
+    [junit] Testcase: testDebugInt took 0.103 sec
+    [junit] Testcase: testTraceInt took 0.104 sec
+    [junit] Testcase: testInfoFloat took 0.106 sec
+    [junit] Testcase: testInfoDouble took 0.102 sec
+    [junit] Testcase: testInfoTwoArg took 0.101 sec
+    [junit] Testcase: testInfoThreeArg took 0.105 sec
+    [junit] Testcase: testInfoFourArg took 0.101 sec
+    [junit] Testcase: testInfoArrayArg took 0.102 sec
+    [junit] Testcase: testWarnNullPattern took 0.1 sec
+    [junit] Testcase: testWarnNoArg took 0.101 sec
+    [junit] Testcase: testWarnBadPattern took 0.1 sec
+    [junit] Testcase: testWarnMissingArg took 0.101 sec
+    [junit] Testcase: testWarnString took 0.102 sec
+    [junit] Testcase: testWarnNull took 0.103 sec
+    [junit] Testcase: testWarnByte took 0.102 sec
+    [junit] Testcase: testWarnShort took 0.101 sec
+    [junit] Testcase: testWarnLong took 0.101 sec
+    [junit] Testcase: testWarnChar took 0.101 sec
+    [junit] Testcase: testWarnBoolean took 0.102 sec
+    [junit] Testcase: testWarnFloat took 0.101 sec
+    [junit] Testcase: testWarnDouble took 0.102 sec
+    [junit] Testcase: testWarnTwoArg took 0.101 sec
+    [junit] Testcase: testWarnThreeArg took 0.101 sec
+    [junit] Testcase: testWarnFourArg took 0.102 sec
+    [junit] Testcase: testWarnArrayArg took 0.101 sec
+    [junit] Testcase: testLogNullPattern took 0.1 sec
+    [junit] Testcase: testLogNoArg took 0.103 sec
+    [junit] Testcase: testLogBadPattern took 0.101 sec
+    [junit] Testcase: testLogMissingArg took 0.101 sec
+    [junit] Testcase: testLogString took 0.101 sec
+    [junit] Testcase: testLogNull took 0.1 sec
+    [junit] Testcase: testLogInt took 0.101 sec
+    [junit] Testcase: testLogByte took 0.101 sec
+    [junit] Testcase: testLogShort took 0.101 sec
+    [junit] Testcase: testLogLong took 0.101 sec
+    [junit] Testcase: testLogChar took 0.103 sec
+    [junit] Testcase: testLogBoolean took 0.1 sec
+    [junit] Testcase: testLogFloat took 0.102 sec
+    [junit] Testcase: testLogDouble took 0.101 sec
+    [junit] Testcase: testLogTwoArg took 0.101 sec
+    [junit] Testcase: testLogThreeArg took 0.101 sec
+    [junit] Testcase: testLogFourArg took 0.102 sec
+    [junit] Testcase: testLogArrayArg took 0.101 sec
+    [junit] Testcase: testLogrbNullBundle took 0.103 sec
+    [junit] Testcase: testLogrbNullKey took 0.104 sec
+    [junit] Testcase: testLogrbNoArg took 0.101 sec
+    [junit] Testcase: testLogrbBadPattern took 0.102 sec
+    [junit] Testcase: testLogrbMissingArg took 0.101 sec
+    [junit] Testcase: testLogrbString took 0.101 sec
+    [junit] Testcase: testLogrbNull took 0.107 sec
+    [junit] Testcase: testLogrbInt took 0.102 sec
+    [junit] Testcase: testLogrbByte took 0.101 sec
+    [junit] Testcase: testLogrbShort took 0.104 sec
+    [junit] Testcase: testLogrbLong took 0.106 sec
+    [junit] Testcase: testLogrbChar took 0.101 sec
+    [junit] Testcase: testLogrbBoolean took 0.101 sec
+    [junit] Testcase: testLogrbFloat took 0.101 sec
+    [junit] Testcase: testLogrbDouble took 0.102 sec
+    [junit] Testcase: testLogrbTwoArg took 0.101 sec
+    [junit] Testcase: testLogrbThreeArg took 0.106 sec
+    [junit] Testcase: testLogrbFourArg took 0.101 sec
+    [junit] Testcase: testLogrbArrayArg took 0.101 sec
+    [junit] Testcase: testInfo1ParamBrace9 took 0.108 sec
+    [junit] Testcase: testInfo2ParamBrace9 took 0.1 sec
+    [junit] Testcase: testInfo10ParamBrace9 took 0.102 sec
+    [junit] Testcase: testInfo1ParamBraceSlashColon took 0.101 sec
+    [junit] Testcase: testClassName took 0.002 sec
+    [junit] Testcase: testTraceNullPattern took 0.106 sec
+    [junit] Testcase: testTraceNoArg took 0.104 sec
+    [junit] Testcase: testDebugBadPattern took 0.101 sec
+    [junit] Testcase: testDebugMissingArg took 0.101 sec
+    [junit] Testcase: testDebugString took 0.101 sec
+    [junit] Testcase: testDebugNull took 0.102 sec
+    [junit] Testcase: testDebugByte took 0.101 sec
+    [junit] Testcase: testDebugShort took 0.101 sec
+    [junit] Testcase: testDebugLong took 0.101 sec
+    [junit] Testcase: testDebugChar took 0.104 sec
+    [junit] Testcase: testDebugBoolean took 0.101 sec
+    [junit] Testcase: testDebugFloat took 0.103 sec
+    [junit] Testcase: testDebugDouble took 0.102 sec
+    [junit] Testcase: testDebugTwoArg took 0.101 sec
+    [junit] Testcase: testDebugThreeArg took 0.1 sec
+    [junit] Testcase: testDebugFourArg took 0.101 sec
+    [junit] Testcase: testDebugArrayArg took 0.101 sec
+    [junit] Testcase: testDebugDate took 0.107 sec
+    [junit] Testcase: testDebugNullArrayArg took 0.102 sec
+    [junit] Testcase: testDebugPercent took 0.105 sec
+    [junit] Testcase: testDebugFullPrecisionAndPercent took 0.102 sec
+    [junit] Testcase: testDebugQuoted took 0.1 sec
+    [junit] Testcase: testInfoNullPattern took 0.1 sec
+    [junit] Testcase: testInfoNoArg took 0.101 sec
+    [junit] Testcase: testInfoBadPattern took 0.101 sec
+    [junit] Testcase: testInfoMissingArg took 0.101 sec
+    [junit] Testcase: testInfoString took 0.101 sec
+    [junit] Testcase: testInfoNull took 0.102 sec
+    [junit] Testcase: testInfoByte took 0.101 sec
+    [junit] Testcase: testInfoShort took 0.102 sec
+    [junit] Testcase: testInfoLong took 0.101 sec
+    [junit] Testcase: testInfoChar took 0.102 sec
+    [junit] Testcase: testInfoBoolean took 0.1 sec
+    [junit] Testcase: testTraceByte took 0.102 sec
+    [junit] Testcase: testTraceShort took 0.1 sec
+    [junit] Testcase: testTraceLong took 0.101 sec
+    [junit] Testcase: testTraceChar took 0.101 sec
+    [junit] Testcase: testTraceBoolean took 0.101 sec
+    [junit] Testcase: testTraceFloat took 0.102 sec
+    [junit] Testcase: testTraceDouble took 0.102 sec
+    [junit] Testcase: testTraceTwoArg took 0.1 sec
+    [junit] Testcase: testTraceThreeArg took 0.101 sec
+    [junit] Testcase: testTraceFourArg took 0.101 sec
+    [junit] Testcase: testTraceArrayArg took 0.102 sec
+    [junit] Testcase: testTraceNullArrayArg took 0.101 sec
+    [junit] Testcase: testDebugNullPattern took 0.1 sec
+    [junit] Testcase: testDebugNoArg took 0.101 sec
+    [junit] Testcase: testTraceBadPattern took 0.101 sec
+    [junit] Testcase: testTraceMissingArg took 0.1 sec
+    [junit] Testcase: testTraceString took 0.101 sec
+    [junit] Testcase: testTraceNull took 0.101 sec
+    [junit] Testcase: testWarnInt took 0.109 sec
+    [junit] Testcase: testInfoInt took 0.101 sec
+    [junit] Testcase: testDebugInt took 0.102 sec
+    [junit] Testcase: testTraceInt took 0.1 sec
+    [junit] Testcase: testInfoFloat took 0.102 sec
+    [junit] Testcase: testInfoDouble took 0.102 sec
+    [junit] Testcase: testInfoTwoArg took 0.101 sec
+    [junit] Testcase: testInfoThreeArg took 0.102 sec
+    [junit] Testcase: testInfoArrayArg took 0.1 sec
+    [junit] Testcase: testWarnNullPattern took 0.105 sec
+    [junit] Testcase: testWarnNoArg took 0.102 sec
+    [junit] Testcase: testWarnBadPattern took 0.101 sec
+    [junit] Testcase: testWarnMissingArg took 0.101 sec
+    [junit] Testcase: testWarnString took 0.102 sec
+    [junit] Testcase: testWarnNull took 0.102 sec
+    [junit] Testcase: testWarnByte took 0.102 sec
+    [junit] Testcase: testWarnShort took 0.101 sec
+    [junit] Testcase: testWarnLong took 0.101 sec
+    [junit] Testcase: testWarnChar took 0.104 sec
+    [junit] Testcase: testWarnBoolean took 0.101 sec
+    [junit] Testcase: testWarnFloat took 0.101 sec
+    [junit] Testcase: testWarnDouble took 0.101 sec
+    [junit] Testcase: testWarnTwoArg took 0.101 sec
+    [junit] Testcase: testWarnThreeArg took 0.101 sec
+    [junit] Testcase: testWarnFourArg took 0.1 sec
+    [junit] Testcase: testWarnArrayArg took 0.101 sec
+    [junit] Testcase: testLogNullPattern took 0.101 sec
+    [junit] Testcase: testLogNoArg took 0.101 sec
+    [junit] Testcase: testLogBadPattern took 0.101 sec
+    [junit] Testcase: testLogMissingArg took 0.104 sec
+    [junit] Testcase: testLogString took 0.103 sec
+    [junit] Testcase: testLogNull took 0.102 sec
+    [junit] Testcase: testLogInt took 0.102 sec
+    [junit] Testcase: testLogByte took 0.101 sec
+    [junit] Testcase: testLogShort took 0.101 sec
+    [junit] Testcase: testLogLong took 0.104 sec
+    [junit] Testcase: testLogChar took 0.102 sec
+    [junit] Testcase: testLogBoolean took 0.101 sec
+    [junit] Testcase: testLogFloat took 0.101 sec
+    [junit] Testcase: testLogDouble took 0.104 sec
+    [junit] Testcase: testLogTwoArg took 0.1 sec
+    [junit] Testcase: testLogThreeArg took 0.101 sec
+    [junit] Testcase: testLogFourArg took 0.101 sec
+    [junit] Testcase: testLogArrayArg took 0.101 sec
+    [junit] Testcase: testLogrbNullBundle took 0.101 sec
+    [junit] Testcase: testLogrbNullKey took 0.107 sec
+    [junit] Testcase: testLogrbNoArg took 0.101 sec
+    [junit] Testcase: testLogrbBadPattern took 0.102 sec
+    [junit] Testcase: testLogrbMissingArg took 0.102 sec
+    [junit] Testcase: testLogrbString took 0.101 sec
+    [junit] Testcase: testLogrbNull took 0.103 sec
+    [junit] Testcase: testLogrbInt took 0.1 sec
+    [junit] Testcase: testLogrbByte took 0.101 sec
+    [junit] Testcase: testLogrbShort took 0.101 sec
+    [junit] Testcase: testLogrbLong took 0.102 sec
+    [junit] Testcase: testLogrbChar took 0.101 sec
+    [junit] Testcase: testLogrbBoolean took 0.102 sec
+    [junit] Testcase: testLogrbFloat took 0.101 sec
+    [junit] Testcase: testLogrbDouble took 0.102 sec
+    [junit] Testcase: testLogrbTwoArg took 0.101 sec
+    [junit] Testcase: testLogrbThreeArg took 0.103 sec
+    [junit] Testcase: testLogrbFourArg took 0.101 sec
+    [junit] Testcase: testEscapeTwoParam took 0.101 sec
+    [junit] Testcase: testLogrbArrayArg took 0.101 sec
+    [junit] Testcase: testClassName took 0.001 sec
+    [junit] Testcase: testTraceNullPattern took 0.101 sec
+    [junit] Testcase: testTraceNoArg took 0.101 sec
+    [junit] Testcase: testDebugBadPattern took 0.101 sec
+    [junit] Testcase: testDebugMissingArg took 0.101 sec
+    [junit] Testcase: testDebugString took 0.101 sec
+    [junit] Testcase: testDebugNull took 0.101 sec
+    [junit] Testcase: testDebugByte took 0.101 sec
+    [junit] Testcase: testDebugShort took 0.101 sec
+    [junit] Testcase: testDebugLong took 0.101 sec
+    [junit] Testcase: testDebugChar took 0.101 sec
+    [junit] Testcase: testDebugBoolean took 0.101 sec
+    [junit] Testcase: testDebugFloat took 0.101 sec
+    [junit] Testcase: testDebugDouble took 0.101 sec
+    [junit] Testcase: testDebugTwoArg took 0.101 sec
+    [junit] Testcase: testDebugThreeArg took 0.104 sec
+    [junit] Testcase: testDebugFourArg took 0.101 sec
+    [junit] Testcase: testDebugArrayArg took 0.102 sec
+    [junit] Testcase: testDebugNullArrayArg took 0.101 sec
+    [junit] Testcase: testInfoNullPattern took 0.1 sec
+    [junit] Testcase: testInfoNoArg took 0.102 sec
+    [junit] Testcase: testInfoBadPattern took 0.1 sec
+    [junit] Testcase: testInfoMissingArg took 0.102 sec
+    [junit] Testcase: testInfoString took 0.1 sec
+    [junit] Testcase: testInfoNull took 0.101 sec
+    [junit] Testcase: testInfoByte took 0.103 sec
+    [junit] Testcase: testInfoShort took 0.102 sec
+    [junit] Testcase: testInfoLong took 0.102 sec
+    [junit] Testcase: testInfoChar took 0.102 sec
+    [junit] Testcase: testInfoBoolean took 0.101 sec
+    [junit] Testcase: testTraceByte took 0.1 sec
+    [junit] Testcase: testTraceShort took 0.101 sec
+    [junit] Testcase: testTraceLong took 0.102 sec
+    [junit] Testcase: testTraceChar took 0.101 sec
+    [junit] Testcase: testTraceBoolean took 0.101 sec
+    [junit] Testcase: testTraceFloat took 0.102 sec
+    [junit] Testcase: testTraceDouble took 0.102 sec
+    [junit] Testcase: testTraceTwoArg took 0.101 sec
+    [junit] Testcase: testTraceThreeArg took 0.101 sec
+    [junit] Testcase: testTraceFourArg took 0.101 sec
+    [junit] Testcase: testTraceArrayArg took 0.1 sec
+    [junit] Testcase: testTraceNullArrayArg took 0.101 sec
+    [junit] Testcase: testDebugNullPattern took 0.101 sec
+    [junit] Testcase: testDebugNoArg took 0.102 sec
+    [junit] Testcase: testTraceBadPattern took 0.102 sec
+    [junit] Testcase: testTraceMissingArg took 0.102 sec
+    [junit] Testcase: testTraceString took 0.101 sec
+    [junit] Testcase: testTraceNull took 0.101 sec
+    [junit] Testcase: testEscapeOneParam took 0.102 sec
+    [junit] Testcase: test1 took 0.003 sec
+    [junit] Testcase: test2 took 0.001 sec
+    [junit] Testcase: test3 took 0.001 sec
+    [junit] Testcase: test4 took 0.007 sec
+    [junit] Testcase: test5 took 0.03 sec
+    [junit] Testcase: test6 took 0.001 sec
+    [junit] Testcase: test8 took 0.001 sec
+    [junit] Testcase: test9 took 0.006 sec
+    [junit] Testcase: test10 took 0.002 sec
+    [junit] Testcase: test11 took 0 sec
+    [junit] Testcase: test12 took 0 sec
+    [junit] Testcase: test13 took 0.001 sec
+    [junit] Testcase: test14 took 0 sec
+    [junit] Testcase: test15 took 0 sec
+    [junit] Testcase: test16 took 0 sec
+    [junit] Testcase: test17 took 0 sec
+    [junit] Testcase: testGetDefault took 0.001 sec
+    [junit] Testcase: testConstructor took 0 sec
+    [junit] Testcase: testTruncate took 0 sec
+    [junit] Testcase: testPadLeft took 0 sec
+    [junit] Testcase: testPadRight took 0 sec
+    [junit] Testcase: testTwo took 0.001 sec
+    [junit] Testcase: testOneDot took 0 sec
+    [junit] Testcase: testOneTildeDot took 0 sec
+    [junit] Testcase: testMulti took 0.001 sec
+    [junit] Testcase: testMinusOne took 0 sec
+    [junit] Testcase: testZero took 0 sec
+    [junit] Testcase: testGetDefault took 0 sec
+    [junit] Testcase: testBlank took 0 sec
+    [junit] Testcase: testOne took 0 sec
+    [junit] Testcase: testBlankOne took 0 sec
+    [junit] Testcase: testNewWord took 0.007 sec
+    [junit] Testcase: testNewWord2 took 0 sec
+    [junit] Testcase: testBogusWord1 took 0 sec
+    [junit] Testcase: testBogusWord2 took 0.001 sec
+    [junit] Testcase: testBasic1 took 0 sec
+    [junit] Testcase: testBasic2 took 0 sec
+    [junit] Testcase: testMultiOption took 0.001 sec
+    [junit] Testcase: testBogus took 0 sec
+    [junit] Testcase: testMore took 0 sec
+    [junit] Testcase: testMalformedOption took 0 sec
+    [junit] Testcase: testPatternLayoutFactories took 0.001 sec
+    [junit] Testcase: testFileNamePatternFactories took 0 sec
+    [junit] Testcase: testToLevelFINEST took 0 sec
+
+Minimum:
+    [junit] Running org.apache.log4j.MinimumTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.081 sec
+    [junit] Testsuite: org.apache.log4j.MinimumTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.081 sec
+
+    [junit] Testcase: simple took 0.053 sec
+    [junit] Testcase: ttcc took 0.026 sec
+
+Logger:
+    [junit] Running org.apache.log4j.LoggerTestCase
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Time elapsed: 0.249 sec
+    [junit] Testsuite: org.apache.log4j.LoggerTestCase
+    [junit] Tests run: 18, Failures: 0, Errors: 0, Time elapsed: 0.249 sec
+    [junit] ------------- Standard Error -----------------
+    [junit] log4j:WARN No appenders could be found for logger (x).
+    [junit] log4j:WARN Please initialize the log4j system properly.
+    [junit] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: testTrace took 0.123 sec
+    [junit] Testcase: testTraceWithException took 0.104 sec
+    [junit] Testcase: testIsTraceEnabled took 0 sec
+    [junit] Testcase: testAppenderEvent1 took 0.002 sec
+    [junit] Testcase: testAppenderEvent2 took 0 sec
+    [junit] Testcase: testAppenderEvent3 took 0.001 sec
+    [junit] Testcase: testAppenderEvent4 took 0 sec
+    [junit] Testcase: testAppender2 took 0.004 sec
+    [junit] Testcase: testAdditivity1 took 0.001 sec
+    [junit] Testcase: testAdditivity2 took 0.001 sec
+    [junit] Testcase: testAdditivity3 took 0.001 sec
+    [junit] Testcase: testAppender1 took 0 sec
+    [junit] Testcase: testDisable1 took 0.001 sec
+    [junit] Testcase: testRB1 took 0 sec
+    [junit] Testcase: testRB2 took 0.001 sec
+    [junit] Testcase: testRB3 took 0.002 sec
+    [junit] Testcase: testExists took 0 sec
+    [junit] Testcase: testHierarchy1 took 0.001 sec
+
+DOM:
+    [junit] Running org.apache.log4j.xml.DOMTestCase
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.29 sec
+    [junit] Testsuite: org.apache.log4j.xml.DOMTestCase
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.29 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] /home/artefact/tests/Results/log4j/tests/input/xml/defaultInit.xml
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Level value for root is  [OFF].
+    [junit] log4j: root level set to OFF
+    [junit] log4j: Class name: [org.apache.log4j.ConsoleAppender]
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: Adding appender named [D1] to category [root].
+    [junit] log4j: System property is :null
+    [junit] log4j: Standard DocumentBuilderFactory search succeded.
+    [junit] log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+    [junit] log4j: debug attribute= "null".
+    [junit] log4j: Ignoring debug attribute.
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.xml] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.xml is  [trace].
+    [junit] log4j: org.apache.log4j.xml level set to TRACE
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [file] to [output/temp.A1].
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: setFile called: output/temp.A1, false
+    [junit] log4j: setFile ended
+    [junit] log4j: Adding appender named [A1] to category [org.apache.log4j.xml].
+    [junit] log4j: Level value for root is  [trace].
+    [junit] log4j: root level set to TRACE
+    [junit] log4j: Adding appender named [A1] to category [root].
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [file] to [output/temp.A2].
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.TTCCLayout"
+    [junit] log4j: Setting property [dateFormat] to [ISO8601].
+    [junit] log4j: setFile called: output/temp.A2, false
+    [junit] log4j: setFile ended
+    [junit] log4j: Adding appender named [A2] to category [root].
+    [junit] log4j: System property is :null
+    [junit] log4j: Standard DocumentBuilderFactory search succeded.
+    [junit] log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+    [junit] log4j: debug attribute= "null".
+    [junit] log4j: Ignoring debug attribute.
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.joran] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.joran is  [INFO].
+    [junit] log4j: org.apache.log4j.joran level set to INFO
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.joran.action.PriorityAction] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.joran.action.PriorityAction is  [ERROR].
+    [junit] log4j: org.apache.log4j.joran.action.PriorityAction level set to ERROR
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.config] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.config is  [INFO].
+    [junit] log4j: org.apache.log4j.config level set to INFO
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.FileAppender] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.FileAppender is  [INFO].
+    [junit] log4j: org.apache.log4j.FileAppender level set to INFO
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.xml.DOMConfigurator] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.xml.DOMConfigurator is  [INFO].
+    [junit] log4j: org.apache.log4j.xml.DOMConfigurator level set to INFO
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.xml] additivity to [true].
+    [junit] log4j: Level value for org.apache.log4j.xml is  [trace].
+    [junit] log4j: org.apache.log4j.xml level set to TRACE
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [file] to [output/temp.A1.4].
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: setFile called: output/temp.A1.4, false
+    [junit] log4j: setFile ended
+    [junit] log4j: Adding appender named [A1] to category [org.apache.log4j.xml].
+    [junit] log4j: Level value for root is  [trace].
+    [junit] log4j: root level set to TRACE
+    [junit] log4j: Adding appender named [A1] to category [root].
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [file] to [output/temp.A2.4].
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.TTCCLayout"
+    [junit] log4j: Setting property [dateFormat] to [ISO8601].
+    [junit] log4j: setFile called: output/temp.A2.4, false
+    [junit] log4j: setFile ended
+    [junit] log4j: Adding appender named [A2] to category [root].
+    [junit] log4j: System property is :null
+    [junit] log4j: Standard DocumentBuilderFactory search succeded.
+    [junit] log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+    [junit] log4j: debug attribute= "null".
+    [junit] log4j: Ignoring debug attribute.
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Desired category factory: [org.apache.log4j.xml.DOMTestCase$CustomLoggerFactory]
+    [junit] log4j: Setting property [additivity] to [false].
+    [junit] log4j: Retreiving an instance of org.apache.log4j.Logger.
+    [junit] log4j: Setting [org.apache.log4j.xml.DOMTestCase.testCategoryFactory1.1] additivity to [true].
+    [junit] log4j: Class name: [org.apache.log4j.ConsoleAppender]
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%m%n].
+    [junit] log4j: Adding appender named [CONSOLE] to category [org.apache.log4j.xml.DOMTestCase.testCategoryFactory1.1].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: testCategoryFactory2 took 0.093 sec
+    [junit] Testcase: testLoggerFactory1 took 0.014 sec
+    [junit] Testcase: testReset took 0.007 sec
+    [junit] Testcase: testConfigureAndWatch took 0.041 sec
+    [junit] Testcase: testOverrideSubst took 0.01 sec
+    [junit] Testcase: testThrowableRenderer1 took 0.006 sec
+    [junit] Testcase: testJarURL took 0.009 sec
+    [junit] Testcase: test1 took 0.074 sec
+    [junit] Testcase: test4 took 0.028 sec
+    [junit] Testcase: testCategoryFactory1 took 0.005 sec
+
+CustomLevel:
+    [junit] Running org.apache.log4j.xml.CustomLevelTestCase
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.118 sec
+    [junit] Testsuite: org.apache.log4j.xml.CustomLevelTestCase
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.118 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Level value for root is  [TRACE#org.apache.log4j.xml.XLevel].
+    [junit] log4j: toLevel:class=[org.apache.log4j.xml.XLevel]:pri=[TRACE]
+    [junit] log4j: root level set to TRACE
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Setting property [file] to [output/temp].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m
+    [junit] ].
+    [junit] log4j: setFile called: output/temp, false
+    [junit] log4j: setFile ended
+    [junit] log4j: Adding appender named [TEMP] to category [root].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: test1 took 0.087 sec
+    [junit] Testcase: test2 took 0.012 sec
+    [junit] Testcase: test3 took 0.01 sec
+    [junit] Testcase: test4 took 0.007 sec
+
+CustomLogger:
+    [junit] Running org.apache.log4j.customLogger.XLoggerTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.11 sec
+    [junit] Testsuite: org.apache.log4j.customLogger.XLoggerTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.11 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Level value for root is  [TRACE].
+    [junit] log4j: Desired Level sub-class: [org.apache.log4j.xml.XLevel]
+    [junit] log4j: root level set to TRACE
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Setting property [file] to [output/temp].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: Setting property [levelToMatch] to [TRACE#org.apache.log4j.xml.XLevel].
+    [junit] log4j: toLevel:class=[org.apache.log4j.xml.XLevel]:pri=[TRACE]
+    [junit] log4j: Setting property [acceptOnMatch] to [true].
+    [junit] log4j: Adding filter of type [class org.apache.log4j.varia.LevelMatchFilter] to appender named [TEMP].
+    [junit] log4j: Adding filter of type [class org.apache.log4j.varia.DenyAllFilter] to appender named [TEMP].
+    [junit] log4j: setFile called: output/temp, false
+    [junit] log4j: setFile ended
+    [junit] log4j: Adding appender named [TEMP] to category [root].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: test1 took 0.095 sec
+    [junit] Testcase: test2 took 0.013 sec
+
+PatternLayout:
+    [junit] Running org.apache.log4j.PatternLayoutTestCase
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Time elapsed: 0.297 sec
+    [junit] Testsuite: org.apache.log4j.PatternLayoutTestCase
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Time elapsed: 0.297 sec
+
+    [junit] Testcase: test2 took 0.108 sec
+    [junit] Testcase: test3 took 0.016 sec
+    [junit] Testcase: test4 took 0.011 sec
+    [junit] Testcase: test5 took 0.01 sec
+    [junit] Testcase: test6 took 0.009 sec
+    [junit] Testcase: test7 took 0.017 sec
+    [junit] Testcase: test8 took 0.02 sec
+    [junit] Testcase: test9 took 0.006 sec
+    [junit] Testcase: test10 took 0.017 sec
+    [junit] Testcase: test11 took 0.008 sec
+    [junit] Testcase: test12 took 0.013 sec
+    [junit] Testcase: test13 took 0.014 sec
+    [junit] Testcase: test14 took 0.015 sec
+    [junit] Testcase: testMDC1 took 0.007 sec
+    [junit] Testcase: testMDCClear took 0.001 sec
+    [junit] Testcase: test1 took 0.013 sec
+    [junit] Running org.apache.log4j.EnhancedPatternLayoutTestCase
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Time elapsed: 0.326 sec
+    [junit] Testsuite: org.apache.log4j.EnhancedPatternLayoutTestCase
+    [junit] Tests run: 19, Failures: 0, Errors: 0, Time elapsed: 0.326 sec
+
+    [junit] Testcase: test1 took 0.086 sec
+    [junit] Testcase: test2 took 0.031 sec
+    [junit] Testcase: test3 took 0.013 sec
+    [junit] Testcase: test4 took 0.013 sec
+    [junit] Testcase: test5 took 0.011 sec
+    [junit] Testcase: test6 took 0.009 sec
+    [junit] Testcase: test7 took 0.009 sec
+    [junit] Testcase: test8 took 0.018 sec
+    [junit] Testcase: test9 took 0.011 sec
+    [junit] Testcase: test10 took 0.019 sec
+    [junit] Testcase: test11 took 0.015 sec
+    [junit] Testcase: test12 took 0.018 sec
+    [junit] Testcase: test13 took 0.014 sec
+    [junit] Testcase: test14 took 0.009 sec
+    [junit] Testcase: testMDC1 took 0.008 sec
+    [junit] Testcase: test15 took 0.027 sec
+    [junit] Testcase: test16 took 0.007 sec
+    [junit] Testcase: testMDC2 took 0.003 sec
+    [junit] Testcase: testThrowable took 0.003 sec
+
+HierarchyThreshold:
+   [delete] Deleting: /home/artefact/tests/Results/log4j/tests/output/temp
+    [junit] Running org.apache.log4j.HierarchyThresholdTestCase
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.044 sec
+    [junit] Testsuite: org.apache.log4j.HierarchyThresholdTestCase
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.044 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] Tearing down test case.
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: test1 took 0.033 sec
+    [junit] Testcase: test2 took 0.001 sec
+    [junit] Testcase: test3 took 0.001 sec
+    [junit] Testcase: test4 took 0.001 sec
+    [junit] Testcase: test5 took 0.001 sec
+    [junit] Testcase: test6 took 0.001 sec
+    [junit] Testcase: test7 took 0.003 sec
+    [junit] Testcase: test8 took 0.001 sec
+
+DefaultInit:
+    [junit] Running org.apache.log4j.defaultInit.TestCase1
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.013 sec
+    [junit] Testsuite: org.apache.log4j.defaultInit.TestCase1
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.013 sec
+
+    [junit] Testcase: noneTest took 0.011 sec
+     [copy] Copying 1 file to /home/artefact/tests/Results/log4j/tests/classes
+    [junit] Running org.apache.log4j.defaultInit.TestCase2
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.08 sec
+    [junit] Testsuite: org.apache.log4j.defaultInit.TestCase2
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.08 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Level value for root is  [OFF].
+    [junit] log4j: root level set to OFF
+    [junit] log4j: Class name: [org.apache.log4j.ConsoleAppender]
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: Adding appender named [D1] to category [root].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: xmlTest took 0.077 sec
+   [delete] Deleting: /home/artefact/tests/Results/log4j/tests/classes/log4j.xml
+     [copy] Copying 1 file to /home/artefact/tests/Results/log4j/tests/classes
+    [junit] Running org.apache.log4j.defaultInit.TestCase1
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.015 sec
+    [junit] Testsuite: org.apache.log4j.defaultInit.TestCase1
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.015 sec
+
+    [junit] Testcase: noneTest took 0.013 sec
+   [delete] Deleting: /home/artefact/tests/Results/log4j/tests/classes/log4j.xml
+     [copy] Copying 1 file to /home/artefact/tests/Results/log4j/tests/classes
+    [junit] Running org.apache.log4j.defaultInit.TestCase3
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.055 sec
+    [junit] Testsuite: org.apache.log4j.defaultInit.TestCase3
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.055 sec
+
+    [junit] Testcase: propertiesTest took 0.052 sec
+   [delete] Deleting: /home/artefact/tests/Results/log4j/tests/classes/log4j.properties
+     [copy] Copying 1 file to /home/artefact/tests/Results/log4j/tests/classes
+     [copy] Copying 1 file to /home/artefact/tests/Results/log4j/tests/classes
+    [junit] Running org.apache.log4j.defaultInit.TestCase4
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.091 sec
+    [junit] Testsuite: org.apache.log4j.defaultInit.TestCase4
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.091 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Level value for root is  [OFF].
+    [junit] log4j: root level set to OFF
+    [junit] log4j: Class name: [org.apache.log4j.ConsoleAppender]
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: Adding appender named [D1] to category [root].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: combinedTest took 0.089 sec
+   [delete] Deleting: /home/artefact/tests/Results/log4j/tests/classes/log4j.xml
+   [delete] Deleting: /home/artefact/tests/Results/log4j/tests/classes/log4j.properties
+
+SocketServer:
+    [junit] Running org.apache.log4j.net.SocketServerTestCase
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 12.374 sec
+    [junit] Testsuite: org.apache.log4j.net.SocketServerTestCase
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 12.374 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] Setting up test case.
+    [junit] Tearing down test case.
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: test1 took 1.163 sec
+    [junit] Testcase: test2 took 1.033 sec
+    [junit] Testcase: test3 took 1.047 sec
+    [junit] Testcase: test4 took 1.029 sec
+    [junit] Testcase: test5 took 2.02 sec
+    [junit] Testcase: test6 took 2.036 sec
+    [junit] Testcase: test7 took 2.024 sec
+    [junit] Testcase: test8 took 2.017 sec
+
+XMLLayout:
+    [junit] Running org.apache.log4j.xml.XMLLayoutTestCase
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.116 sec
+    [junit] Testsuite: org.apache.log4j.xml.XMLLayoutTestCase
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.116 sec
+
+    [junit] Testcase: basic took 0.067 sec
+    [junit] Testcase: locationInfo took 0.034 sec
+    [junit] Testcase: testCDATA took 0.005 sec
+    [junit] Testcase: testNull took 0.002 sec
+    [junit] Testcase: testMDC took 0.004 sec
+    [junit] Testcase: testMDCEscaped took 0.001 sec
+
+AsyncAppender:
+    [junit] Running org.apache.log4j.AsyncAppenderTestCase
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 22.522 sec
+    [junit] Testsuite: org.apache.log4j.AsyncAppenderTestCase
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 22.522 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Done loop.
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] log4j:ERROR Attempted to append to closed appender named [async-test2].
+    [junit] log4j:ERROR Attempted to append to closed appender named [async-test3].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: testLocationInfoFalse took 1.152 sec
+    [junit] Testcase: testMutableMessage took 0.103 sec
+    [junit] Testcase: test2 took 0.105 sec
+    [junit] Testcase: test3 took 20.257 sec
+    [junit] Testcase: testBadAppender took 0.004 sec
+    [junit] Testcase: testLocationInfoTrue took 0.897 sec
+
+OptionConverter:
+    [junit] Running org.apache.log4j.helpers.OptionConverterTestCase
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Time elapsed: 0.061 sec
+    [junit] Testsuite: org.apache.log4j.helpers.OptionConverterTestCase
+    [junit] Tests run: 11, Failures: 0, Errors: 0, Time elapsed: 0.061 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Result is [x1].
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] log4j:WARN custom level class [org.apache.log4j.xml.TOTO] not found.
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: varSubstTest5 took 0.016 sec
+    [junit] Testcase: varSubstTest1 took 0 sec
+    [junit] Testcase: varSubstTest2 took 0 sec
+    [junit] Testcase: varSubstTest3 took 0 sec
+    [junit] Testcase: varSubstTest4 took 0 sec
+    [junit] Testcase: testInputStream took 0.041 sec
+    [junit] Testcase: toLevelTest1 took 0 sec
+    [junit] Testcase: toLevelTest2 took 0 sec
+    [junit] Testcase: toLevelTest3 took 0 sec
+    [junit] Testcase: toLevelTest4 took 0 sec
+    [junit] Testcase: toLevelTest5 took 0 sec
+
+BoundedFIFO:
+    [junit] Running org.apache.log4j.helpers.BoundedFIFOTestCase
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.03 sec
+    [junit] Testsuite: org.apache.log4j.helpers.BoundedFIFOTestCase
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0.03 sec
+
+    [junit] Testcase: test1 took 0.02 sec
+    [junit] Testcase: test2 took 0 sec
+    [junit] Testcase: testResize1 took 0.001 sec
+    [junit] Testcase: testResize2 took 0.004 sec
+    [junit] Testcase: testResize3 took 0.003 sec
+
+CyclicBuffer:
+    [junit] Running org.apache.log4j.helpers.CyclicBufferTestCase
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.021 sec
+    [junit] Testsuite: org.apache.log4j.helpers.CyclicBufferTestCase
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.021 sec
+
+    [junit] Testcase: test0 took 0.004 sec
+    [junit] Testcase: test1 took 0.015 sec
+    [junit] Testcase: testResize took 0 sec
+
+OR:
+    [junit] Running org.apache.log4j.or.ORTestCase
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.007 sec
+    [junit] Testsuite: org.apache.log4j.or.ORTestCase
+    [junit] Tests run: 10, Failures: 0, Errors: 0, Time elapsed: 0.007 sec
+
+    [junit] Testcase: test1 took 0.003 sec
+    [junit] Testcase: test2 took 0 sec
+    [junit] Testcase: test3 took 0 sec
+    [junit] Testcase: test4 took 0 sec
+    [junit] Testcase: test5 took 0 sec
+    [junit] Testcase: test6 took 0 sec
+    [junit] Testcase: test7 took 0 sec
+    [junit] Testcase: test8 took 0 sec
+    [junit] Testcase: test9 took 0.002 sec
+    [junit] Testcase: test10 took 0 sec
+
+LevelMatchFilter:
+    [junit] Running org.apache.log4j.varia.LevelMatchFilterTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.04 sec
+    [junit] Testsuite: org.apache.log4j.varia.LevelMatchFilterTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.04 sec
+
+    [junit] Testcase: accept took 0.034 sec
+    [junit] Testcase: deny took 0.004 sec
+
+PatternParser:
+    [junit] Running org.apache.log4j.helpers.PatternParserTestCase
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.029 sec
+    [junit] Testsuite: org.apache.log4j.helpers.PatternParserTestCase
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.029 sec
+
+    [junit] Testcase: mdcPattern took 0.026 sec
+
+ErrorHandler:
+    [junit] Running org.apache.log4j.varia.ErrorHandlerTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 1, Time elapsed: 0.135 sec
+    [junit] Testsuite: org.apache.log4j.varia.ErrorHandlerTestCase
+    [junit] Tests run: 2, Failures: 0, Errors: 1, Time elapsed: 0.135 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] log4j: Parsing for [root] with value=[DEBUG, PRIMARY].
+    [junit] log4j: Level token is [DEBUG].
+    [junit] log4j: Category root set to DEBUG
+    [junit] log4j: Parsing appender named "PRIMARY".
+    [junit] log4j: Parsing layout options for "PRIMARY".
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: End of parsing for "PRIMARY".
+    [junit] log4j: Parsing errorhandler options for "PRIMARY".
+    [junit] log4j: End of errorhandler parsing for "PRIMARY".
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Setting property [file] to [/xyz/:x.log].
+    [junit] log4j: setFile called: /xyz/:x.log, false
+    [junit] log4j: FB: The following error reported: setFile(null,false) call failed.
+    [junit] java.io.FileNotFoundException: /xyz/:x.log (No such file or directory)
+    [junit] 	at java.io.FileOutputStream.open0(Native Method)
+    [junit] 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+    [junit] 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+    [junit] 	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+    [junit] 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+    [junit] 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+    [junit] 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+    [junit] 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+    [junit] 	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.configureRootCategory(PropertyConfigurator.java:648)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:514)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:395)
+    [junit] 	at org.apache.log4j.PropertyConfigurator.configure(PropertyConfigurator.java:403)
+    [junit] 	at org.apache.log4j.varia.ErrorHandlerTestCase.test2(ErrorHandlerTestCase.java:86)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:498)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:154)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:127)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:106)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:124)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:109)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:118)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:672)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:567)
+    [junit] log4j: FB: INITIATING FALLBACK PROCEDURE.
+    [junit] log4j: Parsed "PRIMARY" options.
+    [junit] log4j: Finished configuring.
+    [junit] log4j: System property is :null
+    [junit] log4j: Standard DocumentBuilderFactory search succeded.
+    [junit] log4j: DocumentBuilderFactory is: com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl
+    [junit] log4j: debug attribute= "true".
+    [junit] log4j: reset attribute= "false".
+    [junit] log4j: Threshold ="null".
+    [junit] log4j: Level value for root is  [debug].
+    [junit] log4j: root level set to DEBUG
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: FB: Setting primary appender to [PRIMARY].
+    [junit] log4j: FB: Adding logger [root].
+    [junit] log4j: Class name: [org.apache.log4j.FileAppender]
+    [junit] log4j: Setting property [file] to [output/temp].
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [FALLBACK - %c - %m%n].
+    [junit] log4j: setFile called: output/temp, false
+    [junit] log4j: setFile ended
+    [junit] log4j: FB: Setting backup appender to [FALLBACK].
+    [junit] log4j: Setting property [file] to [].
+    [junit] log4j: Setting property [append] to [false].
+    [junit] log4j: Parsing layout of class: "org.apache.log4j.PatternLayout"
+    [junit] log4j: Setting property [conversionPattern] to [%-5p %c{2} - %m%n].
+    [junit] log4j: setFile called: , false
+    [junit] log4j: FB: The following error reported: setFile(null,false) call failed.
+    [junit] java.io.FileNotFoundException:  (No such file or directory)
+    [junit] 	at java.io.FileOutputStream.open0(Native Method)
+    [junit] 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+    [junit] 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+    [junit] 	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+    [junit] 	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+    [junit] 	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+    [junit] 	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.parseAppender(DOMConfigurator.java:295)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.findAppenderByName(DOMConfigurator.java:176)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.findAppenderByReference(DOMConfigurator.java:191)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.parseChildrenOfLoggerElement(DOMConfigurator.java:523)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.parseRoot(DOMConfigurator.java:492)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.parse(DOMConfigurator.java:1006)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:872)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.doConfigure(DOMConfigurator.java:755)
+    [junit] 	at org.apache.log4j.xml.DOMConfigurator.configure(DOMConfigurator.java:896)
+    [junit] 	at org.apache.log4j.varia.ErrorHandlerTestCase.test1(ErrorHandlerTestCase.java:66)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:498)
+    [junit] 	at junit.framework.TestCase.runTest(TestCase.java:154)
+    [junit] 	at junit.framework.TestCase.runBare(TestCase.java:127)
+    [junit] 	at junit.framework.TestResult$1.protect(TestResult.java:106)
+    [junit] 	at junit.framework.TestResult.runProtected(TestResult.java:124)
+    [junit] 	at junit.framework.TestResult.run(TestResult.java:109)
+    [junit] 	at junit.framework.TestCase.run(TestCase.java:118)
+    [junit] 	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+    [junit] 	at junit.framework.TestSuite.run(TestSuite.java:203)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:672)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:567)
+    [junit] log4j: FB: INITIATING FALLBACK PROCEDURE.
+    [junit] log4j: FB: Searching for [PRIMARY] in logger [root].
+    [junit] log4j: FB: Replacing [PRIMARY] by [FALLBACK] in logger [root].
+    [junit] log4j: FB: Adding appender [FALLBACK] to logger root
+    [junit] log4j: Adding appender named [PRIMARY] to category [root].
+    [junit] ------------- ---------------- ---------------
+
+    [junit] Testcase: test2 took 0.068 sec
+    [junit] 	Caused an ERROR
+    [junit] [<log4j:event logger="org.apache.log4j.xml.XMLLayoutTestCase" timestamp="1507778871905" level="DEBUG" thread="main">]
+    [junit] org.apache.log4j.util.UnexpectedFormatException: [<log4j:event logger="org.apache.log4j.xml.XMLLayoutTestCase" timestamp="1507778871905" level="DEBUG" thread="main">]
+    [junit] 	at org.apache.log4j.util.ControlFilter.filter(ControlFilter.java:43)
+    [junit] 	at org.apache.log4j.util.Transformer.transform(Transformer.java:41)
+    [junit] 	at org.apache.log4j.varia.ErrorHandlerTestCase.test2(ErrorHandlerTestCase.java:96)
+
+    [junit] Testcase: test1 took 0.064 sec
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:21 min
+[INFO] Finished at: 2017-10-12T05:28:15+02:00
+[INFO] Final Memory: 28M/354M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.2:run (runAll) on project log4j: An Ant BuildException has occured: The following error occurred while executing this line:
+[ERROR] /home/artefact/tests/Results/log4j/tests/build.xml:370: Test org.apache.log4j.varia.ErrorHandlerTestCase failed
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

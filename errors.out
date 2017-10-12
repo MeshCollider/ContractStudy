@@ -1,6 +1,6 @@
-Error checking out version v1_2_14: [Errno 17] File exists: 'Results/log4j-test-dirs/1.2.14'. Artifact: log4j
-Error checking out version v1_2_9: [Errno 17] File exists: 'Results/log4j-test-dirs/1.2.9'. Artifact: log4j
-Error checking out version v1_2_17: [Errno 17] File exists: 'Results/log4j-test-dirs/1.2.17'. Artifact: log4j
+Error checking out version v1_2_14: [Errno 2] No such file or directory: 'Results/log4j/1.2.14.err'. Artifact: log4j
+Error checking out version v1_2_9: [Errno 2] No such file or directory: 'Results/log4j/1.2.9.err'. Artifact: log4j
+Error checking out version v1_2_17: [Errno 2] No such file or directory: 'Results/log4j/1.2.17.err'. Artifact: log4j
 Error checking out version v1_2_13: [Errno 2] No such file or directory: 'Results/log4j/1.2.13.err'. Artifact: log4j
 Error checking out version v1_2_16: [Errno 2] No such file or directory: 'Results/log4j/1.2.16.err'. Artifact: log4j
 Error checking out version v1_2_15: [Errno 2] No such file or directory: 'Results/log4j/1.2.15.err'. Artifact: log4j

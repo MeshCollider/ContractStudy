@@ -1,8 +1,4 @@
 [INFO] Scanning for projects...
-Downloading: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.0.1/maven-bundle-plugin-2.0.1.pom
-3/5 KB   5/5 KB            Downloaded: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.0.1/maven-bundle-plugin-2.0.1.pom (5 KB at 2.4 KB/sec)
-Downloading: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.0.1/maven-bundle-plugin-2.0.1.jar
-3/176 KB   5/176 KB   8/176 KB   11/176 KB   13/176 KB   16/176 KB   19/176 KB   21/176 KB   24/176 KB   27/176 KB   29/176 KB   32/176 KB   36/176 KB   40/176 KB   44/176 KB   48/176 KB   52/176 KB   56/176 KB   60/176 KB   64/176 KB   68/176 KB   72/176 KB   76/176 KB   80/176 KB   84/176 KB   88/176 KB   92/176 KB   96/176 KB   100/176 KB   104/176 KB   108/176 KB   112/176 KB   116/176 KB   120/176 KB   124/176 KB   128/176 KB   132/176 KB   136/176 KB   140/176 KB   144/176 KB   148/176 KB   152/176 KB   156/176 KB   160/176 KB   164/176 KB   168/176 KB   172/176 KB   176/176 KB   176/176 KB                Downloaded: https://repo.maven.apache.org/maven2/org/apache/felix/maven-bundle-plugin/2.0.1/maven-bundle-plugin-2.0.1.jar (176 KB at 196.5 KB/sec)
 [ERROR] [ERROR] Some problems were encountered while processing the POMs:
 [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ line 89, column 15
 [ERROR] 'build.plugins.plugin[org.apache.maven.plugins:maven-antrun-plugin].dependencies.dependency.scope' for junit:junit:jar must be one of [compile, runtime, system] but is 'test'. @ line 303, column 20

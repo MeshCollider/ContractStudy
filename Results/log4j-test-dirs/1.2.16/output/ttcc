@@ -1,33 +1,33 @@
-08 Oct 2017 12:26:29,714 [main] FATAL ERR - Message 0
-08 Oct 2017 12:26:29,715 [main] ERROR ERR - Message 1
-08 Oct 2017 12:26:29,715 [main] FATAL INF - Message 2
-08 Oct 2017 12:26:29,715 [main] ERROR INF - Message 3
-08 Oct 2017 12:26:29,715 [main] WARN INF - Message 4
-08 Oct 2017 12:26:29,715 [main] INFO INF - Message 5
-08 Oct 2017 12:26:29,715 [main] FATAL INF.UNDEF - Message 6
-08 Oct 2017 12:26:29,715 [main] ERROR INF.UNDEF - Message 7
-08 Oct 2017 12:26:29,715 [main] WARN INF.UNDEF - Message 8
-08 Oct 2017 12:26:29,715 [main] INFO INF.UNDEF - Message 9
-08 Oct 2017 12:26:29,715 [main] FATAL INF.ERR - Message 10
-08 Oct 2017 12:26:29,715 [main] ERROR INF.ERR - Message 11
-08 Oct 2017 12:26:29,715 [main] FATAL INF.ERR.UNDEF - Message 12
-08 Oct 2017 12:26:29,715 [main] ERROR INF.ERR.UNDEF - Message 13
-08 Oct 2017 12:26:29,715 [main] FATAL DEB - Message 14
-08 Oct 2017 12:26:29,715 [main] ERROR DEB - Message 15
-08 Oct 2017 12:26:29,715 [main] WARN DEB - Message 16
-08 Oct 2017 12:26:29,715 [main] INFO DEB - Message 17
-08 Oct 2017 12:26:29,715 [main] DEBUG DEB - Message 18
-08 Oct 2017 12:26:29,715 [main] FATAL TRC - Message 19
-08 Oct 2017 12:26:29,715 [main] ERROR TRC - Message 20
-08 Oct 2017 12:26:29,715 [main] WARN TRC - Message 21
-08 Oct 2017 12:26:29,715 [main] INFO TRC - Message 22
-08 Oct 2017 12:26:29,715 [main] DEBUG TRC - Message 23
-08 Oct 2017 12:26:29,716 [main] TRACE TRC - Message 24
-08 Oct 2017 12:26:29,716 [main] FATAL UNDEF - Message 25
-08 Oct 2017 12:26:29,716 [main] ERROR UNDEF - Message 26
-08 Oct 2017 12:26:29,716 [main] WARN UNDEF - Message 27
-08 Oct 2017 12:26:29,716 [main] INFO UNDEF - Message 28
-08 Oct 2017 12:26:29,716 [main] DEBUG UNDEF - Message 29
+12 Oct 2017 05:27:33,465 [main] FATAL ERR - Message 0
+12 Oct 2017 05:27:33,466 [main] ERROR ERR - Message 1
+12 Oct 2017 05:27:33,466 [main] FATAL INF - Message 2
+12 Oct 2017 05:27:33,466 [main] ERROR INF - Message 3
+12 Oct 2017 05:27:33,466 [main] WARN INF - Message 4
+12 Oct 2017 05:27:33,466 [main] INFO INF - Message 5
+12 Oct 2017 05:27:33,466 [main] FATAL INF.UNDEF - Message 6
+12 Oct 2017 05:27:33,466 [main] ERROR INF.UNDEF - Message 7
+12 Oct 2017 05:27:33,466 [main] WARN INF.UNDEF - Message 8
+12 Oct 2017 05:27:33,466 [main] INFO INF.UNDEF - Message 9
+12 Oct 2017 05:27:33,466 [main] FATAL INF.ERR - Message 10
+12 Oct 2017 05:27:33,466 [main] ERROR INF.ERR - Message 11
+12 Oct 2017 05:27:33,466 [main] FATAL INF.ERR.UNDEF - Message 12
+12 Oct 2017 05:27:33,466 [main] ERROR INF.ERR.UNDEF - Message 13
+12 Oct 2017 05:27:33,466 [main] FATAL DEB - Message 14
+12 Oct 2017 05:27:33,466 [main] ERROR DEB - Message 15
+12 Oct 2017 05:27:33,466 [main] WARN DEB - Message 16
+12 Oct 2017 05:27:33,466 [main] INFO DEB - Message 17
+12 Oct 2017 05:27:33,466 [main] DEBUG DEB - Message 18
+12 Oct 2017 05:27:33,466 [main] FATAL TRC - Message 19
+12 Oct 2017 05:27:33,466 [main] ERROR TRC - Message 20
+12 Oct 2017 05:27:33,466 [main] WARN TRC - Message 21
+12 Oct 2017 05:27:33,466 [main] INFO TRC - Message 22
+12 Oct 2017 05:27:33,466 [main] DEBUG TRC - Message 23
+12 Oct 2017 05:27:33,467 [main] TRACE TRC - Message 24
+12 Oct 2017 05:27:33,467 [main] FATAL UNDEF - Message 25
+12 Oct 2017 05:27:33,467 [main] ERROR UNDEF - Message 26
+12 Oct 2017 05:27:33,467 [main] WARN UNDEF - Message 27
+12 Oct 2017 05:27:33,467 [main] INFO UNDEF - Message 28
+12 Oct 2017 05:27:33,467 [main] DEBUG UNDEF - Message 29
 java.lang.Exception: Just testing.
 	at org.apache.log4j.MinimumTestCase.common(MinimumTestCase.java:171)
 	at org.apache.log4j.MinimumTestCase.ttcc(MinimumTestCase.java:89)
@@ -46,4 +46,4 @@ java.lang.Exception: Just testing.
 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:297)
 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:672)
 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:567)
-08 Oct 2017 12:26:29,716 [main] INFO INF - Messages should bear numbers 0 through 29.
+12 Oct 2017 05:27:33,467 [main] INFO INF - Messages should bear numbers 0 through 29.
