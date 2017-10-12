@@ -80,10 +80,10 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                         shutil.copytree(repo_dir + "/" + testdir, repo_tests_dir + "/" + version)
                         print("Successfully checked out version " + version + " of artifact " + artifact + ". Running tests...")
 
-                        time.sleep(2) # wait for 2 seconds to make sure git is finished
-
+                        time.sleep(5) # wait for 2 seconds to make sure git is finished
                         print(os.listdir(repo_dir))
-                        
+                        time.sleep(5) # wait for 2 seconds to make sure git is finished
+
                         os.chdir(repo_dir)
                         print (run_command)
                         print(os.getcwd())
