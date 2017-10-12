@@ -5,6 +5,7 @@ import subprocess
 import requests
 import urllib
 from git import Repo
+import time
 
 DESCRIPTORS_DIR = "Descriptors/"
 RESULTS_DIR = "Results/"
@@ -79,6 +80,8 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                         shutil.copytree(repo_dir + "/" + testdir, repo_tests_dir + "/" + version)
                         print("Successfully checked out version " + version + " of artifact " + artifact + ". Running tests...")
 
+                        time.sleep(2) # wait for 2 seconds to make sure git is finished
+                        
                         os.chdir(repo_dir)
                         print (run_command)
                         print(os.getcwd())
