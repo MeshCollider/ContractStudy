@@ -79,11 +79,11 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                     try:
                         repo_dir_temp = repo_dir
                         if subdir != "":
-                            repo_dir_temp += "/" + repodir
+                            repo_dir_temp += "/" + subdir
                             
                         versionParts = version.split(".")
-                        print(versionParts)
-                        print(versionstyle)
+                        #print(versionParts)
+                        #print(versionstyle)
                         versionString = versionstyle.replace("{MAJ}", versionParts[0]).replace("{MIN}", versionParts[1]).replace("{PATCH}", versionParts[2])
                         git.checkout(versionString, force=True)
                         shutil.copytree(repo_dir_temp + "/" + testdir, repo_tests_dir + "/" + version)
@@ -110,7 +110,7 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                         shutil.copyfile(repo_dir_temp + "/" + version + '.err', repo_tests_dir + "/" + version + '.err')
 
                     except Exception as e:
-                        outputError("Error checking out version " + versionString + ": " + str(e), artifact)
+                        outputError("Error checking out version " + version + ": " + str(e), artifact)
                         continue
             else:
                 print(artifact + " has unknown type, skipping")
