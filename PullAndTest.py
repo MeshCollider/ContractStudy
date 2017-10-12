@@ -10,7 +10,7 @@ import time
 DESCRIPTORS_DIR = "Descriptors/"
 RESULTS_DIR = "Results/"
 
-SPECIFIC_PROJECT = "log4j"
+SPECIFIC_PROJECT = "log4j-core"
 
 def outputError(errorString, artifact):
     errorsFile.write(errorString + '. Artifact: ' + artifact + os.linesep)
@@ -38,6 +38,7 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
             versionstyle = ""
             testdir = "src/tests"
             run_command = "mvn test"
+            subdir = ""
             for line in descFile.readlines():
                 if line.startswith("versions: "):
                     versions = line.replace("versions: ", "").split(",")
@@ -53,6 +54,8 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                     testdir = line.replace("testdir: ", "").strip()
                 elif line.startswith("run_command: "):
                     run_command = line.replace("run_command: ", "").strip()
+                elif line.startswith("subdir: "):
+                    subdir = line.replace("subdir: ", "").strip()
 
             if lang and lang == "scala":
                 print(artifact + " uses scala, skipping")
@@ -74,17 +77,17 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                 git = repo.git
                 for version in versions:
                     try:
+                        repo_dir_temp = repo_dir
+                        if subdir != "":
+                            repo_dir_temp += "/" + repodir
+                            
                         versionParts = version.split(".")
                         versionString = versionstyle.replace("{MAJ}", versionParts[0]).replace("{MIN}", versionParts[1]).replace("{PATCH}", versionParts[2])
                         git.checkout(versionString, force=True)
-                        shutil.copytree(repo_dir + "/" + testdir, repo_tests_dir + "/" + version)
+                        shutil.copytree(repo_dir_temp + "/" + testdir, repo_tests_dir + "/" + version)
                         print("Successfully checked out version " + version + " of artifact " + artifact + ". Running tests...")
-
-                        time.sleep(5) # wait for 2 seconds to make sure git is finished
-                        print(os.listdir(repo_dir))
-                        time.sleep(5) # wait for 2 seconds to make sure git is finished
-
-                        os.chdir(repo_dir)
+                         
+                        os.chdir(repo_dir_temp)
                         print (run_command)
                         print(os.getcwd())
                         proc = subprocess.Popen([run_command], stdout=subprocess.PIPE, shell=True)
@@ -99,8 +102,10 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
                             errorFile.write(err.decode("utf-8"))
                             errorFile.close()
                         os.chdir("../../")
-                        shutil.copyfile(repo_dir + "/" + version + '.out', repo_tests_dir + "/" + version + '.out')
-                        shutil.copyfile(repo_dir + "/" + version + '.err', repo_tests_dir + "/" + version + '.err')
+                        if subdir != "":
+                            os.chdir("../") # go up one more level if needed
+                        shutil.copyfile(repo_dir_temp + "/" + version + '.out', repo_tests_dir + "/" + version + '.out')
+                        shutil.copyfile(repo_dir_temp + "/" + version + '.err', repo_tests_dir + "/" + version + '.err')
 
                     except Exception as e:
                         outputError("Error checking out version " + versionString + ": " + str(e), artifact)

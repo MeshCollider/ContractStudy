@@ -3,4 +3,4 @@ git_url: https://github.com/apache/log4j
 type: github
 versionstyle: v{MAJ}_{MIN}_{PATCH}
 run_command: mvn test
-testdir: tests
+testdir: src/java/test
