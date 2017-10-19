@@ -1,11 +1,7 @@
-import zipfile
 import os
 import shutil
 import subprocess
-import requests
-import urllib
 from git import Repo
-import time
 import sys
 import collections
 
