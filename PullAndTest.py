@@ -61,6 +61,10 @@ for rootdir,dirs,files in os.walk(DESCRIPTORS_DIR):
 
                 descriptor["versions"] = descriptor["versions"].split(",")
 
+                # If we have specified an artifact name in the descriptor file, use that. Could be used for having multiple descriptors per project (e.g. for version ranges)
+                if descriptor["artifact"]:
+                    artifact = descriptor["artifact"]
+
             # Skip scala projects for now
             if descriptor["lang"] == "scala":
                 print(artifact + " uses scala, skipping")
